@@ -1,0 +1,302 @@
+SETUP.md - Step-by-step setup instructions for installing and configuring IMP.
+imp/bin/imp-backup.sh - Creates an encrypted tarball of the project for backups. Called manually.
+imp/bin/imp-chat.sh - Launches the goal chat assistant; use `--speech` for microphone input.
+imp/bin/imp-control-hub.sh - CLI wrapper around the control hub planner for analysing goals and listing capabilities.
+imp/bin/imp-enhance.sh - Wrapper for imp-code-updater.py choosing online or offline mode.
+imp/bin/imp-install.sh - Installs Python requirements with a virtualenv fallback and starts the system.
+imp/bin/imp-restore.sh - Restores a backup archive into the project directory.
+imp/bin/imp-mood.sh - Queries or adjusts the AI's mood using imp-mood-manager.py. Supports `--event` to record notable events.
+imp/bin/imp-self-destruct.sh - Disabled deletion script, kept for reference.
+imp/bin/imp-start.sh - Starts core services using <repo_root>/core/imp-execute.py.
+imp/bin/imp-start.py - Python version of startup script for Windows.
+imp-start.ps1 - PowerShell launcher at repo root that installs Python if needed and invokes imp/bin/imp-start.py in a loop so IMP stays running.
+imp/bin/imp-status.sh - Shows running IMP processes from the logs.
+imp/bin/imp-verify-chat.sh - Checks goal chat status and restarts it, logging to imp-chat-keepalive.log.
+imp/bin/imp-chat-keepalive.sh - Uses tmux or screen when available, otherwise loops imp-verify-chat.sh to keep the chat terminal persistent.
+imp/bin/imp-motivate.sh - Generates self-motivated goals based on mood.
+imp/bin/imp-nn-menu.sh - Lists or registers neural networks via the manager.
+imp/bin/imp-stop.sh - Stops running IMP processes using pkill.
+imp/bin/imp-stop.py - Python version of shutdown script for Windows.
+imp/bin/imp-update.sh - Updates the codebase via git pull.
+imp/bin/imp-login.sh - CLI wrapper for the authentication module.
+imp/bin/imp-google-login.sh - Initiates Google OAuth for a specified account.
+imp/bin/imp-voice.sh - Invokes the voice synthesis helper with optional name-based voice selection.
+imp/bin/imp-voice-menu.sh - Launches the interactive voice settings menu.
+imp/bin/imp-speech.sh - Runs the speech-to-text utility.
+imp/bin/imp-self-heal.sh - Runs the ledger-based self-healer.
+imp/bin/imp-auto-heal.sh - Performs automatic healing based on configuration.
+imp/bin/imp-defend.sh - Executes the automated defense cycle.
+imp/bin/imp-network-audit.sh - Audits network connections against a baseline.
+imp/bin/imp-network-monitor.sh - Logs new remote connections for review.
+imp/bin/imp-operator-dashboard.sh - Terminal menu for quick access to core tools (goal chat, self-heal, network audit, voice menu, automated defense, network monitor, NN menu).
+imp/bin/imp-processing-report.sh - Generates a processing telemetry summary via imp-processing-analytics.py with optional JSON export.
+imp/bin/imp-processing-forecast.sh - Invokes the processing forecaster to produce backlog/duration projections and write them to logs/imp-processing-forecast.json.
+imp/bin/imp-readiness.sh - Runs the general intelligence readiness review helper and prints the summary.
+imp/bin/imp-success-plan.sh - Runs the success director to create actionable follow-up goals from readiness metrics.
+imp/logs/imp-chat-keepalive.log - Status log for the chat keepalive script.
+imp/logs/imp-goals.json - Stores goal entries with priority and timestamps.
+imp/logs/imp-self-heal-log.json - Records self-healing actions and lint results.
+imp/logs/imp-update-log.json - Tracks code updater patches and backups.
+imp/logs/imp-message-queue.json - Persists queued messages for the bus.
+imp/logs/imp-lint-report.json - flake8 output captured during healing.
+imp/logs/imp-evolution-log.json - History of 3D network evolution steps.
+imp/logs/imp-general-intelligence-review.json - Historical readiness reports combining goals, learning memory, roadmap, and evolution metrics.
+imp/logs/imp-success-plan.json - Stored success plans combining readiness reviews with planned follow-up actions.
+imp/logs/imp-network-snapshots/ - Pre-evolution snapshots for rollback.
+imp/config/imp-config-manager.py - Loads and modifies JSON config files on demand.
+imp/config/imp-environment.json - Default environment paths used by scripts.
+imp/config/imp-intranet.json - Example intranet node configuration.
+imp/config/imp-cluster-nodes.json - List of nodes managed by the secure node manager.
+imp/config/imp-processing-security.json - Thresholds for processing-node security checks that enforce allowlists and audit integrations.
+imp/config/imp-personality.json - Personality settings for the AI.
+imp/config/imp-system-settings.json - General system options and feature flags.
+    Includes a "mint" option for the self-healer to snapshot code after repairs.
+imp/config/imp-poison-targets.json - Critical files monitored for poisoning.
+imp/config/imp-user-permissions.json - Trusted and restricted user list.
+imp/config/imp-user-registration.json - Tracks registered operators.
+imp/config/imp-credentials.json - Stores usernames with hashed passwords.
+imp/config/imp-google-oauth.json - OAuth client secrets for automated Google login.
+imp/config/imp-voice-signatures.json - Voice signatures used for identity verification.
+imp/config/imp-command-aliases.json - Maps internal commands to safe external aliases.
+imp/config/imp-control-policies.json - Intent templates, keyword triggers, and policy requirements for the control hub.
+imp/communication/imp-command-transformer.py - Translates and sanitizes aliased commands through a secure diamond handshake with nonce and HMAC.
+imp/communication/communication-notes.txt - In-depth design notes for the alias communication channel.
+imp/identity/README.md - Describes the identity verification toolkit and usage of the registry, issuer, and wallet scaffolds.
+imp/identity/CompanionIdentityRegistry.sol - Solidity contract for issuer allowlisting, revocation batches, and consent anchoring.
+imp/identity/issuer-service/app.ts - Fastify scaffold that validates consent and TEE attestations before issuing credentials.
+imp/identity/issuer-service/chain.ts - Placeholder ethers.js helpers for anchoring consent hashes and revocation roots.
+imp/identity/issuer-service/tee.ts - Stub verifier for TEE quotes (replace with production attestation checks).
+imp/identity/issuer-service/vc.ts - Stub VC signer demonstrating proof structure.
+imp/identity/issuer-service/wallet.ts - Placeholder consent verifier to be replaced with DID/JWS checks.
+imp/identity/wallet/notes.md - Wallet responsibilities for storing VCs and building selective-disclosure presentations.
+imp/core/imp-3d-neural-network.py - 3D neural network with fitness-tracked evolution, logging, and network summary metrics.
+  Supports advanced neuron types via `spawn_advanced_neuron` and tracks usage counts.
+  Includes `spawn_novel_neuron` to create uniquely typed neurons automatically.
+  `spawn_novel_neuron_for_task` attaches a novel neuron to the most active node for a chosen task.
+  `auto_evolve` reinforces busy connections and prunes weak links before logging results.
+  `add_backup_connection` creates defensive myelin-rich shortcuts and
+  `maintain_backup_connections` adjusts them during evolution.
+  `guide_novel_neuron` links new neurons to active pathways so they can quickly adopt a role.
+  `heal_from_ledger` requests blockchain-backed restoration without external models.
+  `restore_repository_from_ledger` rebuilds the full codebase from the latest ledger snapshot during major attacks.
+  `auto_restore_from_ledger` verifies the ledger and performs a full repository restore when many mismatches are found.
+  `dynamic_restore_from_ledger` runs a verification helper and restores the entire repository when mismatches exceed a threshold or the chain is broken.
+  `auto_evolve` logs average fitness and dormant neuron totals to `imp-evolution-log.json`.
+  `evolution_trend` reads the last two evolution entries to highlight changes in
+    neuron count, fitness, and other metrics.
+  `evolution_trend_history` reports deltas across several recent entries for
+    broader historical context.
+  `reactivate_dormant_neurons` revives low-activity neurons when usage rises and `auto_evolve` records how many returned.
+  Reawakened neurons reinforce their existing connections to stabilize revived pathways, and `auto_evolve` logs the reinforcement count.
+  Connections include a task label so Schwann or oligodendrocyte neurons can
+  reinforce task-specific pathways without degrading others.
+  The `evolve` method marks low-usage neurons dormant rather than deleting them
+  so the network can reawaken connections when needed.
+    `auto_evolve` reinforces the busiest pathways, spawns a novel neuron automatically, and logs summaries to `logs/imp-evolution-log.json`.
+    `auto_evolve` saves a snapshot to `logs/imp-network-snapshots/` before evolving.
+    `simulate_evolution` returns an evolved copy for sandbox experiments.
+    `visualization_data` + `export_visualization` produce node/edge payloads for
+    3D dashboards, storing the latest export in `logs/imp-3d-visualization.json`.
+    `spatial_summary` computes bounding boxes, centroid, spacing, and volume for
+    richer 3D overlays.
+    `task_regions` reports per-task clusters with dominant neuron types and
+    distance from the network core.
+    `novel_neuron_experiment_designs` produces experiment briefs for every
+    experimental neuron, and `log_novel_neuron_experiments` archives them in
+    `logs/imp-novel-neuron-experiments.json`.
+    `novel_neuron_research_notes` summarises advanced neurons and
+    `log_novel_neuron_research` archives recommendations in
+    `logs/imp-novel-neuron-research.json`.
+    `forward_by_angle` allows routing signals along connections that match a given
+  direction in 3D space, separating tasks to reduce poisoning risk.
+  `find_optimal_path` searches for the lowest-resistance route between two
+  neurons using connection distance and myelin.
+imp/core/imp-resource-nn.py - Manages CPU/memory and pinned RAM/VRAM with self-evolving oligodendrocyte connections.
+imp/core/imp-resource-engine.py - Reads system load, can pin memory, and evolves the resource network for stability.
+imp/core/imp-processing-nn.py - Chooses thread counts per functionality group using resource telemetry and logs each cycle in logs/imp-processing-log.json.
+imp/core/imp-processing-manager.py - Launches functionality groups as processes, runs their tasks via thread pools, consults the controller, and forwards results to the optimizer before recording telemetry.
+imp/core/imp-processing-optimizer-nn.py - Learns thread scaling, pause timing, and launch priority for each functionality group, writing plans to logs/imp-processing-optimizer.json.
+imp/core/imp-processing-analytics.py - Reads processing telemetry, aggregates cycle metrics, and generates human-readable or JSON reports with recommendations for each group.
+imp/core/imp_processing_forecaster.py - Produces backlog, duration, and resource-score forecasts with confidence scores for upcoming processing cycles.
+imp/core/imp-decision-forecaster.py - Predicts outcomes of potential goals.
+imp/core/imp-execute.py - Main runtime harness that registers networks and dispatches workloads through the processing manager for parallel execution.
+imp/core/imp_neural_manager.py - Registry with helpers (`get_or_create`, `list`) keeping IMP in charge of all neural networks.
+imp/core/imp-goal-chat.py - Chatbot with multi-turn context, offline fallback, optional speech input; assumes a local user is at the keyboard.
+  Supports `/goals`, `/mood`, `/history`, `/notes`, `/mode`, `/clear`, `/help`, and `/quit` commands for quick status checks. `/clear` only clears the terminal view; logs persist.
+imp/core/imp-goal-manager.py - Stores, prioritizes and categorises goals with unique IDs and timestamps; generates goals online or via local fallback, can add tasks from code-map analysis, and reports category summaries for planners.
+imp/core/imp-control-hub.py - Bridges natural-language directives to intent plans with policy evaluation, capability lookups, logging, and CLI helpers.
+imp/core/imp-learning-memory.py - Stores structured insights from decisions, tags
+  them by theme, serves recent learnings, and filters entries by category or
+  status for other modules.
+imp/core/imp-neural-network.py - Feedforward network supporting backpropagation, optional momentum, weight decay, dropout, selectable SGD or Adam optimizers, mutation-aware learning-rate scaling that uses a rolling mutation history with a configurable window to boost rates when weights shift quickly while logging each epoch's learning rate, mutation, trend, and average, and `heal_from_ledger`, `auto_restore_from_ledger`, `restore_repository_from_ledger`, and `dynamic_restore_from_ledger` so the network can rebuild the repository from the ledger after large attacks.
+imp/core/imp-nn-menu.py - CLI helper to register or list neural networks via the manager.
+imp/core/imp-adversarial-nn.py - Generator network that crafts perturbations for adversarial training.
+imp/core/imp-network-task-nn.py - Secondary network focused on network management tasks.
+imp/self-improvement/imp-network-task-trainer.py - Trains the network task neural network from logs.
+imp/core/imp-network-task-engine.py - Uses the manager-controlled network task model to trigger audits.
+imp/core/imp-defense-nn.py - Neural network predicting when to run automated defenses.
+imp/self-improvement/imp-defense-trainer.py - Trains the defense network from audit logs.
+imp/core/imp-defense-engine.py - Runs the defense model to launch imp-automated-defense.py as needed.
+imp/core/imp-collaboratory-nn.py - Neural network for collaborative network design tasks.
+imp/core/imp-collaboratory-engine.py - Executes collaboratory planning using a manager-registered collaboratory network.
+imp/core/imp-bbi-nn.py - Brain-to-brain interface network managing user and IMP dreamscape interactions.
+imp/core/imp-bbi-engine.py - Logs BBI signals and evolves a neural manager-driven network for Sword Art Online-style dreamscapes.
+imp/self-improvement/imp-adversarial-trainer.py - Improves robustness by training networks on adversarial examples.
+imp/core/imp-voice.py - Provides voice synthesis with adjustable rate, volume, and voice selection by index or name.
+imp/core/imp-voice-menu.py - Curses-driven menu for interactively tuning voice output.
+imp/core/imp-speech-to-text.py - Converts speech input to text with a PocketSphinx fallback when offline.
+imp/core/imp-tone-analyzer.py - Analyzes sentiment and verifies speaker identity via voice signatures.
+imp/core/imp-mood-manager.py - Maintains a mood value that trends back to a slightly positive state and reacts to events.
+imp/core/imp-motivation.py - Generates self-motivated goals from mood.
+imp/core/imp-status-monitor.py - Checks resource usage and writes status logs.
+imp/core/imp-strategy-generator.py - Creates high-level plans from goals.
+imp/core/imp-task-executor.py - Executes planned tasks sequentially.
+imp/core/imp-operator-dashboard.py - Interactive dashboard listing major commands (goal chat, self-heal, network audit, voice menu, automated defense, network monitor, neural-network menu).
+imp/core/imp-adaptive-planner.py - Breaks directives into weighted subgoals using ChatGPT online or heuristics offline.
+imp/core/imp-message-bus.py - JSON-backed queue supporting priority messages and broadcast channels.
+imp/expansion/imp-cluster-manager.py - Controls distributed nodes for heavy workloads.
+imp/expansion/imp-intranet.py - Simple intranet builder for secure packet routing.
+imp/expansion/imp-load-scheduler.py - Balances job assignments across nodes.
+imp/expansion/imp-node-communicator.py - Sends and receives messages between nodes.
+imp/expansion/imp-node-control.py - Resolves hosts, records availability snapshots, and logs remote assignments.
+imp/expansion/imp-node-monitor.py - Records health data about remote nodes.
+imp/expansion/imp-resource-balancer.py - Reallocates CPU/RAM among tasks.
+imp/expansion/imp-secure-node-manager.py - Manages node registration and secure commands with list and remove helpers.
+imp/expansion/imp-cloud-orchestrator.py - Scores nodes using latency and health telemetry then recommends dispatch intervals.
+imp/expansion/imp-distributed-queue.py - Tracks tasks and assigns them to nodes.
+imp/expansion/imp-distributed-memory.py - Stores key/value facts for cross-node sharing.
+imp/expansion/imp-coliseum-engine.py - Coordinates arenas, players, and matches so Coliseum insights feed MMO planning.
+imp/expansion/imp-game-copilot.py - Learns new games and creates Sword Art Online-inspired dreamscapes.
+imp/logs/imp-log-manager.py - Utility for writing entries to the JSON logs.
+imp/logs/imp-coliseum.json - Persistent state for Coliseum arenas, players, matches, and historical summaries.
+imp/logs/imp-distributed-memory.json - Shared memory store for distributed data.
+imp/logs/imp-blockchain-ledger.json - Ledger of code hashes for self-healing; blob files live in `imp/logs/imp-ledger-blobs/`.
+imp/logs/imp-code-map.json - Map of files, imports, variables, functions and classes generated for introspection.
+imp/logs/imp-code-map-analysis.json - Highlights files lacking tests or containing TODO/FIXME comments.
+imp/logs/imp-model-analysis.json - Records differences between neural network snapshots.
+imp/logs/imp-self-heal-log.json - Records automatic restoration actions.
+imp/logs/imp-lint-report.json - flake8 lint output saved during self-healing.
+imp/logs/imp-sandbox-log.json - Summaries from debug sandbox evolution runs.
+imp/logs/imp-update-patches/ - Stores diff patches for manual review when restoration cannot occur automatically.
+imp/logs/imp-auth-log.json - Records authentication attempts.
+imp/logs/imp-voice-log.txt - Stores spoken text history.
+imp/logs/imp-speech-log.txt - Records recognized speech input.
+imp/logs/imp-tone-log.json - Tone analysis results for speech inputs.
+imp/logs/imp-3d-visualization.json - Node/edge payload for neuron placement dashboards.
+imp/logs/imp-novel-neuron-research.json - Research history and suggestions for novel neuron experiments.
+imp/logs/imp-resource-log.json - CPU/memory usage history for the resource network.
+imp/logs/imp-processing-log.json - Telemetry from the processing controller covering thread counts, durations, and resource scores per cycle.
+imp/logs/imp-processing-forecast.json - Forecast output generated by the processing forecaster helper for upcoming cycles.
+imp/logs/imp-processing-security.json - Security assessment history showing allowed and blocked processing nodes.
+imp/logs/imp-processing-report.json - Optional exported summaries produced by the processing analytics helper.
+imp/logs/imp-node-status.json - Node resolution snapshots indicating which hosts are reachable.
+imp/logs/imp-control-hub.json - Recorded control hub plans, policy matches, and capability registrations.
+imp/logs/imp-control-queue.json - Pending and approved plan queue entries with submission metadata.
+imp/logs/imp-node-control.json - Remote assignment history created by the processing manager when dispatching cluster tasks.
+imp/logs/imp-processing-optimizer.json - Plans and cycle summaries emitted by the processing optimizer network for long-term tuning.
+imp/logs/imp-process-audit.json - Results from recent process audits flagging suspicious executables or arguments.
+imp/logs/imp-games.json - Game definitions learned by the copilot.
+imp/logs/imp-dreamscape.json - Music themes generated from game rules.
+imp/logs/imp-roadmap-progress.json - Status of research roadmap goals with per-goal, aggregate, and directory coverage metrics.
+imp/logs/imp-roadmap-progress-history.json - Timestamped history of roadmap coverage plus outstanding modules.
+imp/logs/imp-bbi-log.json - Records BBI interaction history.
+imp/models/README.md - Notes on storing GGUF models for offline enhancement.
+imp/notes/README.md - Describes purpose of the notes folder.
+imp/notes/alex-comment.txt - User-supplied personal comment.
+imp/notes/blockchain-self-healing.txt - Idea for blockchain-based code recovery.
+imp/notes/example.txt - Placeholder note for demonstrations.
+imp/notes/imp-poison-defense.txt - Guidance on mitigating data poisoning.
+imp/notes/imp-research-roadmap.txt - Roadmap for advancing IMP capabilities.
+imp/notes/intranet-scapy-guide.txt - Quick tutorial on packet sanitation.
+imp/notes/next-gen-imp-strategy.txt - Strategies for long-term AI evolution.
+imp/notes/self-evolution-analysis.txt - Results from early self-evolution tests.
+imp/notes/self-evolution-plan.txt - Goals and steps for extending IMP's self-evolution.
+imp/notes/self-evolution-dev-notes.txt - Developer tips for guiding the methodology.
+imp/notes/imp-developer-notes.txt - Explains coding decisions and recommended module usage.
+imp/notes/startup-verification.txt - Stepwise log confirming each launch step and its status.
+imp/requirements.txt - Python dependencies required for IMP.
+imp/security/imp-automated-defense.py - Gathers system data and hardens services.
+imp/security/imp-firewall-manager.py - Basic firewall management helpers.
+imp/security/imp-code-lock.py - Locks the repository during updates to prevent unauthorized modifications.
+imp/security/imp-integrity-checker.py - Verifies core files against stored checksums.
+imp/security/imp-log-analyzer.py - Scans logs for signs of compromise.
+imp/security/imp-poison-detector.py - Monitors configured files and can invoke self-healing.
+imp/security/imp-security-optimizer.py - Runs security audits and patch routines.
+imp/security/imp-threat-monitor.py - Monitors running services for anomalies.
+imp/security/imp-vulnerability-scanner.py - Looks for weak permissions or secrets.
+imp/security/imp-hardware-guard.py - Detects debugging or tracing that could allow remote memory edits.
+imp/security/imp-identity-verifier.py - Validates Merkle proofs for issuer-backed credential revocation checks.
+imp/security/imp-network-auditor.py - Logs unexpected network connections for review.
+imp/security/imp-network-monitor.py - Tracks new remote IPs and saves any deviations.
+imp/security/imp-process-auditor.py - Audits running processes for suspicious keywords or temporary execution paths.
+imp/security/imp-processing-security.py - Screens processing nodes against allowlists, discovery diffs, and network audit findings before remote dispatches.
+imp/security/imp-authenticator.py - Verifies user credentials, automates Google OAuth2 login, adds Twilio 2FA, and enforces re-login after 5 idle minutes.
+imp/security/imp-cyber-researcher.py - Runs continuous defense research while limiting resource use.
+imp/self-improvement/imp-code-predictor.py - Predicts code quality of new changes.
+imp/self-improvement/imp-code-updater.py - Applies code patches using LLMs, runs flake8 linting, syntax checks, and a bug hunt, then falls back to echoing code when offline models are unavailable.
+imp/self-improvement/imp-metacognitive-analysis.py - Evaluates self-evolution progress.
+imp/self-improvement/imp-roadmap-checker.py - Logs progress on research roadmap goals and summarises completion plus directory coverage statistics.
+imp/self-improvement/imp-success-director.py - Builds success plans from readiness reviews and can append any missing follow-up goals automatically.
+imp/self-improvement/imp-model-analyzer.py - Compares neural network versions.
+imp/self-improvement/imp-3d-network-tester.py - Builds candidate 3D networks and records diffs before activation.
+imp/self-improvement/imp-debug-sandbox.py - Runs evolution steps in isolation and writes summaries.
+imp/self-improvement/imp-general-intelligence-review.py - Aggregates mission-critical metrics into a readiness report and recommendation set.
+imp/self-improvement/imp_mode_advisor.py - Chooses offline vs online enhancement using spatiotemporal confidence.
+imp/self-improvement/imp-rewrite-approval.py - Requests human approval before heavy rewrites.
+imp/self-improvement/imp-self-tuner.py - Adjusts parameters based on performance logs.
+imp/self-improvement/imp-version-tracker.py - Records every version of changed files.
+imp/self-improvement/imp-bug-hunter.py - Scans all Python files for syntax errors in batches.
+imp/self-improvement/imp-blockchain-ledger.py - Maintains a ledger of code hashes and stores recovery blobs in `imp/logs/imp-ledger-blobs/`.
+imp/self-improvement/imp-code-map.py - Builds the code map and analysis report used to suggest improvement goals.
+imp/self-improvement/imp-self-healer.py - Uses the ledger to restore mismatched files and runs the full test suite to verify functionality.
+imp/self-improvement/imp-self-healer.py also attempts ledger restoration before leveraging ChatGPT to recreate missing modules.
+imp/self-improvement/imp-self-healer.py can mint a new blockchain block after healing to record the current state.
+imp/self-improvement/imp-self-healer.py provides `verify_and_restore_repository` which triggers a full rebuild when many mismatches are detected or the chain is invalid.
+imp/self-improvement/imp-auto-heal.py - Runs self-heal automatically according to system settings.
+imp/tests/run-all-tests.sh - Executes the full test suite in sequence.
+imp/tests/test-3d-network.py - Unit test for the 3D neural network module.
+imp/tests/test-automated-defense.py - Test for automated defense cycle.
+imp/tests/test-hardware-guard.py - Runs the hardware guard checker.
+imp/tests/test-config.py - Checks configuration handling.
+imp/tests/test-core-functions.py - Validates main runtime functions.
+imp/tests/test-expansion.py - Tests distributed expansion modules.
+imp/tests/test-install.py - Ensures requirements installer works.
+imp/tests/test-intranet.py - Confirms intranet builder logic.
+imp/tests/test-logs.py - Verifies logs can be read and written.
+imp/tests/test-metacognition.py - Runs metacognitive analysis test.
+imp/tests/test-model-analysis.py - Checks model comparison features.
+imp/tests/test-neural-network.py - Tests the minimal neural network.
+imp/tests/test-processing-manager.py - Validates the processing neural network and threaded worker orchestration.
+imp/tests/test-processing-analytics.py - Confirms the analytics helper summarizes telemetry, counts remote dispatches, and surfaces recommendations.
+imp/tests/test-nn-menu.py - Verifies neural manager CLI listing.
+imp/tests/test-performance.py - Measures performance metrics logging.
+imp/tests/test-security.py - Runs security scripts without damaging the system.
+imp/tests/test-self-improvement.py - Tests the self-update mechanisms.
+imp/tests/test-bug-hunter.py - Ensures the bug hunting tool runs without errors.
+imp/tests/test-mode-advisor.py - Verifies spatiotemporal mode selection logic.
+imp/tests/test-message-bus.py - Ensures queued messages send and receive correctly.
+imp/tests/test-distributed-queue.py - Checks task assignment across nodes.
+imp/tests/test-game-copilot.py - Verifies game learning and dreamscape creation.
+imp/tests/test-network-task-nn.py - Tests the network task neural network.
+imp/tests/test-network-task-trainer.py - Ensures the network task improver runs.
+imp/tests/test-network-task-engine.py - Runs the network task engine with the model.
+imp/tests/test-defense-nn.py - Tests the defense neural network.
+imp/tests/test-defense-trainer.py - Ensures the defense network improver runs.
+imp/tests/test-defense-engine.py - Runs the defense engine with the model.
+imp/tests/test-bbi-engine.py - Tests the brain-to-brain interface engine and evolving network.
+imp/tests/test-performance.py - Measures performance metrics logging.
+imp/tests/test-security.py - Runs security scripts without damaging the system.
+imp/tests/test-self-improvement.py - Tests the self-update mechanisms.
+imp/tests/test-bug-hunter.py - Ensures the bug hunting tool runs without errors.
+imp/tests/test-mode-advisor.py - Verifies spatiotemporal mode selection logic.
+imp/tests/test-message-bus.py - Ensures queued messages send and receive correctly.
+imp/tests/test-distributed-queue.py - Checks task assignment across nodes.
+imp/tests/test-voice.py - Checks voice synthesis script runs.
+imp/tests/test-speech.py - Confirms speech-to-text helper initializes and supports offline mode.
+imp/tests/test-network-auditor.py - Runs the network auditor script.
+imp/tests/test-network-monitor.py - Checks for new remote IP detection.
+imp/tests/test-module-imports.py - Imports core modules to catch syntax errors.
+imp/tests/test-bin-access.py - Ensures all bin scripts are executable.
+imp/tests/test-windows-support.py - Verifies Windows startup scripts exist.
+imp/tests/test-blockchain-ledger.py - Confirms code snapshot ledger integrity.
+Note: all tests reside under imp/tests/. Some docs referenced tests/, which caused confusion.

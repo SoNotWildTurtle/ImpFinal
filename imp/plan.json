@@ -1,0 +1,233 @@
+{
+  "methodology_version": "2026-02-25",
+  "sources": [
+    "notes/self-evolution-plan.txt",
+    "notes/self-evolution-dev-notes.txt",
+    "notes/imp-developer-notes.txt",
+    "notes/alex-comment.txt",
+    "logs/imp-success-plan.json"
+  ],
+  "readiness_targets": {
+    "goal_completion_target": 80,
+    "learning_entries_target": 10,
+    "roadmap_coverage_target": 100,
+    "evolution_entries_target": 3,
+    "novel_average_target": 1.0
+  },
+  "category_keywords": {
+    "self-management": [
+      "goal",
+      "blocker",
+      "review",
+      "priority",
+      "stabilize",
+      "baseline"
+    ],
+    "security": [
+      "security",
+      "vulnerability",
+      "threat",
+      "firewall",
+      "integrity",
+      "poison"
+    ],
+    "roadmap": [
+      "roadmap",
+      "coverage",
+      "module",
+      "implement",
+      "architecture",
+      "cohesion"
+    ],
+    "reflection": [
+      "learning",
+      "memory",
+      "insight",
+      "metacognition",
+      "analysis"
+    ],
+    "neural-evolution": [
+      "neuron",
+      "evolution",
+      "reinforcement",
+      "oligodendrocyte",
+      "schwann"
+    ]
+  },
+  "category_priority": {
+    "self-management": "high",
+    "security": "high",
+    "roadmap": "medium",
+    "reflection": "medium",
+    "neural-evolution": "medium",
+    "general": "low"
+  },
+  "operability_profiles": [
+    {
+      "name": "core",
+      "required_paths": [
+        "core/imp-execute.py",
+        "core/imp-processing-manager.py",
+        "core/imp-adaptive-planner.py"
+      ],
+      "required_tests": [
+        "tests/test-execute-pipeline.py",
+        "tests/test-processing-manager.py",
+        "tests/test-adaptive-planner.py"
+      ]
+    },
+    {
+      "name": "security",
+      "required_paths": [
+        "security/imp-security-optimizer.py",
+        "security/imp-session-guard.py",
+        "security/imp-zero-trust-assessor.py"
+      ],
+      "required_tests": [
+        "tests/test-security.py",
+        "tests/test-session-guard.py",
+        "tests/test-zero-trust-assessor.py"
+      ]
+    },
+    {
+      "name": "self-improvement",
+      "required_paths": [
+        "self-improvement/imp-self-healer.py",
+        "self-improvement/imp-success-director.py",
+        "self-improvement/imp-general-intelligence-review.py"
+      ],
+      "required_tests": [
+        "tests/test-success-director.py",
+        "tests/test-general-intelligence-review.py",
+        "tests/test-roadmap-checker.py"
+      ]
+    },
+    {
+      "name": "expansion",
+      "required_paths": [
+        "expansion/imp-node-monitor.py",
+        "expansion/imp-distributed-queue.py",
+        "expansion/imp-cloud-orchestrator.py"
+      ],
+      "required_tests": [
+        "tests/test-node-monitor.py",
+        "tests/test-distributed-queue.py",
+        "tests/test-cloud-orchestrator.py"
+      ]
+    },
+    {
+      "name": "startup-consistency",
+      "required_paths": [
+        "bin/imp-start.sh",
+        "bin/imp-start.py",
+        "../imp-start.ps1"
+      ],
+      "required_tests": [
+        "tests/test-start-script.py",
+        "tests/test-windows-support.py"
+      ],
+      "required_content": [
+        {
+          "path": "bin/imp-start.sh",
+          "contains": [
+            "core/imp-execute.py",
+            "ROOT=\"$(cd \"$(dirname \"$0\")/..\" && pwd)\""
+          ],
+          "match": "all"
+        },
+        {
+          "path": "bin/imp-start.py",
+          "contains": [
+            "(\"imp_execute\", ROOT / \"core\" / \"imp-execute.py\", \"main\")"
+          ],
+          "match": "all"
+        },
+        {
+          "path": "../imp-start.ps1",
+          "contains": [
+            "imp-start.py"
+          ],
+          "match": "all"
+        }
+      ]
+    },
+    {
+      "name": "offline-updater-readiness",
+      "required_paths": [
+        "self-improvement/imp-code-updater.py",
+        "self-improvement/imp_mode_advisor.py",
+        "bin/imp-enhance.sh",
+        "models/README.md"
+      ],
+      "required_tests": [
+        "tests/test-code-updater.py",
+        "tests/test-mode-advisor.py"
+      ],
+      "required_content": [
+        {
+          "path": "self-improvement/imp-code-updater.py",
+          "contains": [
+            "starcoder2-15b.Q4_K_M.gguf",
+            "resolve_text_generator(\"Code update (offline fallback)\")"
+          ],
+          "match": "all"
+        },
+        {
+          "path": "bin/imp-enhance.sh",
+          "contains": [
+            "--mode \"$MODE\""
+          ],
+          "match": "all"
+        }
+      ],
+      "required_globs": [
+        "models/*.gguf"
+      ]
+    },
+    {
+      "name": "operator-experience",
+      "required_paths": [
+        "core/imp-goal-chat.py",
+        "core/imp-operator-dashboard.py",
+        "core/imp-voice.py"
+      ],
+      "required_tests": [
+        "tests/test-goal-chat.py",
+        "tests/test-operator-dashboard.py",
+        "tests/test-voice.py"
+      ]
+    },
+    {
+      "name": "processing-analytics",
+      "required_paths": [
+        "core/imp-processing-analytics.py",
+        "core/imp_processing_forecaster.py",
+        "expansion/imp-load-scheduler.py"
+      ],
+      "required_tests": [
+        "tests/test-processing-analytics.py",
+        "tests/test-processing-forecaster.py",
+        "tests/test-load-scheduler.py"
+      ]
+    },
+    {
+      "name": "communication-identity",
+      "required_paths": [
+        "communication/imp-command-transformer.py",
+        "security/imp-identity-verifier.py",
+        "identity/issuer-service/app.ts"
+      ],
+      "required_tests": [
+        "tests/test-command-transformer.py",
+        "tests/test-identity-verifier.py",
+        "tests/test-identity-integration.py"
+      ]
+    }
+  ],
+  "operator_policy": {
+    "keep_startup_consistent": true,
+    "favor_additive_changes": true,
+    "deprioritize_unreasonable_requests": true,
+    "auto_generate_operability_goals": true
+  }
+}

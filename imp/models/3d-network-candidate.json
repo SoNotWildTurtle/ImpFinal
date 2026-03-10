@@ -1,0 +1,37 @@
+{
+    "neurons": [
+        {
+            "idx": 0,
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "threshold": 0.0,
+            "neuron_type": "basic",
+            "dormant": false
+        },
+        {
+            "idx": 1,
+            "position": [
+                0.9712788324869719,
+                0.8684523333382212,
+                0.09131811365332143
+            ],
+            "threshold": 0.0,
+            "neuron_type": "novel_0",
+            "dormant": false
+        }
+    ],
+    "connections": [
+        {
+            "src": 0,
+            "dest": 1,
+            "myelin": 1.0,
+            "task": "default",
+            "backup": false
+        }
+    ],
+    "usage_counts": {},
+    "novel_count": 1
+}

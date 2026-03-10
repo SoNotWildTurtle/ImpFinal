@@ -1,0 +1,157 @@
+{
+  "policies": [
+    {
+      "name": "system-operations",
+      "match": "system.*",
+      "require": ["mfa_confirm", "dry_run"],
+      "deny_if": {
+        "risk_score": 0.8
+      },
+      "transforms": ["preflight_health_check"]
+    },
+    {
+      "name": "security-default",
+      "match": "security.*",
+      "require": ["audit_log"],
+      "transforms": ["append_summary"]
+    },
+    {
+      "name": "default-audit",
+      "match": "*",
+      "require": ["audit_log"],
+      "transforms": []
+    }
+  ],
+  "intent_keywords": [
+    {"intent": "security.ssl_check", "keywords": ["ssl", "certificate"]},
+    {"intent": "system.backup", "keywords": ["backup", "snapshot"]},
+    {"intent": "system.patch", "keywords": ["patch", "update"]},
+    {"intent": "security.key_rotation", "keywords": ["rotate", "key"]},
+    {"intent": "observability.status", "keywords": ["status", "health"]},
+    {"intent": "automation.restart_services", "keywords": ["restart", "service"]},
+    {"intent": "automation.scale_out", "keywords": ["scale", "capacity"]},
+    {"intent": "security.log_review", "keywords": ["log", "anomaly"]},
+    {"intent": "governance.audit", "keywords": ["audit"]},
+    {"intent": "communication.summary", "keywords": ["summarize", "report"]}
+  ],
+  "intents": {
+    "security.ssl_check": {
+      "description": "Inspect SSL certificates and report expirations.",
+      "default_targets": ["staging_group"],
+      "steps": [
+        "collect_endpoints",
+        "run_ssl_audit",
+        "compile_expiry_report"
+      ]
+    },
+    "system.backup": {
+      "description": "Trigger infrastructure backups with verification.",
+      "default_targets": ["backup_group"],
+      "steps": [
+        "verify_backup_window",
+        "launch_backup_jobs",
+        "validate_backup_checksums"
+      ]
+    },
+    "system.patch": {
+      "description": "Apply system patches using staged rollout.",
+      "default_targets": ["patch_group"],
+      "steps": [
+        "simulate_patch",
+        "apply_patch",
+        "post_patch_health_check"
+      ]
+    },
+    "security.key_rotation": {
+      "description": "Rotate secrets or API keys with verification steps.",
+      "default_targets": ["secrets_group"],
+      "steps": [
+        "generate_new_secret",
+        "validate_distribution",
+        "revoke_old_secret"
+      ]
+    },
+    "observability.status": {
+      "description": "Review service health and surface alerts.",
+      "default_targets": ["observability"],
+      "steps": [
+        "collect_service_metrics",
+        "summarize_health",
+        "highlight_active_incidents"
+      ]
+    },
+    "automation.restart_services": {
+      "description": "Restart selected services with guard checks.",
+      "default_targets": ["service_group"],
+      "steps": [
+        "confirm_service_window",
+        "restart_services",
+        "verify_service_recovery"
+      ]
+    },
+    "automation.scale_out": {
+      "description": "Scale systems horizontally in a controlled manner.",
+      "default_targets": ["scaling_group"],
+      "steps": [
+        "assess_current_load",
+        "allocate_new_nodes",
+        "rebalance_traffic"
+      ]
+    },
+    "security.log_review": {
+      "description": "Inspect security logs for anomalies.",
+      "default_targets": ["security_logs"],
+      "steps": [
+        "collect_recent_security_logs",
+        "run_anomaly_detection",
+        "prepare_security_brief"
+      ]
+    },
+    "governance.audit": {
+      "description": "Prepare compliance audit packages.",
+      "default_targets": ["compliance"],
+      "steps": [
+        "gather_audit_artifacts",
+        "verify_policy_alignment",
+        "compile_audit_summary"
+      ]
+    },
+    "communication.summary": {
+      "description": "Draft operator-friendly updates.",
+      "default_targets": ["communications"],
+      "steps": [
+        "collect_recent_changes",
+        "summarize_findings",
+        "dispatch_update"
+      ]
+    }
+  },
+  "capabilities": [
+    {"name": "ssl_audit", "description": "Checks SSL expiry for registered domains.", "scope": "security"},
+    {"name": "backup_manager", "description": "Launches and verifies backups.", "scope": "system"},
+    {"name": "patch_manager", "description": "Coordinates staged patch rollouts.", "scope": "system"},
+    {"name": "secret_rotator", "description": "Handles key rotation tasks.", "scope": "security"},
+    {"name": "health_monitor", "description": "Aggregates service health metrics.", "scope": "observability"},
+    {"name": "service_controller", "description": "Restarts or pauses services under guardrails.", "scope": "automation"},
+    {"name": "capacity_planner", "description": "Recommends and executes scaling strategies.", "scope": "automation"},
+    {"name": "log_analyst", "description": "Scans logs for anomalies and compliance markers.", "scope": "security"},
+    {"name": "audit_compiler", "description": "Builds compliance audit packages.", "scope": "governance"},
+    {"name": "briefing_writer", "description": "Produces operator-facing summaries.", "scope": "communication"}
+  ],
+  "agents": [
+    {
+      "name": "ops-orchestrator",
+      "scope": "system",
+      "endpoint": "ssh://ops-controller.internal",
+      "capabilities": ["backup_manager", "patch_manager", "service_controller"],
+      "notes": "Runs maintenance tasks inside trusted VLAN."
+    },
+    {
+      "name": "security-scout",
+      "scope": "security",
+      "endpoint": "https://security-agent.local/api",
+      "capabilities": ["ssl_audit", "log_analyst", "secret_rotator"],
+      "notes": "Handles certificate, log, and rotation workflows with MFA enforced."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "type": "basic",
+            "dormant": false,
+            "fitness": 1.0,
+            "usage": 1,
+            "tasks": [
+                "analysis"
+            ],
+            "connection_count": 1,
+            "avg_resistance": 0.625
+        },
+        {
+            "id": 1,
+            "position": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "type": "schwann",
+            "dormant": false,
+            "fitness": 1.0,
+            "usage": 1,
+            "tasks": [
+                "analysis"
+            ],
+            "connection_count": 2,
+            "avg_resistance": 0.817576
+        },
+        {
+            "id": 2,
+            "position": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "type": "novel_0",
+            "dormant": false,
+            "fitness": 1.0,
+            "usage": 1,
+            "tasks": [
+                "analysis"
+            ],
+            "connection_count": 1,
+            "avg_resistance": 1.010152
+        }
+    ],
+    "edges": [
+        {
+            "src": 0,
+            "dest": 1,
+            "task": "analysis",
+            "myelin": 1.6,
+            "distance": 1.0,
+            "resistance": 0.625,
+            "backup": false
+        },
+        {
+            "src": 1,
+            "dest": 2,
+            "task": "analysis",
+            "myelin": 1.4,
+            "distance": 1.414214,
+            "resistance": 1.010152,
+            "backup": false
+        }
+    ],
+    "summary": {
+        "neurons": 3,
+        "dormant": 0,
+        "types": {
+            "basic": 1,
+            "schwann": 1,
+            "novel_0": 1
+        },
+        "connections": 2,
+        "avg_myelin": 1.5,
+        "backup_connections": 0
+    },
+    "spatial_summary": {
+        "bounding_box": {
+            "x": {
+                "min": 0,
+                "max": 1
+            },
+            "y": {
+                "min": 0,
+                "max": 1
+            },
+            "z": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "centroid": {
+            "x": 0.333333,
+            "y": 0.333333,
+            "z": 0.0
+        },
+        "radius": 0.745356,
+        "average_spacing": 1.138071,
+        "volume": 0
+    },
+    "task_regions": [
+        {
+            "task": "analysis",
+            "neuron_count": 3,
+            "centroid": {
+                "x": 0.333333,
+                "y": 0.333333,
+                "z": 0.0
+            },
+            "avg_myelin": 1.5,
+            "avg_resistance": 0.817576,
+            "dominant_type": "basic",
+            "distance_from_core": 0.0
+        }
+    ],
+    "novel_research": [
+        {
+            "neuron": 1,
+            "type": "schwann",
+            "status": "active",
+            "usage": 1,
+            "tasks": [
+                "analysis"
+            ],
+            "connection_count": 2,
+            "avg_myelin": 1.5,
+            "avg_distance": 1.207107,
+            "suggestion": "monitor task response across analysis"
+        },
+        {
+            "neuron": 2,
+            "type": "novel_0",
+            "status": "active",
+            "usage": 1,
+            "tasks": [
+                "analysis"
+            ],
+            "connection_count": 1,
+            "avg_myelin": 1.4,
+            "avg_distance": 1.414214,
+            "suggestion": "monitor task response across analysis"
+        }
+    ],
+    "experiment_plan": [
+        {
+            "neuron": 1,
+            "type": "schwann",
+            "objective": "stability_assessment",
+            "priority": "baseline",
+            "confidence": 0.9,
+            "recommended_task": "analysis",
+            "distance_to_core": 0.745356,
+            "neighbor_usage": 2,
+            "notes": "monitor task response across analysis"
+        },
+        {
+            "neuron": 2,
+            "type": "novel_0",
+            "objective": "stability_assessment",
+            "priority": "baseline",
+            "confidence": 0.6,
+            "recommended_task": "analysis",
+            "distance_to_core": 0.745356,
+            "neighbor_usage": 1,
+            "notes": "monitor task response across analysis"
+        }
+    ]
+}

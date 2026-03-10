@@ -1,0 +1,2237 @@
+[
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 74.492905,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:24:40.931130Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 76.655615,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:24:43.769057Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 79.339438,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:24:47.723703Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.880517,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 95.5,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:24:54.565993Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 77.233333,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:09.558172Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.542496,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.55000000000001,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:29.667497Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.693153,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:30.086964Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.766242,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:33.230603Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.678335,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:33.672324Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 64.612776,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.6,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:39.603654Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.331524,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:39.800041Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 53.451849,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.8,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:41.124874Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.255296,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 95.85,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:46.136785Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.442464,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:25:58.719873Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.331959,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.65,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:02.057851Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.90364,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:02.769534Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 29.245937,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:03.886545Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 20.955115,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:07.542901Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 15.091014,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:09.234108Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 27.185973,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:09.620869Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 5
+        },
+        "timestamp": "2026-01-18T21:26:11.865833Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:26:12.058336Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 28.37888,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:12.086138Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 24.326333,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:13.932629Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 24.482209,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:14.376752Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 4
+        },
+        "timestamp": "2026-01-18T21:26:18.289157Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:26:18.731369Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 25.913375,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:18.995424Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 23.85565,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:20.007463Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 24.219503,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:32.465580Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 30.248703,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:40.721740Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 32.343936,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:44.073542Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 32.866713,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:45.970823Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.430506,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:54.079768Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.897782,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:54.816785Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.459477,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:26:58.147278Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.925883,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:02.407632Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.571762,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.45,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:04.537424Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.542785,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.65,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:06.194204Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 53.372875,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.44999999999999,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:19.737687Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 56.11424,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.6,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:22.137172Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 51.368454,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.7,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:22.414905Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 59.169039,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:42.750837Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 58.033471,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:48.298812Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 60.069121,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:27:53.425252Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 59.800609,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:01.004453Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 61.346706,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:03.567743Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 62.226046,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:06.015234Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 57.066535,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:10.251154Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 58.113698,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:12.232524Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 62.216001,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:12.529662Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 46.731335,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:16.186186Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 47.283951,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:18.680427Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 47.590827,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:18.759010Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 29.047091,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:34.589212Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.377282,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.1,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:37.092852Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.014783,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:37.944822Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.669882,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:51.284565Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.894009,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 94.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:55.026824Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.838506,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:56.743994Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.939295,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:58.322318Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 40.127381,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:28:59.707042Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 6
+        },
+        "timestamp": "2026-01-18T21:28:59.996046Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 17.010151,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:03.044428Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:29:03.675163Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.409407,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:03.956099Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.194125,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:04.378918Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 35.349494,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:05.896881Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 40.778521,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:07.728010Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.815718,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:29.831263Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 48.848748,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:31.919564Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.094281,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:35.635277Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.511643,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:49.130650Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 52.703641,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:54.670118Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 51.559748,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:29:58.527205Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 47.527057,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.5,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:01.327215Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 52.11166,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:02.489962Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 24.156304,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 95.45,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:03.462811Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 47.698685,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:04.403998Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 50.95025,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:08.051417Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.149933,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:20.056874Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 31.564075,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:26.524022Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 4
+        },
+        "timestamp": "2026-01-18T21:30:27.242764Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.228458,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:28.358318Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:30:30.333690Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 28.039456,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:30.464477Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 35.813923,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:38.848453Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.185051,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.55,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:43.852835Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 22.966862,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:44.148596Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.502173,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.6,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:46.892269Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 5
+        },
+        "timestamp": "2026-01-18T21:30:49.202491Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.569153,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:52.124417Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:30:52.249718Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.482015,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:52.590591Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.651388,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.6,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:30:52.897170Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 6
+        },
+        "timestamp": "2026-01-18T21:30:58.094921Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:31:01.511899Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 37.921982,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.75,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:01.755156Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 4
+        },
+        "timestamp": "2026-01-18T21:31:03.766865Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.697411,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.8,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:06.972039Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:31:07.670653Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.186424,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.6,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:08.105220Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.369465,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.65,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:12.716987Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 33.712455,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.5,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:13.091691Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 35.19799,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:15.170641Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.212583,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:32.357815Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.622786,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:36.721518Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 45.802288,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:38.914422Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.793846,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:40.857796Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 46.508823,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:45.688611Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.165922,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:52.933429Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 49.366074,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.1,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:55.012026Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 40.034053,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.65,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:56.192315Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.081845,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.8,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:31:59.894018Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 41.865977,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:02.949897Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 22.852478,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.85,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:05.639917Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.577019,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.85,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:06.649483Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 32.088071,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.4,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:14.410961Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 35.198141,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:18.975366Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 26.527762,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:23.913171Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 40.68481,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:26.996477Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 40.670337,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:29.297600Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.075561,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:31.602809Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 33.918461,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:35.963587Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.404482,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.85,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:39.829450Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 38.304918,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.1,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:42.328841Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 40.009825,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:47.632173Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.673482,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.1,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:32:52.443905Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 50.414296,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.1,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:05.047925Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 6
+        },
+        "timestamp": "2026-01-18T21:33:11.452827Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 54.703594,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:12.150669Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 44.434721,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:12.288896Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 45.985115,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:13.824948Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 54.778056,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:30.736422Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 6
+        },
+        "timestamp": "2026-01-18T21:33:40.515642Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:33:43.152878Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 57.256341,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:43.593827Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 33.178796,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 95.94999999999999,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:55.151466Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 29.775784,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:33:56.356031Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 49.724643,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:02.202993Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 31.670744,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:02.203543Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 28.878103,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:03.158546Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 27.138629,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.05,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:04.113476Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 49.893912,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:07.793413Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 23.247844,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:08.039404Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 55.074637,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:13.985681Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 39.605897,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.8,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:19.078086Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.045091,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:33.519523Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 43.738418,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:48.450288Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 42.554904,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:56.017706Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 47.564125,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:34:57.687957Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 47.48196,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:03.503983Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 51.906059,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:03.729206Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 51.615511,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:04.322649Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 45.911169,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:09.602211Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 20.940825,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.0,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:12.655076Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 50.810641,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:13.568288Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 5
+        },
+        "timestamp": "2026-01-18T21:35:40.195116Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:35:41.690386Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 50.382242,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:41.924985Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 60.67398,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:44.446103Z"
+    },
+    {
+        "event": "cloud_orchestration",
+        "group": "self_improvement",
+        "data": {
+            "ranked_nodes": [
+                "localhost"
+            ],
+            "base_interval": 900.0,
+            "recommended_interval": 900.0,
+            "trend_interval": 0.0,
+            "capacity_total": 1,
+            "stagger": 0.5,
+            "forecast_capacity": 1.0,
+            "risk_nodes": [],
+            "region_allocations": {
+                "unknown": [
+                    "localhost"
+                ]
+            },
+            "confidence_scores": {
+                "localhost": 0.92
+            },
+            "confidence_average": 0.92,
+            "strategy": "balanced",
+            "strategy_reason": "steady backlog=1, avg_conf=0.92",
+            "operational_mode": "steady",
+            "operational_reason": "Workload within expected bounds; maintain steady scheduling",
+            "redundancy_plan": {},
+            "energy_score": 1.0,
+            "failure_projection": {
+                "baseline": 1.0,
+                "lost_capacity": 0.0,
+                "survivor_capacity": 1.0,
+                "loss_ratio": 0.0,
+                "loss_ratio_trend": 0.0,
+                "at_risk": []
+            },
+            "burst_candidates": [],
+            "standby_nodes": [
+                "localhost"
+            ],
+            "history_window": 5
+        },
+        "timestamp": "2026-01-18T21:35:53.559370Z"
+    },
+    {
+        "event": "remote_dispatch",
+        "group": "self_improvement",
+        "tasks": [
+            "python3 {remote_dir}/self-improvement/imp-code-updater.py --mode auto"
+        ],
+        "interval": 900.0,
+        "timestamp": "2026-01-18T21:35:57.723662Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 25.586303,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:57.966693Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 61.096046,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:35:59.140404Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 57.953431,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:00.976571Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 57.670078,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:04.972954Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 30.838986,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:16.486341Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 35.8901,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:17.459883Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.070157,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.3,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:17.461920Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.72178,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:19.117001Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 57.787932,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:20.319527Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.670367,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:23.374210Z"
+    },
+    {
+        "event": "cycle",
+        "group": "autonomy",
+        "duration": 481.569563,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 94.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:34.568199Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 27.863033,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:40.903226Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 18.740907,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 96.2,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:41.154065Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 30.73085,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:44.448568Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 32.758947,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.15,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:46.349500Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 25.825223,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.35,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:50.670544Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 29.276598,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:55.027385Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 29.973005,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:55.417606Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 29.017838,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:57.999668Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 27.178367,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.55,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:36:59.376409Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 17.388657,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 96.25,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:37:14.392506Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 36.089808,
+        "threads": 1,
+        "errors": 0,
+        "resource_score": 95.95,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:37:30.014601Z"
+    },
+    {
+        "event": "cycle",
+        "group": "self_improvement",
+        "duration": 19.204021,
+        "threads": 1,
+        "errors": 1,
+        "resource_score": 95.9,
+        "backlog": 1,
+        "timestamp": "2026-01-18T21:37:35.609595Z"
+    }
+]

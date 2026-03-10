@@ -1,0 +1,14 @@
+[
+  {
+    "created_at": "2026-02-26T00:00:00Z",
+    "sources": [
+      {
+        "source": "notes/self-evolution-plan.txt",
+        "exists": true,
+        "matches": [
+          "Improve offline updates with GGUF models"
+        ]
+      }
+    ]
+  }
+]

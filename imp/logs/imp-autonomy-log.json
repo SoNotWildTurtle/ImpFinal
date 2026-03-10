@@ -1,0 +1,61 @@
+[
+    {
+        "timestamp": "2025-01-01T00:00:00Z",
+        "status": "completed",
+        "bug_scan": {
+            "issues": 0
+        },
+        "self_heal": {
+            "mismatches": 0
+        },
+        "tests": {
+            "success": true,
+            "duration": 3.2
+        }
+    },
+    {
+        "timestamp": "2025-01-02T00:00:00Z",
+        "status": "completed",
+        "bug_scan": {
+            "issues": 1
+        },
+        "self_heal": {
+            "mismatches": 1
+        },
+        "tests": {
+            "success": false,
+            "duration": 4.1,
+            "error": "fail"
+        }
+    },
+    {
+        "timestamp": "2025-01-03T00:00:00Z",
+        "status": "completed",
+        "bug_scan": {
+            "issues": 0
+        },
+        "self_heal": {
+            "mismatches": 0
+        },
+        "tests": {
+            "success": true,
+            "duration": 2.0
+        },
+        "forced": false
+    },
+    {
+        "timestamp": "2025-01-03T00:00:00Z",
+        "status": "completed",
+        "bug_scan": {
+            "issues": 0
+        },
+        "self_heal": {
+            "mismatches": 0
+        },
+        "tests": {
+            "success": true,
+            "duration": 2.0
+        },
+        "forced": true
+    }
+]

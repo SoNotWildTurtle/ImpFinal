@@ -1,0 +1,26 @@
+{
+    "max_session_minutes": 240,
+    "max_idle_minutes": 20,
+    "idle_lock_minutes": 5,
+    "require_mfa": true,
+    "allowed_origins": [
+        "local",
+        "vpn"
+    ],
+    "allowed_networks": [
+        "127.0.0.1/32",
+        "10.0.0.0/24"
+    ],
+    "flagged_roles": [
+        "guest",
+        "external"
+    ],
+    "record_history": 50,
+    "risk_thresholds": {
+        "high": 70,
+        "medium": 40
+    },
+    "enable_origin_checks": true,
+    "enable_idle_lock": true,
+    "block_on_threat": true
+}

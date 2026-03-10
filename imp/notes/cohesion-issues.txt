@@ -1,0 +1,21 @@
+Tests path confusion: some docs use tests/, but files are under imp/tests/. See CohesionMap around line 132 for test listings.
+imp/config/imp-intranet.json lacks trailing newline; add for consistency. CohesionMap entry lines around 30.
+
+imp/bin/imp-start.sh uses relative paths; ensure other scripts remain portable.
+Many log JSON files are empty; ensure they initialize with valid JSON like [] to avoid decode errors.
+imp/core/imp-defense-engine.py prints to stdout; use logging instead. See CohesionMap around line 59. [resolved]
+imp/core/imp-defense-engine.py migrated to imp_utils for module loading and JSON access; logging now used throughout. (CohesionMap lines 21, 132)
+imp/bin/imp-start.sh line 5 resolves the repo root dynamically before launching the executor.
+Duplicate JSON load/write helpers found across core modules; introduced imp/core/imp_utils.py. imp/core/imp-learning-memory.py,
+imp/core/imp-strategy-generator.py, and imp/core/imp-resource-engine.py now use these helpers (CohesionMap lines 64, 75, 71).
+Remaining modules should migrate to avoid divergence.
+imp/core/imp-goal-manager.py and imp/core/imp-3d-neural-network.py now use imp_utils for JSON persistence, reducing duplication.
+imp/core/imp-bbi-nn.py migrated to imp_utils for JSON persistence, resolving prior duplication.
+imp/core/imp-message-bus.py migrated to imp_utils for read/write helpers, removing duplicate JSON handling. (CohesionMap lines ~21, 68)
+imp/expansion/imp-node-monitor.py relies on shell `ping`; consider cross-platform alternatives. (CohesionMap line 20)
+imp/security/imp-integrity-checker.py migrated to imp_utils but still watches hard-coded Linux paths; add platform checks. (CohesionMap line 136)
+imp/communication/imp-command-transformer.py embeds a shared secret string; consider moving secret to configuration. (CohesionMap line 20)
+imp/core/imp-operator-dashboard.py relies on bash scripts; verify cross-platform support. (CohesionMap lines 20, 96)
+imp/core/imp-nn-menu.py loads modules from file paths without error handling. Add checks for missing files. (CohesionMap lines 20, 97)
+imp/logs/imp-chat-keepalive.log is tracked but may grow without bounds; consider rotation or git-ignore. (CohesionMap line 112)
+imp/logs/imp-code-map.json is very large and may bloat the repository; consider pruning or regenerating as needed. (CohesionMap line 114)

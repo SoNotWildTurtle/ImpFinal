@@ -1,0 +1,164 @@
+[
+  {
+    "id": "existing",
+    "goal": "Stabilise baseline systems",
+    "term": "long-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2024-01-01T00:00:00Z",
+    "category": "general"
+  },
+  {
+    "id": "1772052912812",
+    "goal": "Restore operability by fixing module importability for operator-experience:core/imp-operator-dashboard.py",
+    "term": "short-term",
+    "priority": "high",
+    "status": "pending",
+    "created_at": "2026-02-25T20:55:12Z",
+    "category": "operability"
+  },
+  {
+    "id": "1772052973307",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T20:56:13Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772053516862",
+    "goal": "Restore operability by fixing module importability for self-improvement:self-improvement/imp-self-healer.py",
+    "term": "short-term",
+    "priority": "high",
+    "status": "pending",
+    "created_at": "2026-02-25T21:05:16Z",
+    "category": "operability"
+  },
+  {
+    "id": "1772053578188",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T21:06:18Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772055159749",
+    "goal": "Restore operability by fixing module importability for operator-experience:core/imp-goal-chat.py",
+    "term": "short-term",
+    "priority": "high",
+    "status": "pending",
+    "created_at": "2026-02-25T21:32:39Z",
+    "category": "operability"
+  },
+  {
+    "id": "1772055469920",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T21:37:49Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772055968936",
+    "goal": "Restore operability by ensuring required assets exist for offline-updater-readiness:models/*.gguf",
+    "term": "short-term",
+    "priority": "high",
+    "status": "pending",
+    "created_at": "2026-02-25T21:46:08Z",
+    "category": "operability"
+  },
+  {
+    "id": "1772056508821",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T21:55:08Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772058193946",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T22:23:13Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772060819213",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T23:06:59Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772062148244",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-25T23:29:08Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772065338912",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-26T00:22:18Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772066937355",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-26T00:48:57Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772067690165",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-26T01:01:30Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772068223443",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-26T01:10:23Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772068550874",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-26T01:15:50Z",
+    "category": "wellness"
+  },
+  {
+    "id": "1772068550912",
+    "goal": "User has provided the following input:\nImprove mood through positive tasks\nConvert this into a structured, actionable AI goal.",
+    "term": "short-term",
+    "priority": "low",
+    "status": "pending",
+    "created_at": "2026-02-26T01:15:50Z",
+    "category": "wellness"
+  }
+]

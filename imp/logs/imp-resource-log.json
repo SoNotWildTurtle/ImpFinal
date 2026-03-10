@@ -1,0 +1,2298 @@
+[
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 99.8,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 99.5,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.65
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.65
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.7
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.7
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 99.6,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.6
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 99.8,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.8,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 99.5,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 99.5,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 99.6,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.94999999999999
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.3,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.69999999999999
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 99.6,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 99.6,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.5,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 99.7,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.7
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 99.6,
+        "mem": 91.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.5
+    },
+    {
+        "cpu": 99.7,
+        "mem": 91.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.55000000000001
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.7,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.6
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 99.6,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.65
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 99.4,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 99.5,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.45
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.6
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.65
+    },
+    {
+        "cpu": 99.6,
+        "mem": 91.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.44999999999999
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.7
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.7,
+        "mem": 90.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.15
+    },
+    {
+        "cpu": 99.4,
+        "mem": 90.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 94.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 99.7,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 99.7,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.5
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 90.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.35
+    },
+    {
+        "cpu": 99.6,
+        "mem": 90.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.55
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.6
+    },
+    {
+        "cpu": 99.7,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.6
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.6
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.65
+    },
+    {
+        "cpu": 99.6,
+        "mem": 91.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.5
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 99.6,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 99.7,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.65
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 98.9,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.4
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.85
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.1
+    },
+    {
+        "cpu": 99.6,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 99.8,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 99.6,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.94999999999999
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.8
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.0,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.0
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.2,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.7,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.35
+    },
+    {
+        "cpu": 99.7,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05000000000001
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.4,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.2
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.3,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.15
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.5,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.25
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.55
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.9,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.95
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 99.7,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.75
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 91.8,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 95.9
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.1,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.05
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    },
+    {
+        "cpu": 100.0,
+        "mem": 92.6,
+        "pinned_ram": 0.0,
+        "pinned_vram": 0.0,
+        "score": 96.3
+    }
+]

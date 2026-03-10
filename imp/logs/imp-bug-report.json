@@ -1,0 +1,10 @@
+[
+    {
+        "file": "temp\\block_recover.py",
+        "error": "  File \"C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\temp\\block_recover.py\", line 1\n    a=1\\n\n        ^\nSyntaxError: unexpected character after line continuation character\n"
+    },
+    {
+        "file": "tests\\test-command-transformer.py",
+        "error": "  File \"C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tests\\test-command-transformer.py\", line 13\n    from communication.imp-command-transformer import CommandTransformer\n                          ^\nSyntaxError: invalid syntax\n"
+    }
+]

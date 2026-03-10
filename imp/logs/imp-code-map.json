@@ -1,0 +1,4568 @@
+{
+  "imp/imp_processing_manager.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "MANAGER_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/bin/imp-start.py": {
+    "imports": [
+      "importlib.util",
+      "logging",
+      "multiprocessing",
+      "pathlib",
+      "sys",
+      "time"
+    ],
+    "variables": [
+      "LOG_DIR",
+      "PID_FILE",
+      "ROOT",
+      "START_LOG"
+    ],
+    "functions": [
+      "_load",
+      "_configure_logger",
+      "_run_module_function",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/bin/imp-stop.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "signal"
+    ],
+    "variables": [
+      "PID_FILE",
+      "ROOT"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/communication/imp-command-transformer.py": {
+    "imports": [
+      "hashlib",
+      "hmac",
+      "importlib.util",
+      "os",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "ALIAS_FILE",
+      "ROOT",
+      "read_json",
+      "spec",
+      "utils"
+    ],
+    "functions": [],
+    "classes": [
+      "CommandTransformer"
+    ]
+  },
+  "imp/config/imp-config-manager.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "CONFIG_FILES",
+      "ROOT"
+    ],
+    "functions": [
+      "load_config",
+      "modify_config",
+      "get_user_role"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-3d-neural-network.py": {
+    "imports": [
+      "copy",
+      "dataclasses",
+      "datetime",
+      "importlib.util",
+      "itertools",
+      "math",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [
+      "EVOLUTION_LOG",
+      "NOVEL_EXPERIMENT_LOG",
+      "NOVEL_RESEARCH_LOG",
+      "ROOT",
+      "SNAPSHOT_DIR",
+      "VISUALIZATION_LOG",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "log_evolution"
+    ],
+    "classes": [
+      "Neuron",
+      "Connection",
+      "ThreeDNeuralNetwork"
+    ]
+  },
+  "imp/core/imp-adaptive-planner.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "os",
+      "pathlib",
+      "re",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "CONTEXT_LOG",
+      "OPENAI_LAST_REQUEST",
+      "OPENAI_RPM",
+      "PLAN_FILE",
+      "ROOT",
+      "imp_utils",
+      "spec_utils"
+    ],
+    "functions": [
+      "decide_mode",
+      "_throttle",
+      "_split_directive",
+      "_weigh_goal",
+      "_context_snippets",
+      "_goal_context_refs",
+      "build_plan",
+      "save_plan"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-adversarial-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "AdversarialNN"
+    ]
+  },
+  "imp/core/imp-autonomy-controller.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "json",
+      "pathlib",
+      "subprocess",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "AUTONOMY_ACTION_MEMORY_LOG",
+      "AUTONOMY_LOG",
+      "BUG_LOG",
+      "CORE_DIR",
+      "HEAL_LOG",
+      "ROOT",
+      "__all__",
+      "bug_hunter_module",
+      "code_map_module",
+      "default_analysis",
+      "default_bug_scan",
+      "default_code_map",
+      "default_goal_update",
+      "default_self_heal",
+      "default_success_plan",
+      "ensure_logs",
+      "goal_manager_module",
+      "imp_utils",
+      "load_module",
+      "log_manager",
+      "read_json",
+      "self_healer_module",
+      "success_director_module",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "govern",
+      "force_govern"
+    ],
+    "classes": [
+      "AutonomyController"
+    ]
+  },
+  "imp/core/imp-bbi-engine.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "BBINN",
+      "CORE_DIR",
+      "LOG",
+      "MODEL",
+      "load_module",
+      "neural_manager",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "load_model"
+    ],
+    "classes": [
+      "BBIEngine"
+    ]
+  },
+  "imp/core/imp-bbi-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "BBINN"
+    ]
+  },
+  "imp/core/imp-collaboratory-engine.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "CollaboratoryNN",
+      "MODEL_PATH",
+      "load_module",
+      "neural_manager",
+      "spec",
+      "utils"
+    ],
+    "functions": [
+      "load_model",
+      "run_collaboration"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-collaboratory-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "read_json",
+      "spec",
+      "utils",
+      "write_json"
+    ],
+    "functions": [],
+    "classes": [
+      "CollaboratoryNN"
+    ]
+  },
+  "imp/core/imp-control-hub.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "dataclasses",
+      "fnmatch",
+      "importlib.util",
+      "pathlib",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "CONFIG_PATH",
+      "DEFAULT_CONFIG",
+      "HISTORY_PATH",
+      "LOG_PATH",
+      "QUEUE_PATH",
+      "ROOT",
+      "log_manager",
+      "utils"
+    ],
+    "functions": [
+      "_load_utils",
+      "_ensure_log",
+      "_cli"
+    ],
+    "classes": [
+      "PolicyMatch",
+      "ControlHub"
+    ]
+  },
+  "imp/core/imp-decision-forecaster.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "DECISION_LOG",
+      "ROOT",
+      "STRATEGY_FILE",
+      "generator",
+      "read_json",
+      "resolve_text_generator",
+      "spec",
+      "utils"
+    ],
+    "functions": [
+      "get_current_strategy",
+      "predict_outcomes"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-defense-engine.py": {
+    "imports": [
+      "importlib.util",
+      "logging",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "AUDIT_LOG",
+      "CORE_DIR",
+      "DEFENSE_SCRIPT",
+      "DefenseNN",
+      "MODEL_PATH",
+      "ROOT",
+      "load_module",
+      "log",
+      "neural_manager",
+      "read_json",
+      "utils"
+    ],
+    "functions": [
+      "_load",
+      "load_model",
+      "suspicious_count",
+      "run_defense_cycle"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-defense-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "DefenseNN"
+    ]
+  },
+  "imp/core/imp-execute.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "AdversarialNN",
+      "BBINN",
+      "CORE_DIR",
+      "CollaboratoryNN",
+      "DefenseNN",
+      "NetworkTaskNN",
+      "ProcessingManager",
+      "ProcessingManagerNN",
+      "ROOT",
+      "ResourceNN",
+      "codelock",
+      "manager_module",
+      "neural_manager"
+    ],
+    "functions": [
+      "_load",
+      "_group_spec",
+      "init_networks",
+      "_build_groups",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-goal-chat.py": {
+    "imports": [
+      "argparse",
+      "importlib.util",
+      "os",
+      "pathlib",
+      "sys",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "AUTONOMY_LOG",
+      "CHAT_LOG",
+      "COMMAND_HELP",
+      "GOALS_FILE",
+      "NOTES_DIR",
+      "OPENAI_LAST_REQUEST",
+      "OPENAI_RPM",
+      "ROOT",
+      "SYSTEM_PROMPT",
+      "_auth_path",
+      "_goal_manager_path",
+      "_speech_path",
+      "imp_authenticator",
+      "imp_goal_manager",
+      "imp_speech_to_text",
+      "imp_utils",
+      "spec_auth",
+      "spec_goal_manager",
+      "spec_speech",
+      "spec_utils"
+    ],
+    "functions": [
+      "decide_mode",
+      "_load_autonomy_entries",
+      "_format_autonomy_entry",
+      "_print_autonomy_history",
+      "_format_plan_entry",
+      "_throttle",
+      "load_notes",
+      "list_note_titles",
+      "recent_chat_entries",
+      "summarize_goals",
+      "send_chatgpt_request",
+      "evaluate_current_goals",
+      "process_command",
+      "chat_loop",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-goal-manager.py": {
+    "imports": [
+      "importlib.util",
+      "os",
+      "pathlib",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "DEFAULT_CATEGORY",
+      "GOALS_FILE",
+      "OPENAI_LAST_REQUEST",
+      "OPENAI_RPM",
+      "PRIORITIES",
+      "ROOT",
+      "openai",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "decide_mode",
+      "_load_openai",
+      "_goal_id",
+      "_timestamp",
+      "_throttle",
+      "generate_text",
+      "_normalize_goals",
+      "get_existing_goals",
+      "get_goals_by_category",
+      "summarize_categories",
+      "update_goal_category",
+      "suggest_improvement_goals",
+      "add_goals_from_code_map",
+      "add_new_goal"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-learning-memory.py": {
+    "imports": [
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CATEGORY_KEYWORDS",
+      "DECISIONS_FILE",
+      "LEARNING_FILE",
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_timestamp",
+      "_entry_key",
+      "_categorise",
+      "_build_learning",
+      "summarise_categories",
+      "store_learnings",
+      "_sorted_entries",
+      "get_recent_learnings",
+      "filter_learnings"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-message-bus.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "MAX_QUEUE_SIZE",
+      "QUEUE_FILE",
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "send_message",
+      "receive_messages",
+      "broadcast_message"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-mood-manager.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "BASELINE",
+      "EVENT_DELTAS",
+      "MOOD_FILE",
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "load_mood",
+      "save_mood",
+      "adjust_mood",
+      "decay_toward_baseline",
+      "update_mood"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-motivation.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "GOAL_MANAGER_PATH",
+      "MOOD_PATH",
+      "ROOT",
+      "goal_manager",
+      "mood_manager",
+      "spec",
+      "spec_g"
+    ],
+    "functions": [
+      "generate_motivations"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-network-task-engine.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "subprocess"
+    ],
+    "variables": [
+      "AUDITOR",
+      "DIFF_LOG",
+      "MANAGER_PATH",
+      "MODEL_PATH",
+      "NetworkTaskNN",
+      "ROOT",
+      "mgr_module",
+      "network_module",
+      "neural_manager",
+      "read_json",
+      "spec",
+      "spec_mgr",
+      "utils",
+      "utils_spec"
+    ],
+    "functions": [
+      "load_model",
+      "latest_ip_count",
+      "run_network_tasks"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-network-task-nn.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [],
+    "functions": [],
+    "classes": [
+      "NetworkTaskNN"
+    ]
+  },
+  "imp/core/imp-neural-network.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "math",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [
+      "ANALYSIS_LOG",
+      "ROOT",
+      "imp_utils",
+      "read_json",
+      "spec",
+      "write_json"
+    ],
+    "functions": [],
+    "classes": [
+      "SimpleNeuralNetwork"
+    ]
+  },
+  "imp/core/imp-nn-menu.py": {
+    "imports": [
+      "argparse",
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "SimpleNeuralNetwork",
+      "manager",
+      "nm"
+    ],
+    "functions": [
+      "_load",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-operator-dashboard.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "importlib.util",
+      "pathlib",
+      "subprocess",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "CUSTOM_ACTIONS",
+      "CUSTOM_MESSAGE",
+      "MENU_GROUPS",
+      "ROOT",
+      "imp_utils",
+      "read_json"
+    ],
+    "functions": [
+      "_load",
+      "_iter_commands",
+      "list_options",
+      "_processing_status_lines",
+      "_autonomy_status_lines",
+      "show_status_panel",
+      "_processing_diagnostics_action",
+      "_processing_timeline_action",
+      "_processing_comparison_action",
+      "_autonomy_cycle_action",
+      "_autonomy_history_lines",
+      "_autonomy_history_action",
+      "_autonomy_cycle_action_normal",
+      "_autonomy_cycle_action_force",
+      "run_menu",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-operator-ui.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "http",
+      "http.server",
+      "json",
+      "mimetypes",
+      "pathlib",
+      "urllib.parse"
+    ],
+    "variables": [
+      "ROOT",
+      "UI_DIR"
+    ],
+    "functions": [
+      "_load_dashboard",
+      "_status_payload",
+      "_guess_type",
+      "main"
+    ],
+    "classes": [
+      "OperatorHandler"
+    ]
+  },
+  "imp/core/imp-processing-analytics.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "datetime",
+      "importlib.util",
+      "json",
+      "pathlib",
+      "statistics",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "LOG_DIR",
+      "PRIORITY_ORDER",
+      "PROCESSING_LOG",
+      "ROOT",
+      "SPARK_CHARS",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_recent_events",
+      "_parse_timestamp",
+      "_sparkline",
+      "_aggregate_cycles",
+      "_summarize_group",
+      "_backlog_trend",
+      "_calculate_health",
+      "_raise_priority",
+      "_build_recommendations",
+      "_structured_action_plan",
+      "processing_health_snapshot",
+      "_status_from_score",
+      "generate_processing_report",
+      "processing_comparisons",
+      "export_report",
+      "group_diagnostics",
+      "format_group_diagnostics",
+      "format_comparisons",
+      "group_timeline",
+      "format_group_timeline",
+      "_format_report",
+      "_format_summary",
+      "format_action_plan",
+      "action_plan",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-processing-manager.py": {
+    "imports": [
+      "__future__",
+      "concurrent.futures",
+      "datetime",
+      "importlib.util",
+      "multiprocessing",
+      "os",
+      "pathlib",
+      "sys",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "EXPANSION_DIR",
+      "PROCESSING_LOG",
+      "PROCESSING_LOG_LIMIT",
+      "ProcessingManagerNN",
+      "ProcessingOptimizerNN",
+      "ProcessingResilience",
+      "ROOT",
+      "Spec",
+      "current_module",
+      "load_module",
+      "neural_manager",
+      "read_json",
+      "resource_engine",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_load_distributed_queue",
+      "_load_cluster_manager",
+      "_load_load_scheduler",
+      "_load_node_communicator",
+      "_load_node_control",
+      "_load_cloud_orchestrator",
+      "_load_processing_security",
+      "_resolve_callables",
+      "_append_processing_event",
+      "_sync_remote_nodes",
+      "_dispatch_remote_tasks",
+      "_group_worker"
+    ],
+    "classes": [
+      "ProcessingManager"
+    ]
+  },
+  "imp/core/imp-processing-nn.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "LOG_PATH",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "GroupState",
+      "ProcessingManagerNN"
+    ]
+  },
+  "imp/core/imp-processing-optimizer-nn.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "LOG_PATH",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "_OptimizerState",
+      "ProcessingOptimizerNN"
+    ]
+  },
+  "imp/core/imp-processing-resilience.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "LOG_LIMIT",
+      "LOG_PATH",
+      "ROOT",
+      "Spec",
+      "imp_utils",
+      "load_module",
+      "read_json",
+      "spec_utils",
+      "write_json"
+    ],
+    "functions": [
+      "_serialise_spec",
+      "_resolve_callable"
+    ],
+    "classes": [
+      "ProcessingResilience"
+    ]
+  },
+  "imp/core/imp-resource-engine.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "LOG_PATH",
+      "PINNED",
+      "ResourceNN",
+      "_torch_loaded",
+      "load_module",
+      "neural_manager",
+      "read_json",
+      "torch",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "pin_memory",
+      "release_pins",
+      "_pinned_usage",
+      "manage_resources"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-resource-nn.py": {
+    "imports": [
+      "os"
+    ],
+    "variables": [],
+    "functions": [],
+    "classes": [
+      "ResourceNN"
+    ]
+  },
+  "imp/core/imp-speech-to-text.py": {
+    "imports": [
+      "argparse",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_FILE",
+      "ROOT",
+      "_tone",
+      "analyze_tone"
+    ],
+    "functions": [
+      "_load",
+      "transcribe",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-status-monitor.py": {
+    "imports": [
+      "importlib.util",
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "STATUS_FILE",
+      "spec",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "log_status"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-strategy-generator.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LEARNING_FILE",
+      "ROOT",
+      "STRATEGY_FILE",
+      "generator",
+      "read_json",
+      "resolve_text_generator",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "generate_new_strategy"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-task-executor.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "GOALS_FILE",
+      "PRIORITY_ORDER",
+      "ROOT",
+      "imp_mood_manager",
+      "imp_utils",
+      "spec",
+      "spec_utils"
+    ],
+    "functions": [
+      "get_goals",
+      "get_pending_goals",
+      "execute_goals"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-tone-analyzer.py": {
+    "imports": [
+      "argparse",
+      "json",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "LOG_FILE",
+      "NEGATIVE",
+      "POSITIVE",
+      "ROOT",
+      "SIGNATURES_FILE"
+    ],
+    "functions": [
+      "analyze_tone",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-voice-menu.py": {
+    "imports": [
+      "curses",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "run_menu",
+      "slider",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp-voice.py": {
+    "imports": [
+      "argparse",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "VOICE_LOG"
+    ],
+    "functions": [
+      "get_default_female_voice",
+      "find_voice_by_name",
+      "speak",
+      "list_voices",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp_neural_manager.py": {
+    "imports": [
+      "typing"
+    ],
+    "variables": [
+      "manager"
+    ],
+    "functions": [],
+    "classes": [
+      "NeuralManager"
+    ]
+  },
+  "imp/core/imp_processing_forecaster.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "collections",
+      "importlib.util",
+      "json",
+      "pathlib",
+      "statistics",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "FORECAST_LOG",
+      "LOG_DIR",
+      "PROCESSING_LOG",
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_recent_events",
+      "_group_time_series",
+      "_linear_forecast",
+      "_confidence",
+      "forecast_processing_metrics",
+      "export_forecast",
+      "_build_parser",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/core/imp_utils.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "sys",
+      "typing"
+    ],
+    "variables": [],
+    "functions": [
+      "read_json",
+      "write_json",
+      "load_module",
+      "_fallback_generator",
+      "resolve_text_generator"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-cloud-orchestrator.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "statistics",
+      "typing"
+    ],
+    "variables": [
+      "CORE_DIR",
+      "DISCOVERY_LOG",
+      "HEALTH_LOG",
+      "LOG_DIR",
+      "ROOT",
+      "__all__",
+      "read_json",
+      "utils"
+    ],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "CloudOrchestrator"
+    ]
+  },
+  "imp/expansion/imp-cluster-manager.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "CLUSTER_NODES_FILE",
+      "LOCAL_HOSTS",
+      "ROOT"
+    ],
+    "functions": [
+      "get_cluster_nodes",
+      "distribute_workload"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-coliseum-engine.py": {
+    "imports": [
+      "__future__",
+      "collections",
+      "datetime",
+      "json",
+      "pathlib",
+      "typing",
+      "uuid"
+    ],
+    "variables": [
+      "ROOT",
+      "STATE_FILE"
+    ],
+    "functions": [
+      "_blank_state",
+      "_load_state",
+      "_save_state",
+      "register_arena",
+      "register_player",
+      "schedule_match",
+      "_update_rating",
+      "record_result",
+      "get_leaderboard",
+      "derive_mmo_insights"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-distributed-memory.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "MEM_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "_load_memory",
+      "_save_memory",
+      "store_fact",
+      "retrieve_fact"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-distributed-queue.py": {
+    "imports": [
+      "__future__",
+      "json",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "QUEUE_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "_load_queue",
+      "_save_queue",
+      "add_task",
+      "ensure_task",
+      "assign_tasks",
+      "_build_cycle",
+      "get_assigned"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-game-copilot.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "DREAM_FILE",
+      "GAMES_FILE",
+      "LOG_DIR",
+      "ROOT"
+    ],
+    "functions": [
+      "_load",
+      "_save",
+      "learn_game",
+      "build_dreamscape"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-intranet.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "INTRANET_CONFIG",
+      "ROOT"
+    ],
+    "functions": [
+      "create_intranet",
+      "sanitize_packet",
+      "execute_aliased_command"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-load-scheduler.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "CLUSTER_NODES_FILE",
+      "DQ_PATH",
+      "LOCAL_HOSTS",
+      "ROOT",
+      "TASKS_FILE",
+      "dq",
+      "spec"
+    ],
+    "functions": [
+      "get_available_nodes",
+      "schedule_tasks"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-node-communicator.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "socket",
+      "ssl"
+    ],
+    "variables": [
+      "BUS_PATH",
+      "CLUSTER_NODES_FILE",
+      "INBOUND_PORT",
+      "OUTBOUND_PORT",
+      "ROOT",
+      "bus",
+      "send_message",
+      "spec"
+    ],
+    "functions": [
+      "secure_communication",
+      "send_secure_message",
+      "broadcast_secure_message"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-node-control.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "socket",
+      "typing"
+    ],
+    "variables": [
+      "ASSIGNMENT_LOG",
+      "CLUSTER_NODES_FILE",
+      "CONFIG_DIR",
+      "CORE_DIR",
+      "HEALTH_LOG",
+      "LOG_DIR",
+      "MAX_LATENCY_HISTORY",
+      "MAX_USAGE_HISTORY",
+      "PORT_CHANGE_HISTORY_DEFAULT",
+      "ROOT",
+      "STATUS_LOG",
+      "USAGE_LOG",
+      "__all__",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_now",
+      "_load_nodes",
+      "resolve_nodes",
+      "record_statuses",
+      "record_usage",
+      "update_health",
+      "usage_summary",
+      "reachable_hosts",
+      "record_assignments"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-node-monitor.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "platform",
+      "subprocess"
+    ],
+    "variables": [
+      "CLUSTER_NODES_FILE",
+      "NODE_HEALTH_LOG",
+      "ROOT",
+      "read_json",
+      "spec",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_ping_command",
+      "_ping_host",
+      "check_node_health"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-resource-balancer.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "subprocess"
+    ],
+    "variables": [
+      "CLUSTER_NODES_FILE",
+      "LOCAL_HOSTS",
+      "RESOURCE_LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "get_system_usage",
+      "balance_resources"
+    ],
+    "classes": []
+  },
+  "imp/expansion/imp-secure-node-manager.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "ipaddress",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "COMMUNICATOR_PATH",
+      "NODES_FILE",
+      "ROOT",
+      "node_comm",
+      "secure_communication",
+      "send_secure_message",
+      "spec"
+    ],
+    "functions": [
+      "register_node",
+      "list_nodes",
+      "remove_node",
+      "manage_nodes"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-authenticator.py": {
+    "imports": [
+      "argparse",
+      "getpass",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "random",
+      "time"
+    ],
+    "variables": [
+      "CRED_FILE",
+      "LOG_FILE",
+      "OAUTH_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "load_creds",
+      "authenticate",
+      "record_attempt",
+      "authenticate_google",
+      "authenticate_google_auto",
+      "twilio_2fa",
+      "idle_relog",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-automated-defense.py": {
+    "imports": [
+      "os",
+      "pathlib",
+      "platform",
+      "shutil",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "gather_system_info",
+      "_run_python_script",
+      "_run_linux_privileged",
+      "harden_services",
+      "run_all_checks",
+      "automated_defense_cycle"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-code-lock.py": {
+    "imports": [
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "_iter_repo_files",
+      "lock_repo",
+      "unlock_repo"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-cyber-researcher.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "run_cycle",
+      "run_forever"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-firewall-manager.py": {
+    "imports": [
+      "os",
+      "shutil",
+      "subprocess"
+    ],
+    "variables": [],
+    "functions": [
+      "enforce_firewall"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-hardware-guard.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "ROOT",
+      "SECURITY_LOG"
+    ],
+    "functions": [
+      "is_being_traced",
+      "check_debug_processes",
+      "log_event",
+      "run_hardware_guard"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-identity-verifier.py": {
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "datetime",
+      "hashlib",
+      "json",
+      "typing"
+    ],
+    "variables": [
+      "__all__"
+    ],
+    "functions": [
+      "_normalise_bytes",
+      "_hash_pair",
+      "verify_merkle_membership",
+      "build_merkle_root",
+      "build_status_bitmap",
+      "_bitmap_bit_set",
+      "evaluate_status_snapshot",
+      "evaluate_credential",
+      "hash_consent_receipt",
+      "verify_consent_anchor",
+      "_domain_to_bytes",
+      "compute_typed_consent_digest",
+      "verify_typed_consent_anchor",
+      "validate_intent_envelope",
+      "evaluate_attestation_report",
+      "_iso_to_datetime",
+      "_canonical_json"
+    ],
+    "classes": [
+      "IdentityVerificationError",
+      "CredentialStatus",
+      "ConsentAnchorStatus",
+      "IntentValidationResult",
+      "AttestationStatus",
+      "StatusSnapshotResult",
+      "TypedConsentStatus"
+    ]
+  },
+  "imp/security/imp-incident-correlator.py": {
+    "imports": [
+      "__future__",
+      "collections",
+      "dataclasses",
+      "datetime",
+      "json",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "LOG_DIR",
+      "OUTPUT_FILE",
+      "REPO_ROOT"
+    ],
+    "functions": [
+      "_load_json",
+      "_normalize_threats",
+      "_normalize_network",
+      "_normalize_process",
+      "correlate_incidents",
+      "latest_report",
+      "main"
+    ],
+    "classes": [
+      "Incident"
+    ]
+  },
+  "imp/security/imp-integrity-checker.py": {
+    "imports": [
+      "hashlib",
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "INTEGRITY_LOG",
+      "ROOT",
+      "WATCHED_FILES",
+      "imp_utils",
+      "write_json"
+    ],
+    "functions": [
+      "load_module",
+      "calculate_file_hash",
+      "check_integrity"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-log-analyzer.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "subprocess"
+    ],
+    "variables": [
+      "LOG_ANALYSIS_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "analyze_logs"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-network-auditor.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "AUDIT_LOG",
+      "CONFIG_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "load_allowed_nodes",
+      "scan_connections"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-network-discovery.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "ipaddress",
+      "itertools",
+      "pathlib",
+      "socket",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "BASELINE_FILE",
+      "CONFIG_FILE",
+      "CORE_DIR",
+      "DIFF_FILE",
+      "EXPANSION_DIR",
+      "LOG_FILE",
+      "ProbeFunc",
+      "ProbeResult",
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_now",
+      "_to_bool",
+      "load_config",
+      "default_probe",
+      "_normalize_probe_result",
+      "discover_hosts",
+      "summarize_results",
+      "record_discovery",
+      "_detect_flapping",
+      "discover_from_config",
+      "_load_baseline",
+      "_save_baseline",
+      "_append_diff",
+      "_update_network_baseline",
+      "_record_node_status",
+      "_parse_positive_int",
+      "_parse_positive_float",
+      "_coerce_ports"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-network-monitor.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "BASELINE_FILE",
+      "DIFF_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "load_baseline",
+      "save_baseline",
+      "record_diff",
+      "monitor_connections"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-poison-detector.py": {
+    "imports": [
+      "hashlib",
+      "importlib",
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "CONFIG_PATH",
+      "GOALS_FILE",
+      "LEARNING_DATA",
+      "POISON_LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "load_targets",
+      "compute_checksum",
+      "detect_poisoning"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-process-auditor.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "AUDIT_LOG",
+      "ROOT",
+      "SUSPICIOUS_DIRECTORIES",
+      "SUSPICIOUS_KEYWORDS"
+    ],
+    "functions": [
+      "_load_existing_entries",
+      "_ensure_log_parent",
+      "_format_process",
+      "collect_suspicious_processes",
+      "record_audit",
+      "audit_processes"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-processing-security.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "ipaddress",
+      "pathlib",
+      "re",
+      "typing"
+    ],
+    "variables": [
+      "AUDIT_LOG",
+      "CLUSTER_NODES_FILE",
+      "CONFIG_DIR",
+      "CONFIG_FILE",
+      "CORE_DIR",
+      "DIFF_LOG",
+      "DISCOVERY_LOG",
+      "HOST_KEYS_FILE",
+      "INTRANET_CONFIG",
+      "LOG_DIR",
+      "NODE_HEALTH_LOG",
+      "PROCESS_AUDIT_LOG",
+      "ROOT",
+      "SECURITY_LOG",
+      "THREAT_LOG",
+      "_HOST_PATTERN",
+      "_IP_PATTERN",
+      "__all__",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_now",
+      "_default_config",
+      "load_config",
+      "_allowed_nodes",
+      "_load_audit_ips",
+      "_load_flagged_hosts",
+      "_load_node_health",
+      "_resolve_host_keys_file",
+      "_resolve_log_override",
+      "_normalise_fingerprint",
+      "_load_host_key_policy",
+      "_load_process_audit_flags",
+      "_parse_timestamp",
+      "_load_discovery_profiles",
+      "_load_threat_entries",
+      "_extract_identifiers_from_text",
+      "_map_threat_hosts",
+      "_parse_networks",
+      "_normalise_port_set",
+      "_identifier_in_network",
+      "_load_intranet_policy",
+      "_matches_suffix",
+      "_max_latency",
+      "_match_addresses",
+      "assess_processing_nodes"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-security-optimizer.py": {
+    "imports": [
+      "os",
+      "subprocess"
+    ],
+    "variables": [],
+    "functions": [
+      "audit_open_ports",
+      "audit_packages",
+      "run_security_checks"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-session-guard.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "datetime",
+      "importlib.util",
+      "ipaddress",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "AUTH_LOG",
+      "CONFIG_DIR",
+      "CONFIG_FILE",
+      "CORE_DIR",
+      "DEFAULT_CONFIG",
+      "LOG_DIR",
+      "ROOT",
+      "SESSION_LOG",
+      "THREAT_LOG",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_parse_ts",
+      "_now",
+      "_load_networks",
+      "_match_network",
+      "_score_session",
+      "_classify",
+      "_read_threat_hosts",
+      "evaluate_sessions",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-threat-monitor.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "subprocess"
+    ],
+    "variables": [
+      "THREAT_LOG"
+    ],
+    "functions": [
+      "detect_intrusions"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-vulnerability-scanner.py": {
+    "imports": [
+      "os",
+      "pathlib",
+      "stat"
+    ],
+    "variables": [],
+    "functions": [
+      "scan_for_exposed_keys",
+      "scan_for_weak_permissions",
+      "run_vulnerability_scan"
+    ],
+    "classes": []
+  },
+  "imp/security/imp-zero-trust-assessor.py": {
+    "imports": [
+      "__future__",
+      "dataclasses",
+      "json",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CONFIG_ROOT",
+      "LOG_ROOT",
+      "REPO_ROOT"
+    ],
+    "functions": [
+      "_read_json",
+      "collect_posture",
+      "assess",
+      "generate_report",
+      "main"
+    ],
+    "classes": [
+      "Assessment"
+    ]
+  },
+  "imp/self-improvement/imp-3d-network-tester.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "copy",
+      "importlib.util",
+      "json",
+      "pathlib",
+      "random"
+    ],
+    "variables": [
+      "ANALYZER_PATH",
+      "CANDIDATE_FILE",
+      "Connection",
+      "NETWORK_FILE",
+      "NN_PATH",
+      "Neuron",
+      "ROOT",
+      "ThreeDNeuralNetwork",
+      "analyzer_module",
+      "module",
+      "spec",
+      "spec2"
+    ],
+    "functions": [
+      "load_or_create_network",
+      "create_candidate",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-adversarial-trainer.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ADV_MODEL",
+      "AdversarialNN",
+      "MAIN_MODEL",
+      "MODEL_DIR",
+      "NeuralNetwork",
+      "ROOT",
+      "SAMPLES",
+      "adv_module",
+      "main_module",
+      "spec_adv",
+      "spec_main"
+    ],
+    "functions": [
+      "load_main",
+      "load_adv",
+      "run_adversarial_training"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-auto-heal.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "HEALER_PATH",
+      "ROOT",
+      "healer",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/self-improvement/imp-blockchain-ledger.py": {
+    "imports": [
+      "hashlib",
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "BLOB_DIR",
+      "CODE_DIR",
+      "LEDGER_FILE",
+      "MAX_BLOCKS",
+      "ROOT"
+    ],
+    "functions": [
+      "snapshot_code",
+      "_write_blob",
+      "load_ledger",
+      "save_ledger",
+      "add_block",
+      "verify_chain"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-bug-hunter.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "py_compile",
+      "time"
+    ],
+    "variables": [
+      "BUG_LOG",
+      "ROOT",
+      "SKIP_PARTS"
+    ],
+    "functions": [
+      "_resolve_pause",
+      "scan_repository"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-code-map.py": {
+    "imports": [
+      "__future__",
+      "ast",
+      "json",
+      "pathlib",
+      "re",
+      "typing"
+    ],
+    "variables": [
+      "TODO_PATTERN"
+    ],
+    "functions": [
+      "generate_code_map",
+      "_candidate_test_paths",
+      "analyze_code_map"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-code-predictor.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "PERFORMANCE_LOG",
+      "PREDICTIONS_FILE",
+      "ROOT",
+      "generator",
+      "imp_utils",
+      "spec_utils"
+    ],
+    "functions": [
+      "get_performance_metrics",
+      "predict_future_improvements"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-code-updater.py": {
+    "imports": [
+      "argparse",
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "re",
+      "shutil",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "time"
+    ],
+    "variables": [
+      "APPROVAL_FILE",
+      "BUG_LOG",
+      "CODEBASE_PATH",
+      "CODE_LOCK_PATH",
+      "PATCH_DIR",
+      "PLACEHOLDER_PATTERNS",
+      "ROOT",
+      "SELF_DIR",
+      "UPDATE_LOG",
+      "bug_hunter",
+      "codelock",
+      "imp_utils",
+      "mode_advisor",
+      "resolve_text_generator",
+      "spec_lock"
+    ],
+    "functions": [
+      "_load",
+      "is_placeholder_response",
+      "_read_json_entries",
+      "_write_json_entries",
+      "_append_update_log",
+      "decide_mode",
+      "_discover_offline_model",
+      "get_generator",
+      "list_existing_code",
+      "_changed_python_files",
+      "verify_repo_clean",
+      "write_patch",
+      "run_tests",
+      "lint_code",
+      "analyze_and_update_code",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-context-engine.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "CONTEXT_LOG",
+      "IMP_DIR",
+      "LOG_DIR",
+      "PLAN_FILE",
+      "ROOT",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_timestamp",
+      "_source_path",
+      "_extract_matches",
+      "_recent_log_entry",
+      "build_context_bundle"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-debug-sandbox.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_PATH",
+      "NN_PATH",
+      "ROOT",
+      "net_module",
+      "spec"
+    ],
+    "functions": [
+      "run_sandbox"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-defense-trainer.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "AUDIT_LOG",
+      "DefenseNN",
+      "MODEL_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "load_model",
+      "load_samples",
+      "improve_defense"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-general-intelligence-review.py": {
+    "imports": [
+      "__future__",
+      "collections",
+      "datetime",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "IMP_DIR",
+      "LOG_DIR",
+      "REVIEW_LOG",
+      "ROOT",
+      "_utils",
+      "read_json",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_timestamp",
+      "_goal_metrics",
+      "_learning_memory_metrics",
+      "_roadmap_metrics",
+      "_evolution_metrics",
+      "_operability_metrics",
+      "_trend_snapshot",
+      "_regression_flags",
+      "_load_log",
+      "_recommendations",
+      "run_review",
+      "_format_summary"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-metacognitive-analysis.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "random",
+      "typing"
+    ],
+    "variables": [
+      "DECISION_LOG",
+      "METACOGNITIVE_LOG",
+      "NN_PATH",
+      "PERFORMANCE_LOG",
+      "ROADMAP_CHECKER_PATH",
+      "ROOT",
+      "SimpleNeuralNetwork",
+      "nn_module",
+      "spec"
+    ],
+    "functions": [
+      "load_json",
+      "perform_metacognitive_analysis",
+      "update_neural_network",
+      "self_evolve_neural_network",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-model-analyzer.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "math",
+      "pathlib",
+      "time",
+      "typing"
+    ],
+    "variables": [
+      "ANALYSIS_LOG",
+      "NN3D_PATH",
+      "NN_PATH",
+      "ROOT",
+      "SimpleNeuralNetwork",
+      "ThreeDNeuralNetwork",
+      "module",
+      "module3d",
+      "spec",
+      "spec3d"
+    ],
+    "functions": [
+      "_mean_abs_diff",
+      "compare_models",
+      "compare_model_files",
+      "_mean_positional_diff",
+      "compare_3d_networks",
+      "compare_3d_network_files",
+      "temporal_analysis"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-module-operability.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "typing"
+    ],
+    "variables": [
+      "DEFAULT_PROFILES",
+      "LOG_FILE",
+      "PLAN_FILE",
+      "ROOT",
+      "goal_manager",
+      "read_json",
+      "utils",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_timestamp",
+      "_load_profiles",
+      "_auto_goal_updates_enabled",
+      "_import_check",
+      "_goal_text_for_check",
+      "_append_operability_goals",
+      "run_operability_audit"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-network-task-trainer.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "DIFF_LOG",
+      "MODEL_PATH",
+      "NetworkTaskNN",
+      "ROOT",
+      "network_module",
+      "spec"
+    ],
+    "functions": [
+      "load_model",
+      "load_samples",
+      "improve_network"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-rewrite-approval.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "APPROVAL_FILE",
+      "APPROVED_CHANGES_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "check_pending_rewrites",
+      "request_approval"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-roadmap-checker.py": {
+    "imports": [
+      "__future__",
+      "collections",
+      "datetime",
+      "json",
+      "pathlib",
+      "re",
+      "typing"
+    ],
+    "variables": [
+      "DIRECTORY_KEY",
+      "GOALS_KEY",
+      "HISTORY_LOG",
+      "MODULE_DIRECTORIES",
+      "MODULE_PATTERN",
+      "PROGRESS_LOG",
+      "ROADMAP",
+      "ROOT",
+      "SUMMARY_KEY",
+      "UNRESOLVED"
+    ],
+    "functions": [
+      "_coverage",
+      "_resolve_module",
+      "_parse_goals",
+      "_build_summary",
+      "_build_directory_summary",
+      "_timestamp",
+      "_collect_missing_modules",
+      "_load_history",
+      "_append_history",
+      "check_progress"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-self-healer.py": {
+    "imports": [
+      "difflib",
+      "hashlib",
+      "importlib.util",
+      "json",
+      "pathlib",
+      "re",
+      "shutil",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "typing"
+    ],
+    "variables": [
+      "CODE_LOCK_PATH",
+      "GOAL_CHAT_PATH",
+      "HEAL_LOG",
+      "LEDGER_FILE",
+      "LEDGER_PATH",
+      "LINT_LOG",
+      "LOG_MANAGER_PATH",
+      "PATCH_DIR",
+      "ROOT",
+      "STUB",
+      "codelock",
+      "goalchat",
+      "ledger",
+      "logmanager",
+      "spec",
+      "spec_chat",
+      "spec_lock",
+      "spec_logs"
+    ],
+    "functions": [
+      "_snapshot_content",
+      "_lint_snippet",
+      "recover_with_chatgpt",
+      "run_linter",
+      "run_tests",
+      "restore_from_ledger",
+      "restore_repository_from_ledger",
+      "verify_and_restore_repository",
+      "verify_and_heal",
+      "auto_verify_and_heal"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-self-tuner.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "PERFORMANCE_LOG",
+      "ROOT",
+      "TUNING_LOG"
+    ],
+    "functions": [
+      "get_performance_data",
+      "refine_algorithms"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-success-director.py": {
+    "imports": [
+      "__future__",
+      "datetime",
+      "pathlib",
+      "typing"
+    ],
+    "variables": [
+      "IMP_DIR",
+      "LOG_DIR",
+      "PLAN_LOG",
+      "ROOT",
+      "_utils",
+      "context_engine",
+      "goal_manager",
+      "read_json",
+      "reviewer",
+      "write_json"
+    ],
+    "functions": [
+      "_load",
+      "_timestamp",
+      "_pending_goal_texts",
+      "_add_goal",
+      "_plan_from_metrics",
+      "build_success_plan",
+      "_format_summary"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp-version-tracker.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "time"
+    ],
+    "variables": [
+      "CODEBASE_PATH",
+      "ROOT",
+      "VERSION_LOG"
+    ],
+    "functions": [
+      "list_existing_code",
+      "test_code_integrity",
+      "track_versions"
+    ],
+    "classes": []
+  },
+  "imp/self-improvement/imp_mode_advisor.py": {
+    "imports": [
+      "json",
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "ANALYSIS_LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "_load_last_diff",
+      "spatiotemporal_confidence",
+      "choose_generation_mode",
+      "evaluate_request_quality"
+    ],
+    "classes": []
+  },
+  "imp/temp/block_recover.py": {
+    "error": "unexpected character after line continuation character (<unknown>, line 1)"
+  },
+  "imp/tests/run-all-tests.py": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "os",
+      "pathlib",
+      "platform",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "SCRIPT_DIR",
+      "SH_SCRIPT"
+    ],
+    "functions": [
+      "_parse_shell_script",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-3d-network.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_basic_3d_network",
+      "test_novel_neuron",
+      "test_spawn_novel_neuron_for_task",
+      "test_guide_novel_neuron",
+      "test_task_paths",
+      "test_angle_routing",
+      "test_evolve",
+      "test_auto_evolve",
+      "test_fitness_decay",
+      "test_fitness_report",
+      "test_reactivate_dormant_neurons",
+      "test_evolution_trend",
+      "test_evolution_trend_history",
+      "test_prune_connections",
+      "test_network_stats",
+      "test_backup_connection_maintenance",
+      "test_visualization_payload_enriched",
+      "test_novel_neuron_experiment_log",
+      "test_heal_from_ledger",
+      "test_restore_repository_from_ledger",
+      "test_auto_restore_from_ledger",
+      "test_dynamic_restore_from_ledger"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-adaptive-planner.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "CONTEXT_LOG",
+      "MODULE_PATH",
+      "PLAN_FILE",
+      "ROOT",
+      "plan",
+      "planner",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-adversarial-trainer.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODEL",
+      "ROOT",
+      "SCRIPT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_adversarial_trainer"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-analysis-skill.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys",
+      "tempfile"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT",
+      "module",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-auth.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "time"
+    ],
+    "variables": [
+      "CONFIG",
+      "ROOT",
+      "SCRIPT",
+      "imp_auth",
+      "original_google_auto",
+      "spec",
+      "user"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-auto-heal-script.py": {
+    "imports": [
+      "pathlib"
+    ],
+    "variables": [
+      "SCRIPT"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-auto-heal.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "mod",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-automated-defense.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "test_automated_defense"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-autonomy-controller.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "AutonomyController",
+      "BUG_LOG",
+      "HEAL_LOG",
+      "MODULE_PATH",
+      "ROOT",
+      "autonomy",
+      "spec"
+    ],
+    "functions": [
+      "_write_json",
+      "test_autonomy_controller_cycle",
+      "test_autonomy_action_memory_feedback"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-backup-restore.py": {
+    "imports": [
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "BACKUP",
+      "RESTORE",
+      "ROOT"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-bbi-engine.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "ENGINE_PATH",
+      "LOG",
+      "MANAGER_PATH",
+      "MODEL",
+      "NN_PATH",
+      "ROOT",
+      "bbi_engine",
+      "bbi_nn",
+      "mgr_module",
+      "neural_manager",
+      "spec_engine",
+      "spec_mgr",
+      "spec_nn"
+    ],
+    "functions": [
+      "test_bbi_engine"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-bin-access.py": {
+    "imports": [
+      "os",
+      "pathlib",
+      "unittest"
+    ],
+    "variables": [],
+    "functions": [],
+    "classes": [
+      "TestBinScripts"
+    ]
+  },
+  "imp/tests/test-blockchain-ledger.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "LEDGER_FILE",
+      "MODULE_PATH",
+      "ROOT",
+      "ledger",
+      "spec"
+    ],
+    "functions": [
+      "test_blockchain_ledger"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-bug-hunter.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "BUG_HUNTER",
+      "BUG_LOG",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-chained-workflow.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "auto_heal_mod",
+      "bug",
+      "ledger"
+    ],
+    "functions": [
+      "load_module",
+      "test_chained_workflow"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-chat-keepalive.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "time"
+    ],
+    "variables": [
+      "ROOT",
+      "log",
+      "proc",
+      "script"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-chat-verify.py": {
+    "imports": [
+      "pathlib",
+      "subprocess"
+    ],
+    "variables": [
+      "ROOT",
+      "log",
+      "script"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-cloud-orchestrator.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "DISCOVERY_LOG",
+      "EXPANSION_PATH",
+      "HEALTH_LOG",
+      "LOG_DIR",
+      "ROOT"
+    ],
+    "functions": [
+      "_load_module",
+      "test_cloud_orchestrator_adapts_interval"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-code-map.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "ANALYSIS_LOG",
+      "LOG",
+      "ROOT",
+      "SCRIPT",
+      "analysis_path",
+      "module",
+      "path",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-code-updater.py": {
+    "imports": [
+      "ast",
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "funcs",
+      "module",
+      "source",
+      "spec",
+      "updater"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-coliseum-engine.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG",
+      "MODULE",
+      "ROOT",
+      "arena",
+      "coliseum",
+      "first_match",
+      "insights",
+      "leaderboard",
+      "player_one",
+      "player_two",
+      "result",
+      "second_match",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-collaboratory-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ENG_PATH",
+      "MANAGER_PATH",
+      "NN_PATH",
+      "ROOT",
+      "collab_engine",
+      "collab_nn",
+      "mgr_module",
+      "neural_manager",
+      "spec",
+      "spec_e",
+      "spec_mgr"
+    ],
+    "functions": [
+      "test_collaboratory_nn"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-command-transformer.py": {
+    "error": "invalid syntax (<unknown>, line 13)"
+  },
+  "imp/tests/test-config.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "CONFIG_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "test_ai_personality"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-context-engine.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_PATH",
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "_read_history",
+      "test_context_engine_bundle"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-control-hub-plan.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys",
+      "tempfile"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_control_hub_plan_and_submit"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-control-hub-policy.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys",
+      "tempfile"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_policy_transforms_and_approval"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-control-hub-queue.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys",
+      "tempfile"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_queue_filters_and_pause"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-control-hub.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "ControlHub",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_control_hub_plan_generation",
+      "test_control_hub_policy_denies_on_risk"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-core-functions.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LEARNING_FILE",
+      "ROOT",
+      "STRATEGY_FILE"
+    ],
+    "functions": [
+      "test_ai_learning",
+      "test_strategy_generation"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-cyber-researcher.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG",
+      "MOD",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-debug-sandbox.py": {
+    "imports": [
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "LOG",
+      "ROOT",
+      "SCRIPT"
+    ],
+    "functions": [
+      "test_debug_sandbox"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-defense-engine.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_defense_engine"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-defense-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_defense_nn"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-defense-trainer.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_defense_trainer"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-distributed-memory.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG",
+      "MODULE",
+      "ROOT",
+      "dm",
+      "fact",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-distributed-queue.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG",
+      "MODULE",
+      "ROOT",
+      "assign",
+      "assign_capacity",
+      "dq",
+      "queue",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-execute-pipeline.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_build_manager_groups"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-expansion.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "NODE_HEALTH_LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "_is_online",
+      "test_node_health"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-firewall-manager.py": {
+    "imports": [
+      "contextlib",
+      "importlib.util",
+      "io",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "_load_module",
+      "test_enforce_firewall"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-game-copilot.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_DIR",
+      "MODULE_PATH",
+      "ROOT",
+      "dream",
+      "entry",
+      "game_copilot",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-general-intelligence-review.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_PATH",
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "_load_history",
+      "test_general_intelligence_review"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-goal-chat.py": {
+    "imports": [
+      "contextlib",
+      "importlib.util",
+      "io",
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "CHAT_SCRIPT",
+      "ROOT",
+      "autonomy_log",
+      "autonomy_output",
+      "buf",
+      "control_queue",
+      "force_output",
+      "help_output",
+      "history",
+      "history_output",
+      "imp_chat",
+      "notes_output",
+      "original_controller",
+      "plans_output",
+      "reply",
+      "reply2",
+      "reply3",
+      "run_output",
+      "sample_plan",
+      "spec"
+    ],
+    "functions": [],
+    "classes": [
+      "DummyAutonomy"
+    ]
+  },
+  "imp/tests/test-goal-manager.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "GOALS_FILE",
+      "MODULE",
+      "ROOT",
+      "category_goals",
+      "gm",
+      "new_goal",
+      "spec",
+      "summary"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-hardware-guard.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "test_hardware_guard"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-identity-integration.py": {
+    "imports": [
+      "datetime",
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "MODULE",
+      "ROOT",
+      "anchor_status",
+      "anchored_hash",
+      "att_status",
+      "attestation",
+      "bitmap",
+      "bitmap_status",
+      "ciphertext",
+      "consent_status",
+      "domain_separator",
+      "envelope",
+      "expired",
+      "expired_attestation",
+      "identity",
+      "intent_status",
+      "latest_root",
+      "leaf",
+      "leaves",
+      "old_status",
+      "proof",
+      "replay",
+      "root_hash",
+      "seen_digests",
+      "spec",
+      "stale",
+      "stale_result",
+      "status",
+      "unknown_bitmap"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-identity-toolkit.py": {
+    "imports": [
+      "pathlib"
+    ],
+    "variables": [
+      "ISSUER",
+      "ROOT",
+      "SDK"
+    ],
+    "functions": [
+      "test_issuer_service_scaffold",
+      "test_identity_sdk_scaffold"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-identity-verifier.py": {
+    "imports": [
+      "datetime",
+      "importlib.util",
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "LEAVES",
+      "MODULE",
+      "ROOT",
+      "ROOT_HASH",
+      "anchor_status",
+      "anchored",
+      "att_status",
+      "attestation",
+      "ciphertext",
+      "envelope",
+      "identity",
+      "intent_status",
+      "leaf",
+      "not_revoked",
+      "proof",
+      "spec",
+      "status"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-incident-correlator.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "REPO_ROOT",
+      "incident"
+    ],
+    "functions": [
+      "_load",
+      "test_correlate_incidents_creates_report"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-install.py": {
+    "imports": [
+      "pathlib"
+    ],
+    "variables": [
+      "INSTALL_SCRIPT",
+      "ROOT"
+    ],
+    "functions": [
+      "test_install_script_exists"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-intranet.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "INTRANET_FILE",
+      "ROOT"
+    ],
+    "functions": [
+      "test_intranet_creation"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-learning-memory.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "tempfile"
+    ],
+    "variables": [
+      "MODULE",
+      "ROOT",
+      "lm",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-load-scheduler.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "shutil",
+      "tempfile",
+      "types",
+      "unittest.mock"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT"
+    ],
+    "functions": [
+      "_load_scheduler",
+      "test_load_scheduler_assigns_tasks"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-log-analyzer.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "types",
+      "unittest.mock"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "_load_module",
+      "test_log_analyzer_creates_report"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-log-manager.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "LOG_FILES",
+      "clean_logs",
+      "ensure_logs",
+      "log_manager",
+      "spec"
+    ],
+    "functions": [
+      "test_ensure_and_clean_logs"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-logs.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_FILES",
+      "ROOT"
+    ],
+    "functions": [
+      "test_logging_system"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-message-bus.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "BUS_FILE",
+      "MODULE_PATH",
+      "ROOT",
+      "bus",
+      "msgs",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-metacognition.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_metacognition"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-mode-advisor.py": {
+    "imports": [
+      "imp_mode_advisor",
+      "json",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "ANALYSIS_LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "test_spatiotemporal_confidence"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-model-analysis.py": {
+    "imports": [
+      "copy",
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "NN3D_PATH",
+      "ROOT",
+      "module",
+      "module3d",
+      "spec",
+      "spec3d"
+    ],
+    "functions": [
+      "test_compare_models",
+      "test_compare_3d_networks"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-module-imports.py": {
+    "imports": [
+      "os",
+      "pathlib",
+      "platform",
+      "subprocess",
+      "sys",
+      "unittest"
+    ],
+    "variables": [],
+    "functions": [],
+    "classes": [
+      "TestModuleImports"
+    ]
+  },
+  "imp/tests/test-module-operability.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_PATH",
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "_load_history",
+      "test_module_operability_audit",
+      "test_operability_goal_generation"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-mood-cli.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT",
+      "result"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-mood.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE",
+      "ROOT",
+      "mod",
+      "spec"
+    ],
+    "functions": [
+      "test_decay",
+      "test_update"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-motivation.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "GOAL_FILE",
+      "MODULE",
+      "MOOD_FILE",
+      "ROOT",
+      "mot",
+      "post",
+      "pre",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-network-auditor.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "test_network_auditor"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-network-discovery.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "time"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "baseline_entries",
+      "change_entry",
+      "change_hosts",
+      "change_ips",
+      "changes",
+      "diff_entries",
+      "fifth_summary",
+      "flap_entry",
+      "flapping_ips",
+      "fourth_summary",
+      "log_entries",
+      "network_discovery",
+      "node_control_module",
+      "original_status_log",
+      "port_stats",
+      "results",
+      "results_fifth",
+      "results_fourth",
+      "results_second",
+      "results_seventh",
+      "results_sixth",
+      "results_third",
+      "second_summary",
+      "seventh_summary",
+      "sixth_summary",
+      "spec",
+      "subnet_bucket",
+      "subnet_stats",
+      "summary",
+      "temp_baseline",
+      "temp_config",
+      "temp_diff",
+      "temp_health",
+      "temp_log",
+      "temp_node_status",
+      "third_summary",
+      "trimmed_config",
+      "trimmed_entry"
+    ],
+    "functions": [
+      "_fake_probe",
+      "_recovery_probe",
+      "_flap_probe",
+      "_port_change_probe",
+      "_multi_port_change_probe",
+      "_trimmed_port_change_probe"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-network-monitor.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "test_network_monitor"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-network-task-engine.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MANAGER_PATH",
+      "ROOT",
+      "SCRIPT",
+      "mgr_module",
+      "module",
+      "neural_manager",
+      "spec",
+      "spec_mgr"
+    ],
+    "functions": [
+      "test_network_task_engine"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-network-task-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_network_task_nn"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-network-task-trainer.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "module",
+      "script",
+      "spec"
+    ],
+    "functions": [
+      "test_network_task_trainer"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-neural-manager.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MANAGER_PATH",
+      "RESOURCE_PATH",
+      "ROOT",
+      "manager_module",
+      "res_module",
+      "spec_mgr",
+      "spec_res"
+    ],
+    "functions": [
+      "test_get_or_create_and_list"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-neural-network.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "os",
+      "pathlib",
+      "random"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "SKIP_LEDGER",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_forward",
+      "test_save_load",
+      "test_training",
+      "test_momentum_update",
+      "test_weight_decay",
+      "test_dropout",
+      "test_adam_optimizer",
+      "test_learning_rate_decay",
+      "test_mutation_lr_boost",
+      "test_self_analysis_logging",
+      "test_dynamic_restore_from_ledger",
+      "test_auto_restore_from_ledger",
+      "test_heal_from_ledger",
+      "test_restore_repository_from_ledger"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-nn-menu.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT",
+      "output"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-node-communicator.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "node_comm",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-node-control.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "node_control",
+      "spec"
+    ],
+    "functions": [
+      "_load",
+      "_store",
+      "test_resolve_nodes_and_logs",
+      "test_reachable_hosts_filters_only_resolved"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-node-monitor.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "nm",
+      "spec",
+      "written"
+    ],
+    "functions": [
+      "fake_write"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-operator-dashboard.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "test_operator_dashboard_lists_options",
+      "test_operator_dashboard_status_panel"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-operator-ui.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_status_payload_shape"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-optimal-path.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_optimal_path"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-performance.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "PERFORMANCE_LOG",
+      "ROOT"
+    ],
+    "functions": [
+      "test_system_performance"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-poison-detector.py": {
+    "imports": [
+      "contextlib",
+      "importlib.util",
+      "io",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "pd",
+      "poison_path",
+      "spec",
+      "test_goals",
+      "test_learning",
+      "test_log"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-process-auditor.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "types"
+    ],
+    "variables": [
+      "ROOT",
+      "module_path",
+      "process_auditor",
+      "spec"
+    ],
+    "functions": [
+      "_fake_process",
+      "run_test"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-processing-analytics.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib",
+      "subprocess",
+      "sys",
+      "unittest"
+    ],
+    "variables": [],
+    "functions": [
+      "_load"
+    ],
+    "classes": [
+      "TestProcessingAnalytics"
+    ]
+  },
+  "imp/tests/test-processing-forecaster.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "FORECASTER_PATH",
+      "LOG_DIR",
+      "PROCESSING_LOG",
+      "ROOT",
+      "forecaster",
+      "spec"
+    ],
+    "functions": [
+      "_write_log",
+      "_restore_log",
+      "test_forecast_outputs_confidence_and_predictions",
+      "test_export_forecast_creates_file"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-processing-manager-register.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_register_groups_with_options"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-processing-manager-validation.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib",
+      "sys"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "test_validate_specs_detects_missing_path"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-processing-manager.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "LOG_PATH",
+      "MANAGER_PATH",
+      "NN_PATH",
+      "OPTIMIZER_LOG_PATH",
+      "OPTIMIZER_PATH",
+      "RESILIENCE_LOG_PATH",
+      "ROOT",
+      "manager_module",
+      "nn_module",
+      "optimizer_module",
+      "spec_manager",
+      "spec_nn",
+      "spec_optimizer"
+    ],
+    "functions": [
+      "test_processing_nn_history_updates",
+      "test_processing_optimizer_plan_and_history",
+      "test_group_worker_executes_spec",
+      "test_group_worker_remote_dispatch",
+      "test_group_worker_resilience_retry"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-processing-security.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "processing_security",
+      "spec"
+    ],
+    "functions": [
+      "test_processing_security_filters_nodes"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-readiness-cli.py": {
+    "imports": [
+      "pathlib",
+      "subprocess"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "test_readiness_cli_runs"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-resource-nn.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ENGINE_PATH",
+      "NN_PATH",
+      "ROOT",
+      "engine_module",
+      "nn_module",
+      "spec_engine",
+      "spec_nn"
+    ],
+    "functions": [
+      "test_ogliodendrocyte_spawn",
+      "test_predict_with_pins",
+      "test_pin_and_release_memory",
+      "test_manage_resources"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-roadmap-checker.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "CHECKER_PATH",
+      "HISTORY_LOG",
+      "LOG",
+      "ROOT",
+      "module",
+      "spec"
+    ],
+    "functions": [
+      "_load_history",
+      "test_roadmap_checker"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-secure-node-manager.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "ROOT",
+      "snm",
+      "spec"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-security.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT"
+    ],
+    "functions": [
+      "_run_script",
+      "test_vulnerability_scanner",
+      "test_poison_detector"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-self-healer.py": {
+    "imports": [
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "HEAL_LOG",
+      "LEDGER_PATH",
+      "LINT_LOG",
+      "MODULE_PATH",
+      "PATCH_DIR",
+      "ROOT",
+      "after",
+      "after_entries",
+      "before",
+      "before_entries",
+      "before_last",
+      "dummy_path",
+      "dummy_rel",
+      "file1",
+      "file2",
+      "ledger",
+      "mismatches",
+      "module",
+      "orig_send",
+      "orig_text",
+      "patch_file",
+      "path1",
+      "path2",
+      "recover_path",
+      "recover_rel",
+      "restored",
+      "result",
+      "spec",
+      "spec_ledger"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-self-improvement.py": {
+    "imports": [
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "UPDATE_LOG"
+    ],
+    "functions": [
+      "test_code_updates"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-session-guard.py": {
+    "imports": [
+      "json"
+    ],
+    "variables": [],
+    "functions": [
+      "test_session_guard"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-speech.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-start-script.py": {
+    "imports": [
+      "pathlib"
+    ],
+    "variables": [],
+    "functions": [
+      "test_start_script_uses_absolute_executor_path"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-stop-script.py": {
+    "imports": [
+      "os",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "STOP"
+    ],
+    "functions": [
+      "test_stop_script_contains_kill"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-success-director.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "json",
+      "pathlib"
+    ],
+    "variables": [
+      "DIRECTOR",
+      "GOALS",
+      "LOG_DIR",
+      "ROOT"
+    ],
+    "functions": [
+      "_load",
+      "_read",
+      "_write",
+      "_backup",
+      "_restore",
+      "_seed_logs",
+      "main"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-tone-analyzer.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT",
+      "res1",
+      "res2",
+      "spec",
+      "tone"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-voice-menu.py": {
+    "imports": [
+      "importlib.util",
+      "pathlib"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT"
+    ],
+    "functions": [
+      "test_voice_menu_exists",
+      "test_run_menu_present"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-voice.py": {
+    "imports": [
+      "pathlib",
+      "subprocess",
+      "sys"
+    ],
+    "variables": [
+      "ROOT",
+      "SCRIPT"
+    ],
+    "functions": [],
+    "classes": []
+  },
+  "imp/tests/test-windows-support.py": {
+    "imports": [
+      "pathlib"
+    ],
+    "variables": [
+      "PS_START",
+      "ROOT",
+      "START_PY",
+      "STOP_PY"
+    ],
+    "functions": [
+      "test_start_script",
+      "test_stop_script",
+      "test_powershell_keepalive"
+    ],
+    "classes": []
+  },
+  "imp/tests/test-zero-trust-assessor.py": {
+    "imports": [
+      "__future__",
+      "importlib.util",
+      "pathlib",
+      "pytest",
+      "sys"
+    ],
+    "variables": [
+      "MODULE_PATH",
+      "SPEC",
+      "assessor"
+    ],
+    "functions": [
+      "test_zero_trust_default_passes",
+      "test_zero_trust_detects_processing_issue",
+      "test_generate_report_contains_status",
+      "test_idle_timeout_threshold"
+    ],
+    "classes": []
+  }
+}

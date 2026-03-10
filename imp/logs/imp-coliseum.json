@@ -1,0 +1,97 @@
+{
+  "arenas": {
+    "Aurora Pit": {
+      "capacity": 16,
+      "tags": [
+        "pve",
+        "ranked"
+      ],
+      "environment": "ice",
+      "created": "2026-02-26T01:15:48.323764",
+      "updated": "2026-02-26T01:15:48.323819"
+    }
+  },
+  "players": {
+    "player-1": {
+      "role": "tank",
+      "rating": 1075,
+      "guild": null,
+      "matches": 1,
+      "wins": 1,
+      "losses": 0,
+      "history": [
+        {
+          "match": "017cf3ded4714ecf9173cf39652ecb10",
+          "outcome": "win",
+          "mode": "duel",
+          "timestamp": "2026-02-26T01:15:48.333827"
+        }
+      ],
+      "joined": "2026-02-26T01:15:48.325524",
+      "updated": "2026-02-26T01:15:48.333827"
+    },
+    "player-2": {
+      "role": "mage",
+      "rating": 985,
+      "guild": null,
+      "matches": 1,
+      "wins": 0,
+      "losses": 1,
+      "history": [
+        {
+          "match": "017cf3ded4714ecf9173cf39652ecb10",
+          "outcome": "loss",
+          "mode": "duel",
+          "timestamp": "2026-02-26T01:15:48.333827"
+        }
+      ],
+      "joined": "2026-02-26T01:15:48.328069",
+      "updated": "2026-02-26T01:15:48.333827"
+    }
+  },
+  "matches": [
+    {
+      "id": "214e29eaddc547e194ed58730a253d58",
+      "arena": "Aurora Pit",
+      "players": [
+        "player-1"
+      ],
+      "mode": "solo",
+      "scheduled": "2026-02-26T01:15:48.330026",
+      "status": "scheduled",
+      "metadata": {}
+    },
+    {
+      "id": "017cf3ded4714ecf9173cf39652ecb10",
+      "arena": "Aurora Pit",
+      "players": [
+        "player-1",
+        "player-2"
+      ],
+      "mode": "duel",
+      "scheduled": "2026-02-26T01:15:48.331933",
+      "status": "completed",
+      "metadata": {},
+      "result": {
+        "winner": "player-1",
+        "completed": "2026-02-26T01:15:48.333827",
+        "metadata": {
+          "duration": 120
+        }
+      }
+    }
+  ],
+  "history": [
+    {
+      "match": "017cf3ded4714ecf9173cf39652ecb10",
+      "arena": "Aurora Pit",
+      "mode": "duel",
+      "winner": "player-1",
+      "players": [
+        "player-1",
+        "player-2"
+      ],
+      "completed": "2026-02-26T01:15:48.333827"
+    }
+  ]
+}

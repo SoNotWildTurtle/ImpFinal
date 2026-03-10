@@ -1,0 +1,25 @@
+[
+    {
+        "id": "plan-test",
+        "status": "pending",
+        "plan": {
+            "goal": "Check staging SSL expiry",
+            "intent": "security.ssl_check",
+            "confidence": 0.82,
+            "targets": [
+                "staging"
+            ],
+            "policy": {
+                "requirements": [
+                    "mfa_confirm"
+                ],
+                "denied": false
+            }
+        },
+        "metadata": {
+            "risk_score": 0.64,
+            "requester": "operator"
+        },
+        "submitted_at": 1700000000
+    }
+]

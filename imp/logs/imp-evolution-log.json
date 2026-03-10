@@ -1,0 +1,26 @@
+[
+  {
+    "neurons": 4,
+    "novel": 2,
+    "dormant": 0,
+    "reactivated": 0,
+    "reinforced": 0,
+    "backup": 0,
+    "avg_fitness": 0.875,
+    "pruned": 0,
+    "snapshot": "snapshot_20260226011456.json",
+    "timestamp": "2026-02-26T01:14:56.940380"
+  },
+  {
+    "neurons": 3,
+    "novel": 1,
+    "dormant": 0,
+    "reactivated": 0,
+    "reinforced": 0,
+    "backup": 0,
+    "avg_fitness": 1.0,
+    "pruned": 0,
+    "snapshot": "snapshot_20260226011456.json",
+    "timestamp": "2026-02-26T01:14:56.943620"
+  }
+]

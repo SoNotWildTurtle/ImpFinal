@@ -1,0 +1,782 @@
+[
+    {
+        "timestamp": "2026-01-18T21:34:08Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.638148424294642,
+        "priority": 1.2,
+        "avg_resource": 95.96888021199575,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:10Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.5509107266013347,
+        "priority": 1.2,
+        "avg_resource": 96.0758522798501,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:10Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.380437122840064,
+        "priority": 1.2,
+        "avg_resource": 95.99112122552371,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:13Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 55.074636697769165,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:14Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.700664098876811,
+        "priority": 1.2,
+        "avg_resource": 96.11502169466561,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:18Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 39.605897426605225,
+        "threads": 1,
+        "resource_score": 95.8,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:21Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.426156724441153,
+        "priority": 1.2,
+        "avg_resource": 96.17764738724559,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:21Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.842422360361202,
+        "priority": 1.2,
+        "avg_resource": 96.13199430623995,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:26Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.396145994831874,
+        "priority": 1.2,
+        "avg_resource": 96.05646289711223,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:33Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 42.045090675354004,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:40Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.394735234675073,
+        "priority": 1.2,
+        "avg_resource": 96.07247454008562,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:48Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 43.738417625427246,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:55Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.994716099153939,
+        "priority": 1.2,
+        "avg_resource": 96.27276844497791,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:34:55Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 42.554903745651245,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:57Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 47.564124584198,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:02Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.92170225514293,
+        "priority": 1.2,
+        "avg_resource": 96.18775568395503,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:03Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 47.48196005821228,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:03Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 51.90605926513672,
+        "threads": 1,
+        "resource_score": 95.95,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:04Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 51.61551070213318,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:05Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.78640108710387,
+        "priority": 1.2,
+        "avg_resource": 96.10976616158652,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:09Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 45.9111692905426,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:09Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.3044537671279155,
+        "priority": 1.2,
+        "avg_resource": 96.10233636765712,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:10Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.418687507677971,
+        "priority": 1.2,
+        "avg_resource": 96.10066406359873,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:11Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.742810095738351,
+        "priority": 1.2,
+        "avg_resource": 96.21950650839969,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:12Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 20.94082546234131,
+        "threads": 1,
+        "resource_score": 96.0,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:13Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 50.810640811920166,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:17Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.7352336333202105,
+        "priority": 1.2,
+        "avg_resource": 96.21959829187199,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:17Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 50.38224172592163,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:19Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 2.9440255094348595,
+        "priority": 1.2,
+        "avg_resource": 96.07090586437235,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:21Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.772565697591076,
+        "priority": 1.2,
+        "avg_resource": 96.19329421617368,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:41Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 25.58630347251892,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:43Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 60.67397999763489,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:50Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.734848009506243,
+        "priority": 1.2,
+        "avg_resource": 96.26193886913367,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:51Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 5.248911566299452,
+        "priority": 1.2,
+        "avg_resource": 96.25174236202568,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:35:58Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 61.09604597091675,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:00Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 57.953431129455566,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:04Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 2.8772261145039497,
+        "priority": 1.2,
+        "avg_resource": 96.10006894059876,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:04Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 57.67007756233215,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:05Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 5.071155885012763,
+        "priority": 1.2,
+        "avg_resource": 96.23683053349338,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:09Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.876998195412154,
+        "priority": 1.2,
+        "avg_resource": 96.2463267051865,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:12Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 5.295423953991715,
+        "priority": 1.2,
+        "avg_resource": 96.18292984847596,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:16Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 30.838985681533813,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:17Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 36.070157289505005,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:19Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 36.721779584884644,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:20Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 57.7879319190979,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:22Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.9470187213045764,
+        "priority": 1.2,
+        "avg_resource": 96.2179882648521,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:23Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 36.67036700248718,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:23Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.974039420774523,
+        "priority": 1.2,
+        "avg_resource": 96.22070091029713,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:24Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.180661037200148,
+        "priority": 1.2,
+        "avg_resource": 96.2558794875616,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:25Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.379951162401069,
+        "priority": 1.2,
+        "avg_resource": 96.1812717593117,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:26Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.225883040130207,
+        "priority": 1.2,
+        "avg_resource": 96.2708519525199,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:29Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.063813432090543,
+        "priority": 1.2,
+        "avg_resource": 95.95519921907962,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:34Z",
+        "group": "autonomy",
+        "event": "cycle",
+        "duration": 481.5695629119873,
+        "threads": 1,
+        "resource_score": 94.95,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:40Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 27.863032579421997,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:41Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 18.740906715393066,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:44Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 30.730850219726562,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:46Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 32.758946895599365,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:47Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.4928969393430225,
+        "priority": 1.2,
+        "avg_resource": 96.09104916004802,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:48Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.037460896844877,
+        "priority": 1.2,
+        "avg_resource": 96.1405227086077,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:50Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 25.825223445892334,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:51Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.994984262102778,
+        "priority": 1.2,
+        "avg_resource": 96.12889801155595,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:52Z",
+        "group": "autonomy",
+        "event": "plan",
+        "threads": 1,
+        "pause": 32.2740755051384,
+        "priority": 1.1892,
+        "avg_resource": 93.35740000000001,
+        "avg_backlog": 0.9460000000000001
+    },
+    {
+        "timestamp": "2026-01-18T21:36:53Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 4.305975181472777,
+        "priority": 1.2,
+        "avg_resource": 96.0598789545428,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:54Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 29.27659845352173,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:55Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 29.973005056381226,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:57Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.678359054786006,
+        "priority": 1.2,
+        "avg_resource": 96.1635816607401,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:36:57Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 29.01783776283264,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:59Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 27.178366899490356,
+        "threads": 1,
+        "resource_score": 95.55,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:01Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.470941034883942,
+        "priority": 1.2,
+        "avg_resource": 96.10121027308915,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:37:02Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.609742530394259,
+        "priority": 1.2,
+        "avg_resource": 96.05176384626847,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:37:04Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.5840251121117754,
+        "priority": 1.2,
+        "avg_resource": 96.11625558575597,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:37:05Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.4124854594579492,
+        "priority": 1.2,
+        "avg_resource": 95.81155976572389,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:37:14Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 17.388656854629517,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:21Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 2.8624281799134677,
+        "priority": 1.2,
+        "avg_resource": 96.16039647945563,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:37:29Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 36.089807987213135,
+        "threads": 1,
+        "resource_score": 95.95,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:35Z",
+        "group": "self_improvement",
+        "event": "cycle",
+        "duration": 19.204021215438843,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:42Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 3.8211903264351577,
+        "priority": 1.2,
+        "avg_resource": 96.14366940346679,
+        "avg_backlog": 1.0
+    },
+    {
+        "timestamp": "2026-01-18T21:37:43Z",
+        "group": "self_improvement",
+        "event": "plan",
+        "threads": 1,
+        "pause": 2.725931628763549,
+        "priority": 1.2,
+        "avg_resource": 96.11731474801441,
+        "avg_backlog": 1.0
+    }
+]

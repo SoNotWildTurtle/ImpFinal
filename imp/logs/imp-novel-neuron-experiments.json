@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-02-25T22:25:14.465839",
+    "experiments": [
+      {
+        "neuron": 1,
+        "type": "novel_0",
+        "objective": "stability_assessment",
+        "priority": "baseline",
+        "confidence": 0.6,
+        "recommended_task": "research",
+        "distance_to_core": 0.5,
+        "neighbor_usage": 1,
+        "notes": "monitor task response across research"
+      }
+    ],
+    "spatial": {
+      "bounding_box": {
+        "x": {
+          "min": 0,
+          "max": 1
+        },
+        "y": {
+          "min": 0,
+          "max": 0
+        },
+        "z": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "centroid": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "radius": 0.5,
+      "average_spacing": 1.0,
+      "volume": 0
+    }
+  }
+]

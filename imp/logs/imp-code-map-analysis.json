@@ -1,0 +1,431 @@
+{
+  "imp/bin/imp-start.py": {
+    "missing_test": true
+  },
+  "imp/bin/imp-stop.py": {
+    "missing_test": true
+  },
+  "imp/config/imp-config-manager.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-adversarial-nn.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-bbi-nn.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-collaboratory-engine.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-decision-forecaster.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-execute.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-mood-manager.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-processing-nn.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-processing-optimizer-nn.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-processing-resilience.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-resource-engine.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-speech-to-text.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-status-monitor.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-strategy-generator.py": {
+    "missing_test": true
+  },
+  "imp/core/imp-task-executor.py": {
+    "missing_test": true
+  },
+  "imp/core/imp_utils.py": {
+    "missing_test": true
+  },
+  "imp/expansion/imp-cluster-manager.py": {
+    "missing_test": true
+  },
+  "imp/expansion/imp-resource-balancer.py": {
+    "missing_test": true
+  },
+  "imp/security/imp-authenticator.py": {
+    "missing_test": true
+  },
+  "imp/security/imp-code-lock.py": {
+    "missing_test": true
+  },
+  "imp/security/imp-integrity-checker.py": {
+    "missing_test": true
+  },
+  "imp/security/imp-security-optimizer.py": {
+    "missing_test": true
+  },
+  "imp/security/imp-threat-monitor.py": {
+    "missing_test": true
+  },
+  "imp/security/imp-vulnerability-scanner.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-3d-network-tester.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-code-predictor.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-metacognitive-analysis.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-model-analyzer.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-rewrite-approval.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-self-tuner.py": {
+    "missing_test": true
+  },
+  "imp/self-improvement/imp-version-tracker.py": {
+    "missing_test": true
+  },
+  "imp/temp/block_recover.py": {
+    "missing_test": true
+  },
+  "imp/tests/run-all-tests.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-3d-network.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-adaptive-planner.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-adversarial-trainer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-analysis-skill.py": {
+    "missing_test": true,
+    "todos": [
+      {
+        "line": 18,
+        "text": "(base / \"module.py\").write_text(\"# TODO: add function\\n\")"
+      }
+    ]
+  },
+  "imp/tests/test-auth.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-auto-heal-script.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-auto-heal.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-automated-defense.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-autonomy-controller.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-backup-restore.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-bbi-engine.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-bin-access.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-blockchain-ledger.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-bug-hunter.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-chained-workflow.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-chat-keepalive.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-chat-verify.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-cloud-orchestrator.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-code-map.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-code-updater.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-coliseum-engine.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-collaboratory-nn.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-command-transformer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-config.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-context-engine.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-control-hub-plan.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-control-hub-policy.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-control-hub-queue.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-control-hub.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-core-functions.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-cyber-researcher.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-debug-sandbox.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-defense-engine.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-defense-nn.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-defense-trainer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-distributed-memory.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-distributed-queue.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-execute-pipeline.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-expansion.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-firewall-manager.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-game-copilot.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-general-intelligence-review.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-goal-chat.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-goal-manager.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-hardware-guard.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-identity-integration.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-identity-toolkit.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-identity-verifier.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-incident-correlator.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-install.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-intranet.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-learning-memory.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-load-scheduler.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-log-analyzer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-log-manager.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-logs.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-message-bus.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-metacognition.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-mode-advisor.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-model-analysis.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-module-imports.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-module-operability.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-mood-cli.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-mood.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-motivation.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-network-auditor.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-network-discovery.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-network-monitor.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-network-task-engine.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-network-task-nn.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-network-task-trainer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-neural-manager.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-neural-network.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-nn-menu.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-node-communicator.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-node-control.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-node-monitor.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-operator-dashboard.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-operator-ui.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-optimal-path.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-performance.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-poison-detector.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-process-auditor.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-processing-analytics.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-processing-forecaster.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-processing-manager-register.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-processing-manager-validation.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-processing-manager.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-processing-security.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-readiness-cli.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-resource-nn.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-roadmap-checker.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-secure-node-manager.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-security.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-self-healer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-self-improvement.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-session-guard.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-speech.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-start-script.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-stop-script.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-success-director.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-tone-analyzer.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-voice-menu.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-voice.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-windows-support.py": {
+    "missing_test": true
+  },
+  "imp/tests/test-zero-trust-assessor.py": {
+    "missing_test": true
+  }
+}

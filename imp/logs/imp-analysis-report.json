@@ -1,0 +1,1321 @@
+{
+  "root": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy",
+  "generated_at": "2026-02-10T00:11:00.923786+00:00",
+  "truncated": false,
+  "summary": {
+    "files": 304,
+    "directories": 18,
+    "total_bytes": 13966991,
+    "tests_dirs": [
+      "imp\\tests"
+    ]
+  },
+  "extensions": {
+    ".py": 201,
+    ".sh": 35,
+    ".json": 22,
+    ".txt": 17,
+    ".ts": 14,
+    ".md": 10,
+    ".ps1": 2,
+    ".sol": 2,
+    "<none>": 1
+  },
+  "language_summary": {
+    "python": 201,
+    "shell": 37,
+    "json": 22,
+    "other": 20,
+    "typescript": 14,
+    "markdown": 10
+  },
+  "largest_files": [
+    {
+      "path": "imp\\tests\\test-self-healer.py",
+      "bytes": 12979798
+    },
+    {
+      "path": "imp\\expansion\\imp-cloud-orchestrator.py",
+      "bytes": 40664
+    },
+    {
+      "path": "imp\\core\\imp-3d-neural-network.py",
+      "bytes": 38220
+    },
+    {
+      "path": "imp\\core\\imp-processing-analytics.py",
+      "bytes": 37530
+    },
+    {
+      "path": "imp\\security\\imp-processing-security.py",
+      "bytes": 35819
+    },
+    {
+      "path": "imp\\notes\\project-structure.txt",
+      "bytes": 28799
+    },
+    {
+      "path": "imp\\security\\imp-network-discovery.py",
+      "bytes": 27819
+    },
+    {
+      "path": "imp\\core\\imp-goal-chat.py",
+      "bytes": 23078
+    },
+    {
+      "path": "skills\\analysis_skill.py",
+      "bytes": 21049
+    },
+    {
+      "path": "imp\\core\\imp-control-hub.py",
+      "bytes": 19463
+    },
+    {
+      "path": "imp\\core\\imp-autonomy-controller.py",
+      "bytes": 19106
+    },
+    {
+      "path": "README.md",
+      "bytes": 17831
+    },
+    {
+      "path": "imp\\core\\imp-operator-dashboard.py",
+      "bytes": 17053
+    },
+    {
+      "path": "imp\\core\\imp-neural-network.py",
+      "bytes": 16739
+    },
+    {
+      "path": "imp\\security\\imp-identity-verifier.py",
+      "bytes": 16604
+    },
+    {
+      "path": "imp\\notes\\next-gen-imp-strategy.txt",
+      "bytes": 16319
+    },
+    {
+      "path": "CohesionMap.txt",
+      "bytes": 15750
+    },
+    {
+      "path": "imp\\self-improvement\\imp-self-healer.py",
+      "bytes": 15403
+    },
+    {
+      "path": "imp\\core\\imp-processing-manager.py",
+      "bytes": 15173
+    },
+    {
+      "path": "imp\\tests\\test-network-discovery.py",
+      "bytes": 15045
+    }
+  ],
+  "top_directories": [
+    {
+      "path": "imp",
+      "files": 294,
+      "bytes": 13893209
+    },
+    {
+      "path": ".",
+      "files": 8,
+      "bytes": 52118
+    },
+    {
+      "path": "skills",
+      "files": 2,
+      "bytes": 21664
+    }
+  ],
+  "entrypoints": [
+    {
+      "path": "imp\\bin\\imp-auto-heal-run.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-auto-heal.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-backup.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-chat-keepalive.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-chat.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-control-hub.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-defend.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-enhance.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-google-login.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-incident-report.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-install.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-login.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-mood.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-motivate.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-network-audit.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-network-monitor.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-nn-menu.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-operator-dashboard.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-processing-forecast.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-processing-report.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-readiness.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-restore.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-self-destruct.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-self-heal.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-speech.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-start.py",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-start.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-status.sh",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-stop.py",
+      "type": "script"
+    },
+    {
+      "path": "imp\\bin\\imp-stop.sh",
+      "type": "script"
+    }
+  ],
+  "todos": [
+    {
+      "path": "imp\\tests\\test-analysis-skill.py",
+      "line": 18,
+      "text": "(base / \"module.py\").write_text(\"# TODO: add function\\n\")"
+    },
+    {
+      "path": "skills\\analysis_skill.py",
+      "line": 538,
+      "text": "lines.append(\"## TODO / FIXME\")"
+    }
+  ],
+  "missing_tests": [
+    {
+      "path": "imp\\imp_processing_manager.py",
+      "suggested_tests": [
+        "imp_processing_manager-test.py",
+        "imp_processing_manager_test.py",
+        "test-imp_processing_manager.py",
+        "test_imp_processing_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\bin\\imp-start.py",
+      "suggested_tests": [
+        "imp-start-test.py",
+        "imp_start_test.py",
+        "test-imp-start.py",
+        "test_imp_start.py"
+      ]
+    },
+    {
+      "path": "imp\\bin\\imp-stop.py",
+      "suggested_tests": [
+        "imp-stop-test.py",
+        "imp_stop_test.py",
+        "test-imp-stop.py",
+        "test_imp_stop.py"
+      ]
+    },
+    {
+      "path": "imp\\communication\\imp-command-transformer.py",
+      "suggested_tests": [
+        "imp-command-transformer-test.py",
+        "imp_command_transformer_test.py",
+        "test-imp-command-transformer.py",
+        "test_imp_command_transformer.py"
+      ]
+    },
+    {
+      "path": "imp\\config\\imp-config-manager.py",
+      "suggested_tests": [
+        "imp-config-manager-test.py",
+        "imp_config_manager_test.py",
+        "test-imp-config-manager.py",
+        "test_imp_config_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-3d-neural-network.py",
+      "suggested_tests": [
+        "imp-3d-neural-network-test.py",
+        "imp_3d_neural_network_test.py",
+        "test-imp-3d-neural-network.py",
+        "test_imp_3d_neural_network.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-adaptive-planner.py",
+      "suggested_tests": [
+        "imp-adaptive-planner-test.py",
+        "imp_adaptive_planner_test.py",
+        "test-imp-adaptive-planner.py",
+        "test_imp_adaptive_planner.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-adversarial-nn.py",
+      "suggested_tests": [
+        "imp-adversarial-nn-test.py",
+        "imp_adversarial_nn_test.py",
+        "test-imp-adversarial-nn.py",
+        "test_imp_adversarial_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-autonomy-controller.py",
+      "suggested_tests": [
+        "imp-autonomy-controller-test.py",
+        "imp_autonomy_controller_test.py",
+        "test-imp-autonomy-controller.py",
+        "test_imp_autonomy_controller.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-bbi-engine.py",
+      "suggested_tests": [
+        "imp-bbi-engine-test.py",
+        "imp_bbi_engine_test.py",
+        "test-imp-bbi-engine.py",
+        "test_imp_bbi_engine.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-bbi-nn.py",
+      "suggested_tests": [
+        "imp-bbi-nn-test.py",
+        "imp_bbi_nn_test.py",
+        "test-imp-bbi-nn.py",
+        "test_imp_bbi_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-collaboratory-engine.py",
+      "suggested_tests": [
+        "imp-collaboratory-engine-test.py",
+        "imp_collaboratory_engine_test.py",
+        "test-imp-collaboratory-engine.py",
+        "test_imp_collaboratory_engine.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-collaboratory-nn.py",
+      "suggested_tests": [
+        "imp-collaboratory-nn-test.py",
+        "imp_collaboratory_nn_test.py",
+        "test-imp-collaboratory-nn.py",
+        "test_imp_collaboratory_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-control-hub.py",
+      "suggested_tests": [
+        "imp-control-hub-test.py",
+        "imp_control_hub_test.py",
+        "test-imp-control-hub.py",
+        "test_imp_control_hub.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-decision-forecaster.py",
+      "suggested_tests": [
+        "imp-decision-forecaster-test.py",
+        "imp_decision_forecaster_test.py",
+        "test-imp-decision-forecaster.py",
+        "test_imp_decision_forecaster.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-defense-engine.py",
+      "suggested_tests": [
+        "imp-defense-engine-test.py",
+        "imp_defense_engine_test.py",
+        "test-imp-defense-engine.py",
+        "test_imp_defense_engine.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-defense-nn.py",
+      "suggested_tests": [
+        "imp-defense-nn-test.py",
+        "imp_defense_nn_test.py",
+        "test-imp-defense-nn.py",
+        "test_imp_defense_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-execute.py",
+      "suggested_tests": [
+        "imp-execute-test.py",
+        "imp_execute_test.py",
+        "test-imp-execute.py",
+        "test_imp_execute.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-goal-chat.py",
+      "suggested_tests": [
+        "imp-goal-chat-test.py",
+        "imp_goal_chat_test.py",
+        "test-imp-goal-chat.py",
+        "test_imp_goal_chat.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-goal-manager.py",
+      "suggested_tests": [
+        "imp-goal-manager-test.py",
+        "imp_goal_manager_test.py",
+        "test-imp-goal-manager.py",
+        "test_imp_goal_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-learning-memory.py",
+      "suggested_tests": [
+        "imp-learning-memory-test.py",
+        "imp_learning_memory_test.py",
+        "test-imp-learning-memory.py",
+        "test_imp_learning_memory.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-message-bus.py",
+      "suggested_tests": [
+        "imp-message-bus-test.py",
+        "imp_message_bus_test.py",
+        "test-imp-message-bus.py",
+        "test_imp_message_bus.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-mood-manager.py",
+      "suggested_tests": [
+        "imp-mood-manager-test.py",
+        "imp_mood_manager_test.py",
+        "test-imp-mood-manager.py",
+        "test_imp_mood_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-motivation.py",
+      "suggested_tests": [
+        "imp-motivation-test.py",
+        "imp_motivation_test.py",
+        "test-imp-motivation.py",
+        "test_imp_motivation.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-network-task-engine.py",
+      "suggested_tests": [
+        "imp-network-task-engine-test.py",
+        "imp_network_task_engine_test.py",
+        "test-imp-network-task-engine.py",
+        "test_imp_network_task_engine.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-network-task-nn.py",
+      "suggested_tests": [
+        "imp-network-task-nn-test.py",
+        "imp_network_task_nn_test.py",
+        "test-imp-network-task-nn.py",
+        "test_imp_network_task_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-neural-network.py",
+      "suggested_tests": [
+        "imp-neural-network-test.py",
+        "imp_neural_network_test.py",
+        "test-imp-neural-network.py",
+        "test_imp_neural_network.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-nn-menu.py",
+      "suggested_tests": [
+        "imp-nn-menu-test.py",
+        "imp_nn_menu_test.py",
+        "test-imp-nn-menu.py",
+        "test_imp_nn_menu.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-operator-dashboard.py",
+      "suggested_tests": [
+        "imp-operator-dashboard-test.py",
+        "imp_operator_dashboard_test.py",
+        "test-imp-operator-dashboard.py",
+        "test_imp_operator_dashboard.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-processing-analytics.py",
+      "suggested_tests": [
+        "imp-processing-analytics-test.py",
+        "imp_processing_analytics_test.py",
+        "test-imp-processing-analytics.py",
+        "test_imp_processing_analytics.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-processing-manager.py",
+      "suggested_tests": [
+        "imp-processing-manager-test.py",
+        "imp_processing_manager_test.py",
+        "test-imp-processing-manager.py",
+        "test_imp_processing_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-processing-nn.py",
+      "suggested_tests": [
+        "imp-processing-nn-test.py",
+        "imp_processing_nn_test.py",
+        "test-imp-processing-nn.py",
+        "test_imp_processing_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-processing-optimizer-nn.py",
+      "suggested_tests": [
+        "imp-processing-optimizer-nn-test.py",
+        "imp_processing_optimizer_nn_test.py",
+        "test-imp-processing-optimizer-nn.py",
+        "test_imp_processing_optimizer_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-processing-resilience.py",
+      "suggested_tests": [
+        "imp-processing-resilience-test.py",
+        "imp_processing_resilience_test.py",
+        "test-imp-processing-resilience.py",
+        "test_imp_processing_resilience.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-resource-engine.py",
+      "suggested_tests": [
+        "imp-resource-engine-test.py",
+        "imp_resource_engine_test.py",
+        "test-imp-resource-engine.py",
+        "test_imp_resource_engine.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-resource-nn.py",
+      "suggested_tests": [
+        "imp-resource-nn-test.py",
+        "imp_resource_nn_test.py",
+        "test-imp-resource-nn.py",
+        "test_imp_resource_nn.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-speech-to-text.py",
+      "suggested_tests": [
+        "imp-speech-to-text-test.py",
+        "imp_speech_to_text_test.py",
+        "test-imp-speech-to-text.py",
+        "test_imp_speech_to_text.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-status-monitor.py",
+      "suggested_tests": [
+        "imp-status-monitor-test.py",
+        "imp_status_monitor_test.py",
+        "test-imp-status-monitor.py",
+        "test_imp_status_monitor.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-strategy-generator.py",
+      "suggested_tests": [
+        "imp-strategy-generator-test.py",
+        "imp_strategy_generator_test.py",
+        "test-imp-strategy-generator.py",
+        "test_imp_strategy_generator.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-task-executor.py",
+      "suggested_tests": [
+        "imp-task-executor-test.py",
+        "imp_task_executor_test.py",
+        "test-imp-task-executor.py",
+        "test_imp_task_executor.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-tone-analyzer.py",
+      "suggested_tests": [
+        "imp-tone-analyzer-test.py",
+        "imp_tone_analyzer_test.py",
+        "test-imp-tone-analyzer.py",
+        "test_imp_tone_analyzer.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-voice-menu.py",
+      "suggested_tests": [
+        "imp-voice-menu-test.py",
+        "imp_voice_menu_test.py",
+        "test-imp-voice-menu.py",
+        "test_imp_voice_menu.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp-voice.py",
+      "suggested_tests": [
+        "imp-voice-test.py",
+        "imp_voice_test.py",
+        "test-imp-voice.py",
+        "test_imp_voice.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp_neural_manager.py",
+      "suggested_tests": [
+        "imp_neural_manager-test.py",
+        "imp_neural_manager_test.py",
+        "test-imp_neural_manager.py",
+        "test_imp_neural_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp_processing_forecaster.py",
+      "suggested_tests": [
+        "imp_processing_forecaster-test.py",
+        "imp_processing_forecaster_test.py",
+        "test-imp_processing_forecaster.py",
+        "test_imp_processing_forecaster.py"
+      ]
+    },
+    {
+      "path": "imp\\core\\imp_utils.py",
+      "suggested_tests": [
+        "imp_utils-test.py",
+        "imp_utils_test.py",
+        "test-imp_utils.py",
+        "test_imp_utils.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-cloud-orchestrator.py",
+      "suggested_tests": [
+        "imp-cloud-orchestrator-test.py",
+        "imp_cloud_orchestrator_test.py",
+        "test-imp-cloud-orchestrator.py",
+        "test_imp_cloud_orchestrator.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-cluster-manager.py",
+      "suggested_tests": [
+        "imp-cluster-manager-test.py",
+        "imp_cluster_manager_test.py",
+        "test-imp-cluster-manager.py",
+        "test_imp_cluster_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-coliseum-engine.py",
+      "suggested_tests": [
+        "imp-coliseum-engine-test.py",
+        "imp_coliseum_engine_test.py",
+        "test-imp-coliseum-engine.py",
+        "test_imp_coliseum_engine.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-distributed-memory.py",
+      "suggested_tests": [
+        "imp-distributed-memory-test.py",
+        "imp_distributed_memory_test.py",
+        "test-imp-distributed-memory.py",
+        "test_imp_distributed_memory.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-distributed-queue.py",
+      "suggested_tests": [
+        "imp-distributed-queue-test.py",
+        "imp_distributed_queue_test.py",
+        "test-imp-distributed-queue.py",
+        "test_imp_distributed_queue.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-game-copilot.py",
+      "suggested_tests": [
+        "imp-game-copilot-test.py",
+        "imp_game_copilot_test.py",
+        "test-imp-game-copilot.py",
+        "test_imp_game_copilot.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-intranet.py",
+      "suggested_tests": [
+        "imp-intranet-test.py",
+        "imp_intranet_test.py",
+        "test-imp-intranet.py",
+        "test_imp_intranet.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-load-scheduler.py",
+      "suggested_tests": [
+        "imp-load-scheduler-test.py",
+        "imp_load_scheduler_test.py",
+        "test-imp-load-scheduler.py",
+        "test_imp_load_scheduler.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-node-communicator.py",
+      "suggested_tests": [
+        "imp-node-communicator-test.py",
+        "imp_node_communicator_test.py",
+        "test-imp-node-communicator.py",
+        "test_imp_node_communicator.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-node-control.py",
+      "suggested_tests": [
+        "imp-node-control-test.py",
+        "imp_node_control_test.py",
+        "test-imp-node-control.py",
+        "test_imp_node_control.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-node-monitor.py",
+      "suggested_tests": [
+        "imp-node-monitor-test.py",
+        "imp_node_monitor_test.py",
+        "test-imp-node-monitor.py",
+        "test_imp_node_monitor.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-resource-balancer.py",
+      "suggested_tests": [
+        "imp-resource-balancer-test.py",
+        "imp_resource_balancer_test.py",
+        "test-imp-resource-balancer.py",
+        "test_imp_resource_balancer.py"
+      ]
+    },
+    {
+      "path": "imp\\expansion\\imp-secure-node-manager.py",
+      "suggested_tests": [
+        "imp-secure-node-manager-test.py",
+        "imp_secure_node_manager_test.py",
+        "test-imp-secure-node-manager.py",
+        "test_imp_secure_node_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-authenticator.py",
+      "suggested_tests": [
+        "imp-authenticator-test.py",
+        "imp_authenticator_test.py",
+        "test-imp-authenticator.py",
+        "test_imp_authenticator.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-automated-defense.py",
+      "suggested_tests": [
+        "imp-automated-defense-test.py",
+        "imp_automated_defense_test.py",
+        "test-imp-automated-defense.py",
+        "test_imp_automated_defense.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-code-lock.py",
+      "suggested_tests": [
+        "imp-code-lock-test.py",
+        "imp_code_lock_test.py",
+        "test-imp-code-lock.py",
+        "test_imp_code_lock.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-cyber-researcher.py",
+      "suggested_tests": [
+        "imp-cyber-researcher-test.py",
+        "imp_cyber_researcher_test.py",
+        "test-imp-cyber-researcher.py",
+        "test_imp_cyber_researcher.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-firewall-manager.py",
+      "suggested_tests": [
+        "imp-firewall-manager-test.py",
+        "imp_firewall_manager_test.py",
+        "test-imp-firewall-manager.py",
+        "test_imp_firewall_manager.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-hardware-guard.py",
+      "suggested_tests": [
+        "imp-hardware-guard-test.py",
+        "imp_hardware_guard_test.py",
+        "test-imp-hardware-guard.py",
+        "test_imp_hardware_guard.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-identity-verifier.py",
+      "suggested_tests": [
+        "imp-identity-verifier-test.py",
+        "imp_identity_verifier_test.py",
+        "test-imp-identity-verifier.py",
+        "test_imp_identity_verifier.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-incident-correlator.py",
+      "suggested_tests": [
+        "imp-incident-correlator-test.py",
+        "imp_incident_correlator_test.py",
+        "test-imp-incident-correlator.py",
+        "test_imp_incident_correlator.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-integrity-checker.py",
+      "suggested_tests": [
+        "imp-integrity-checker-test.py",
+        "imp_integrity_checker_test.py",
+        "test-imp-integrity-checker.py",
+        "test_imp_integrity_checker.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-log-analyzer.py",
+      "suggested_tests": [
+        "imp-log-analyzer-test.py",
+        "imp_log_analyzer_test.py",
+        "test-imp-log-analyzer.py",
+        "test_imp_log_analyzer.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-network-auditor.py",
+      "suggested_tests": [
+        "imp-network-auditor-test.py",
+        "imp_network_auditor_test.py",
+        "test-imp-network-auditor.py",
+        "test_imp_network_auditor.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-network-discovery.py",
+      "suggested_tests": [
+        "imp-network-discovery-test.py",
+        "imp_network_discovery_test.py",
+        "test-imp-network-discovery.py",
+        "test_imp_network_discovery.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-network-monitor.py",
+      "suggested_tests": [
+        "imp-network-monitor-test.py",
+        "imp_network_monitor_test.py",
+        "test-imp-network-monitor.py",
+        "test_imp_network_monitor.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-poison-detector.py",
+      "suggested_tests": [
+        "imp-poison-detector-test.py",
+        "imp_poison_detector_test.py",
+        "test-imp-poison-detector.py",
+        "test_imp_poison_detector.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-process-auditor.py",
+      "suggested_tests": [
+        "imp-process-auditor-test.py",
+        "imp_process_auditor_test.py",
+        "test-imp-process-auditor.py",
+        "test_imp_process_auditor.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-processing-security.py",
+      "suggested_tests": [
+        "imp-processing-security-test.py",
+        "imp_processing_security_test.py",
+        "test-imp-processing-security.py",
+        "test_imp_processing_security.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-security-optimizer.py",
+      "suggested_tests": [
+        "imp-security-optimizer-test.py",
+        "imp_security_optimizer_test.py",
+        "test-imp-security-optimizer.py",
+        "test_imp_security_optimizer.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-session-guard.py",
+      "suggested_tests": [
+        "imp-session-guard-test.py",
+        "imp_session_guard_test.py",
+        "test-imp-session-guard.py",
+        "test_imp_session_guard.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-threat-monitor.py",
+      "suggested_tests": [
+        "imp-threat-monitor-test.py",
+        "imp_threat_monitor_test.py",
+        "test-imp-threat-monitor.py",
+        "test_imp_threat_monitor.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-vulnerability-scanner.py",
+      "suggested_tests": [
+        "imp-vulnerability-scanner-test.py",
+        "imp_vulnerability_scanner_test.py",
+        "test-imp-vulnerability-scanner.py",
+        "test_imp_vulnerability_scanner.py"
+      ]
+    },
+    {
+      "path": "imp\\security\\imp-zero-trust-assessor.py",
+      "suggested_tests": [
+        "imp-zero-trust-assessor-test.py",
+        "imp_zero_trust_assessor_test.py",
+        "test-imp-zero-trust-assessor.py",
+        "test_imp_zero_trust_assessor.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-3d-network-tester.py",
+      "suggested_tests": [
+        "imp-3d-network-tester-test.py",
+        "imp_3d_network_tester_test.py",
+        "test-imp-3d-network-tester.py",
+        "test_imp_3d_network_tester.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-adversarial-trainer.py",
+      "suggested_tests": [
+        "imp-adversarial-trainer-test.py",
+        "imp_adversarial_trainer_test.py",
+        "test-imp-adversarial-trainer.py",
+        "test_imp_adversarial_trainer.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-auto-heal.py",
+      "suggested_tests": [
+        "imp-auto-heal-test.py",
+        "imp_auto_heal_test.py",
+        "test-imp-auto-heal.py",
+        "test_imp_auto_heal.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-blockchain-ledger.py",
+      "suggested_tests": [
+        "imp-blockchain-ledger-test.py",
+        "imp_blockchain_ledger_test.py",
+        "test-imp-blockchain-ledger.py",
+        "test_imp_blockchain_ledger.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-bug-hunter.py",
+      "suggested_tests": [
+        "imp-bug-hunter-test.py",
+        "imp_bug_hunter_test.py",
+        "test-imp-bug-hunter.py",
+        "test_imp_bug_hunter.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-code-map.py",
+      "suggested_tests": [
+        "imp-code-map-test.py",
+        "imp_code_map_test.py",
+        "test-imp-code-map.py",
+        "test_imp_code_map.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-code-predictor.py",
+      "suggested_tests": [
+        "imp-code-predictor-test.py",
+        "imp_code_predictor_test.py",
+        "test-imp-code-predictor.py",
+        "test_imp_code_predictor.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-code-updater.py",
+      "suggested_tests": [
+        "imp-code-updater-test.py",
+        "imp_code_updater_test.py",
+        "test-imp-code-updater.py",
+        "test_imp_code_updater.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-debug-sandbox.py",
+      "suggested_tests": [
+        "imp-debug-sandbox-test.py",
+        "imp_debug_sandbox_test.py",
+        "test-imp-debug-sandbox.py",
+        "test_imp_debug_sandbox.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-defense-trainer.py",
+      "suggested_tests": [
+        "imp-defense-trainer-test.py",
+        "imp_defense_trainer_test.py",
+        "test-imp-defense-trainer.py",
+        "test_imp_defense_trainer.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-general-intelligence-review.py",
+      "suggested_tests": [
+        "imp-general-intelligence-review-test.py",
+        "imp_general_intelligence_review_test.py",
+        "test-imp-general-intelligence-review.py",
+        "test_imp_general_intelligence_review.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-metacognitive-analysis.py",
+      "suggested_tests": [
+        "imp-metacognitive-analysis-test.py",
+        "imp_metacognitive_analysis_test.py",
+        "test-imp-metacognitive-analysis.py",
+        "test_imp_metacognitive_analysis.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-model-analyzer.py",
+      "suggested_tests": [
+        "imp-model-analyzer-test.py",
+        "imp_model_analyzer_test.py",
+        "test-imp-model-analyzer.py",
+        "test_imp_model_analyzer.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-network-task-trainer.py",
+      "suggested_tests": [
+        "imp-network-task-trainer-test.py",
+        "imp_network_task_trainer_test.py",
+        "test-imp-network-task-trainer.py",
+        "test_imp_network_task_trainer.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-rewrite-approval.py",
+      "suggested_tests": [
+        "imp-rewrite-approval-test.py",
+        "imp_rewrite_approval_test.py",
+        "test-imp-rewrite-approval.py",
+        "test_imp_rewrite_approval.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-roadmap-checker.py",
+      "suggested_tests": [
+        "imp-roadmap-checker-test.py",
+        "imp_roadmap_checker_test.py",
+        "test-imp-roadmap-checker.py",
+        "test_imp_roadmap_checker.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-self-healer.py",
+      "suggested_tests": [
+        "imp-self-healer-test.py",
+        "imp_self_healer_test.py",
+        "test-imp-self-healer.py",
+        "test_imp_self_healer.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-self-tuner.py",
+      "suggested_tests": [
+        "imp-self-tuner-test.py",
+        "imp_self_tuner_test.py",
+        "test-imp-self-tuner.py",
+        "test_imp_self_tuner.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-success-director.py",
+      "suggested_tests": [
+        "imp-success-director-test.py",
+        "imp_success_director_test.py",
+        "test-imp-success-director.py",
+        "test_imp_success_director.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp-version-tracker.py",
+      "suggested_tests": [
+        "imp-version-tracker-test.py",
+        "imp_version_tracker_test.py",
+        "test-imp-version-tracker.py",
+        "test_imp_version_tracker.py"
+      ]
+    },
+    {
+      "path": "imp\\self-improvement\\imp_mode_advisor.py",
+      "suggested_tests": [
+        "imp_mode_advisor-test.py",
+        "imp_mode_advisor_test.py",
+        "test-imp_mode_advisor.py",
+        "test_imp_mode_advisor.py"
+      ]
+    },
+    {
+      "path": "imp\\temp\\block_recover.py",
+      "suggested_tests": [
+        "block_recover-test.py",
+        "block_recover_test.py",
+        "test-block_recover.py",
+        "test_block_recover.py"
+      ]
+    },
+    {
+      "path": "skills\\analysis_skill.py",
+      "suggested_tests": [
+        "analysis_skill-test.py",
+        "analysis_skill_test.py",
+        "test-analysis_skill.py",
+        "test_analysis_skill.py"
+      ]
+    }
+  ],
+  "dependencies": {},
+  "test_coverage": {
+    "total_modules": 102,
+    "covered_modules": 79,
+    "coverage_percent": 77.45,
+    "referenced_modules": 80,
+    "missing_tests": [
+      "imp\\imp_processing_manager.py",
+      "imp\\communication\\imp-command-transformer.py",
+      "imp\\config\\imp-config-manager.py",
+      "imp\\core\\imp-adversarial-nn.py",
+      "imp\\core\\imp-decision-forecaster.py",
+      "imp\\core\\imp-processing-resilience.py",
+      "imp\\core\\imp-status-monitor.py",
+      "imp\\core\\imp-strategy-generator.py",
+      "imp\\core\\imp-task-executor.py",
+      "imp\\core\\imp_neural_manager.py",
+      "imp\\core\\imp_processing_forecaster.py",
+      "imp\\core\\imp_utils.py",
+      "imp\\expansion\\imp-cluster-manager.py",
+      "imp\\security\\imp-code-lock.py",
+      "imp\\security\\imp-integrity-checker.py",
+      "imp\\security\\imp-session-guard.py",
+      "imp\\self-improvement\\imp-3d-network-tester.py",
+      "imp\\self-improvement\\imp-code-predictor.py",
+      "imp\\self-improvement\\imp-rewrite-approval.py",
+      "imp\\self-improvement\\imp-self-tuner.py",
+      "imp\\self-improvement\\imp-version-tracker.py",
+      "imp\\self-improvement\\imp_mode_advisor.py",
+      "imp\\temp\\block_recover.py"
+    ]
+  },
+  "dependency_summary": {
+    "top_python_imports": [
+      [
+        "pathlib",
+        193
+      ],
+      [
+        "importlib",
+        127
+      ],
+      [
+        "json",
+        90
+      ],
+      [
+        "typing",
+        43
+      ],
+      [
+        "sys",
+        37
+      ],
+      [
+        "os",
+        35
+      ],
+      [
+        "__future__",
+        35
+      ],
+      [
+        "subprocess",
+        34
+      ],
+      [
+        "time",
+        27
+      ],
+      [
+        "argparse",
+        24
+      ],
+      [
+        "datetime",
+        22
+      ],
+      [
+        "random",
+        10
+      ],
+      [
+        "hashlib",
+        7
+      ],
+      [
+        "re",
+        7
+      ],
+      [
+        "dataclasses",
+        6
+      ],
+      [
+        "collections",
+        6
+      ],
+      [
+        "psutil",
+        5
+      ],
+      [
+        "tempfile",
+        5
+      ],
+      [
+        "unittest",
+        5
+      ],
+      [
+        "openai",
+        4
+      ]
+    ]
+  },
+  "scan_stats": {
+    "elapsed_seconds": 0.52,
+    "skipped_large": 1,
+    "skipped_binary": 0,
+    "skipped_unreadable": 0,
+    "skipped_symlink": 0
+  },
+  "risks": [
+    "Found 2 potential absolute path references."
+  ],
+  "notes": []
+}

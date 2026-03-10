@@ -1,0 +1,335 @@
+[
+    {
+        "timestamp": "2026-01-18T21:34:13Z",
+        "group": "self_improvement",
+        "duration": 45.34282875061035,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:18Z",
+        "group": "self_improvement",
+        "duration": 39.605897426605225,
+        "threads": 1,
+        "resource_score": 95.8,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:33Z",
+        "group": "self_improvement",
+        "duration": 42.045090675354004,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:48Z",
+        "group": "self_improvement",
+        "duration": 43.738417625427246,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:55Z",
+        "group": "self_improvement",
+        "duration": 42.554903745651245,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:34:57Z",
+        "group": "self_improvement",
+        "duration": 47.564124584198,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:03Z",
+        "group": "self_improvement",
+        "duration": 47.48196005821228,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:03Z",
+        "group": "self_improvement",
+        "duration": 51.90605926513672,
+        "threads": 1,
+        "resource_score": 95.95,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:04Z",
+        "group": "self_improvement",
+        "duration": 51.61551070213318,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:09Z",
+        "group": "self_improvement",
+        "duration": 45.9111692905426,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:12Z",
+        "group": "self_improvement",
+        "duration": 20.94082546234131,
+        "threads": 1,
+        "resource_score": 96.0,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:13Z",
+        "group": "self_improvement",
+        "duration": 50.810640811920166,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:17Z",
+        "group": "self_improvement",
+        "duration": 50.38224172592163,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:41Z",
+        "group": "self_improvement",
+        "duration": 25.58630347251892,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:43Z",
+        "group": "self_improvement",
+        "duration": 60.67397999763489,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:35:58Z",
+        "group": "self_improvement",
+        "duration": 61.09604597091675,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:00Z",
+        "group": "self_improvement",
+        "duration": 57.953431129455566,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:04Z",
+        "group": "self_improvement",
+        "duration": 57.67007756233215,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:16Z",
+        "group": "self_improvement",
+        "duration": 30.838985681533813,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:16Z",
+        "group": "self_improvement",
+        "duration": 35.89010047912598,
+        "threads": 1,
+        "resource_score": 96.3,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:19Z",
+        "group": "self_improvement",
+        "duration": 36.721779584884644,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:20Z",
+        "group": "self_improvement",
+        "duration": 57.7879319190979,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:22Z",
+        "group": "self_improvement",
+        "duration": 36.67036700248718,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:34Z",
+        "group": "autonomy",
+        "duration": 481.5695629119873,
+        "threads": 1,
+        "resource_score": 94.95,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:40Z",
+        "group": "self_improvement",
+        "duration": 27.863032579421997,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:40Z",
+        "group": "self_improvement",
+        "duration": 18.740906715393066,
+        "threads": 1,
+        "resource_score": 96.2,
+        "errors": 1,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:44Z",
+        "group": "self_improvement",
+        "duration": 30.730850219726562,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:46Z",
+        "group": "self_improvement",
+        "duration": 32.758946895599365,
+        "threads": 1,
+        "resource_score": 96.15,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:50Z",
+        "group": "self_improvement",
+        "duration": 25.825223445892334,
+        "threads": 1,
+        "resource_score": 96.35,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:54Z",
+        "group": "self_improvement",
+        "duration": 29.27659845352173,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:55Z",
+        "group": "self_improvement",
+        "duration": 29.973005056381226,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:57Z",
+        "group": "self_improvement",
+        "duration": 29.01783776283264,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:36:59Z",
+        "group": "self_improvement",
+        "duration": 27.178366899490356,
+        "threads": 1,
+        "resource_score": 95.55,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:14Z",
+        "group": "self_improvement",
+        "duration": 17.388656854629517,
+        "threads": 1,
+        "resource_score": 96.25,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:29Z",
+        "group": "self_improvement",
+        "duration": 36.089807987213135,
+        "threads": 1,
+        "resource_score": 95.95,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:29Z",
+        "group": "self_improvement",
+        "duration": 38.03560733795166,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 0,
+        "backlog": 1
+    },
+    {
+        "timestamp": "2026-01-18T21:37:34Z",
+        "group": "self_improvement",
+        "duration": 19.204021215438843,
+        "threads": 1,
+        "resource_score": 95.9,
+        "errors": 1,
+        "backlog": 1
+    }
+]

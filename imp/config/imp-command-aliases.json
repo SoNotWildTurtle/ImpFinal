@@ -1,0 +1,5 @@
+{
+  "ls": "LIST",
+  "cat": "READ",
+  "echo": "WRITE"
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "command": "cmd1",
+        "node": "node-a",
+        "status": "assigned"
+    },
+    {
+        "command": "cmd2",
+        "node": "node-a",
+        "status": "assigned"
+    },
+    {
+        "command": "cmd3",
+        "node": "node-a",
+        "status": "assigned"
+    },
+    {
+        "command": "cmd4",
+        "node": "node-b",
+        "status": "assigned"
+    }
+]

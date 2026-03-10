@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IMP Operator UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="orb"></div>
+    <div class="grid"></div>
+    <header class="top">
+      <div class="brand">
+        <div class="glyph">IMP</div>
+        <div class="title">
+          <span>Operator Console</span>
+          <small>Live status, telemetry, and control snapshots</small>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="pill" id="updated">Loading...</div>
+        <button class="ghost" id="refresh">Refresh</button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="card hero">
+        <div class="hero-left">
+          <h1>System Pulse</h1>
+          <p>Mission-grade overview for processing health and autonomy cycles.</p>
+          <div class="hero-stats">
+            <div>
+              <span class="label">Processing Score</span>
+              <strong id="proc-score">--</strong>
+            </div>
+            <div>
+              <span class="label">Processing Status</span>
+              <strong id="proc-status">--</strong>
+            </div>
+            <div>
+              <span class="label">Autonomy Status</span>
+              <strong id="auto-status">--</strong>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="primary" href="#" id="open-logs">Open Logs</a>
+            <button class="secondary" id="toggle-mode">Focus Mode</button>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="signal">
+            <div class="beam"></div>
+            <div class="ring"></div>
+            <div class="ring thin"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="tag">IMP Control Net</div>
+        </div>
+      </section>
+
+      <section class="grid-two">
+        <article class="card">
+          <header>
+            <h2>Processing Spotlight</h2>
+            <span class="hint">Top active groups</span>
+          </header>
+          <ul id="spotlight" class="list"></ul>
+        </article>
+        <article class="card">
+          <header>
+            <h2>Risk Watch</h2>
+            <span class="hint">Groups needing attention</span>
+          </header>
+          <ul id="risks" class="list"></ul>
+        </article>
+      </section>
+
+      <section class="grid-three">
+        <article class="card">
+          <header>
+            <h2>Leaders</h2>
+            <span class="hint">Current high performers</span>
+          </header>
+          <ul id="leaders" class="list"></ul>
+        </article>
+        <article class="card">
+          <header>
+            <h2>Next Action</h2>
+            <span class="hint">From processing analytics</span>
+          </header>
+          <div id="next-action" class="callout">No action yet.</div>
+        </article>
+        <article class="card">
+          <header>
+            <h2>Autonomy Cycle</h2>
+            <span class="hint">Most recent summary</span>
+          </header>
+          <div id="autonomy-summary" class="callout">No cycles recorded.</div>
+        </article>
+      </section>
+
+      <section class="card">
+        <header class="table-header">
+          <h2>Processing Groups</h2>
+          <span class="hint">Health, backlog, and activity snapshot</span>
+        </header>
+        <div class="table" id="groups-table"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

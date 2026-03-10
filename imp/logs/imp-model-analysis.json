@@ -1,0 +1,739 @@
+[
+    {
+        "timestamp": "2025-07-11 17:26:17",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.8472877354636781,
+            "w2_diff": 1.007193333172248
+        }
+    },
+    {
+        "timestamp": "2025-07-12 18:54:35",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.981594945867609,
+            "w2_diff": 1.5435414045388915
+        }
+    },
+    {
+        "timestamp": "2025-07-12 18:54:35",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-11 21:32:41",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.7173681501314134,
+            "w2_diff": 1.547119351809401
+        }
+    },
+    {
+        "timestamp": "2025-08-11 21:32:41",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-08-11 21:33:44",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.440789838752543,
+            "w2_diff": 0.9769785449317938
+        }
+    },
+    {
+        "timestamp": "2025-08-11 21:33:44",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:26:17",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.9011442744630193,
+            "w2_diff": 0.4731294264297172
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:26:17",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:27:19",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5064692566973694,
+            "w2_diff": 0.8992075535770052
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:27:19",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:28:22",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.4225511384848949,
+            "w2_diff": 0.5282538411044344
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:28:22",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:29:19",
+        "model_a": "/workspace/imp/imp/tmp_model1.json",
+        "model_b": "/workspace/imp/imp/tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.7111413351626288,
+            "w2_diff": 1.264259234395413
+        }
+    },
+    {
+        "timestamp": "2025-09-07 17:29:19",
+        "model_a": "/workspace/imp/imp/net_a.json",
+        "model_b": "/workspace/imp/imp/net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2025-12-31 17:35:42",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.30510444872470155,
+            "w2_diff": 0.34077056259852423
+        }
+    },
+    {
+        "timestamp": "2025-12-31 17:35:42",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:16:44",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5837054596762834,
+            "w2_diff": 0.8367842251224602
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:16:44",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:19:32",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.28805631107499385,
+            "w2_diff": 0.9192299267644258
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:19:32",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:22:39",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5860360968662608,
+            "w2_diff": 0.685189967544992
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:22:39",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:28:53",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.9092770052558034,
+            "w2_diff": 1.063170530299673
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:28:53",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:33:38",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.496554697350605,
+            "w2_diff": 1.3140919268625741
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:33:38",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:37:44",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.39766025253670434,
+            "w2_diff": 0.12818845357693487
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:37:44",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:42:21",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.7299541151472945,
+            "w2_diff": 1.3672165238633964
+        }
+    },
+    {
+        "timestamp": "2026-02-25 14:42:21",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 15:54:28",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5762646582232641,
+            "w2_diff": 0.5168448421751729
+        }
+    },
+    {
+        "timestamp": "2026-02-25 15:54:28",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 16:04:07",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.7156429939575644,
+            "w2_diff": 0.7852999837338247
+        }
+    },
+    {
+        "timestamp": "2026-02-25 16:04:07",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 16:35:55",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5534958793769988,
+            "w2_diff": 1.064883002536163
+        }
+    },
+    {
+        "timestamp": "2026-02-25 16:35:55",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 16:51:55",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.7214813851266504,
+            "w2_diff": 0.7493744725192506
+        }
+    },
+    {
+        "timestamp": "2026-02-25 16:51:55",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 17:19:29",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 1.1319866292367766,
+            "w2_diff": 0.4898485424363258
+        }
+    },
+    {
+        "timestamp": "2026-02-25 17:19:29",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 18:02:50",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.6715552474474129,
+            "w2_diff": 0.6922777534517073
+        }
+    },
+    {
+        "timestamp": "2026-02-25 18:02:50",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 18:25:23",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5313660639121757,
+            "w2_diff": 0.830139287207271
+        }
+    },
+    {
+        "timestamp": "2026-02-25 18:25:23",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 19:18:33",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.8936668043273239,
+            "w2_diff": 0.802880779337693
+        }
+    },
+    {
+        "timestamp": "2026-02-25 19:18:33",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 19:45:19",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.8423723591937867,
+            "w2_diff": 0.795589245387331
+        }
+    },
+    {
+        "timestamp": "2026-02-25 19:45:19",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 19:57:38",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5581633131722101,
+            "w2_diff": 0.7317524015015195
+        }
+    },
+    {
+        "timestamp": "2026-02-25 19:57:38",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:06:40",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.5559209997515193,
+            "w2_diff": 0.6094888107340967
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:06:40",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:15:03",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.8055666427079359,
+            "w2_diff": 0.43654719639152506
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:15:03",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:15:03",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 0.6494624950385375,
+            "w2_diff": 0.4976242741508681
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:15:03",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:22:55",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model1.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\tmp_model2.json",
+        "diff": {
+            "input_size_diff": 0,
+            "hidden_size_diff": 1,
+            "output_size_diff": 0,
+            "w1_diff": 1.2260215404179715,
+            "w2_diff": 1.250976553234399
+        }
+    },
+    {
+        "timestamp": "2026-02-25 20:22:55",
+        "model_a": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_a.json",
+        "model_b": "C:\\Users\\brave\\Desktop\\App Development Alex Graham\\imp-codex-update-imp-start.sh-to-launch-imp-execute.py-jnylqy\\imp\\net_b.json",
+        "diff": {
+            "neuron_count_diff": 1,
+            "connection_count_diff": 0,
+            "avg_position_diff": 0.0,
+            "new_types": [
+                "novel_0"
+            ]
+        }
+    }
+]
