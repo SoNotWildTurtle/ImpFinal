@@ -32,6 +32,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Run the IMP test suite.")
     parser.add_argument("--full", action="store_true", help="Run the full suite, including slow tests.")
     parser.add_argument("--fast", action="store_true", help="Force fast mode (skip slow tests).")
+    parser.add_argument("--smoke", action="store_true", help="Run only the bootstrap smoke validation.")
     parser.add_argument(
         "--allow-self-modifying-tests",
         action="store_true",
@@ -40,6 +41,10 @@ def main() -> int:
     args = parser.parse_args()
 
     print("Running Full IMP System Test Suite...")
+    if args.smoke:
+        smoke = SCRIPT_DIR / "smoke.py"
+        result = subprocess.run([sys.executable, str(smoke)])
+        return result.returncode
     tests = _parse_shell_script()
     env = os.environ.copy()
     env.setdefault("PYTHONWARNINGS", "ignore::DeprecationWarning")

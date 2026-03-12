@@ -11,12 +11,31 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 
 def test_root_command_wrappers_exist():
     for relative in [
+        "AGENTS.md",
         "bin/imp-install.sh",
         "bin/imp-start.sh",
+        "bin/imp-stop.sh",
         "bin/imp-operator-dashboard.sh",
+        "bin/imp-chat-keepalive.sh",
+        "bin/imp-control-hub.sh",
+        "bin/imp-defend.sh",
+        "bin/imp-incident-report.sh",
+        "bin/imp-network-monitor.sh",
+        "bin/imp-nn-menu.sh",
+        "bin/imp-processing-forecast.sh",
+        "bin/imp-processing-report.sh",
         "bin/imp-verify-chat.sh",
+        "bin/imp-readiness.sh",
+        "bin/imp-self-heal.sh",
+        "bin/imp-status.sh",
+        "bin/imp-success-plan.sh",
+        "bin/imp-voice-menu.sh",
+        "bin/imp-zero-trust.sh",
+        "tests/smoke.py",
         "tests/run-all-tests.sh",
         "tests/run-all-tests.py",
+        "config/README.md",
+        "models/README.md",
     ]:
         path = REPO_ROOT / relative
         assert path.exists(), f"Missing documented wrapper: {relative}"

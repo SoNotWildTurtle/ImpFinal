@@ -16,6 +16,7 @@ LOG_DIR = IMP_ROOT / "logs"
 CONFIG_DIR = IMP_ROOT / "config"
 MODELS_DIR = IMP_ROOT / "models"
 PID_FILE = LOG_DIR / "imp-pids.json"
+START_STATE_FILE = LOG_DIR / "imp-start-state.json"
 
 
 def ensure_runtime_dirs() -> None:
@@ -33,6 +34,22 @@ def read_json(path: Path, default: Any) -> Any:
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+
+
+def runtime_state(status: str, **extra: Any) -> dict[str, Any]:
+    state = {
+        "status": status,
+        "repo_root": str(REPO_ROOT),
+        "imp_root": str(IMP_ROOT),
+        "log_dir": str(LOG_DIR),
+        "config_dir": str(CONFIG_DIR),
+        "models_dir": str(MODELS_DIR),
+        "pid_file": str(PID_FILE),
+        "python": os.getenv("IMP_ACTIVE_PYTHON") or resolve_python(),
+        "platform": sys.platform,
+    }
+    state.update(extra)
+    return state
 
 
 def load_module(name: str, path: Path):
@@ -70,4 +87,3 @@ def resolve_python() -> str:
         if candidate and Path(candidate).exists():
             return str(Path(candidate))
     raise RuntimeError("Python interpreter not found. Set IMP_PYTHON or install Python.")
-
