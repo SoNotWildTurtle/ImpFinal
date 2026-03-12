@@ -1,6 +1,6 @@
 # IMP
 
-IMP (Intelligent Management Platform) is a self-adapting research environment that combines multi-modal neural networks, autonomous planning, and layered security tooling.  It is designed to run entirely in Python across Linux or Windows systems while remaining portable, auditable, and recoverable.
+IMP (Intelligece Management Platform) is a self-adapting research environment that combines multi-modal neural networks, autonomous planning, and layered security tooling.  It is designed to run entirely in Python across Linux or Windows systems while remaining portable, auditable, and recoverable.
 
 The platform is organized into modular domains:
 
