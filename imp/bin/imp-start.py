@@ -1,10 +1,17 @@
 import logging
+import os
+import sys
 import time
 from multiprocessing import Process, freeze_support
 from pathlib import Path
 
+CURRENT_FILE = Path(__file__).resolve()
+REPO_ROOT = CURRENT_FILE.parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 from imp.runtime import IMP_ROOT as ROOT
-from imp.runtime import LOG_DIR, PID_FILE, configure_file_logger, ensure_runtime_dirs, load_module, write_json
+from imp.runtime import LOG_DIR, PID_FILE, START_STATE_FILE, configure_file_logger, ensure_runtime_dirs, load_module, runtime_state, write_json
 
 
 START_LOG = LOG_DIR / "imp-start-runtime.log"
@@ -38,6 +45,15 @@ def main():
     processes = [Process(target=_run_module_function, args=spec, name=spec[0]) for spec in specs]
 
     try:
+        write_json(
+            START_STATE_FILE,
+            runtime_state(
+                "starting",
+                modules=[name for name, _, _ in specs],
+                started_at=time.time(),
+                cwd=os.getcwd(),
+            ),
+        )
         started = []
         for p in processes:
             p.start()
@@ -45,6 +61,16 @@ def main():
             started.append(p)
 
         write_json(PID_FILE, [{"name": p.name, "pid": p.pid} for p in started])
+        write_json(
+            START_STATE_FILE,
+            runtime_state(
+                "running",
+                modules=[name for name, _, _ in specs],
+                processes=[{"name": p.name, "pid": p.pid} for p in started],
+                started_at=time.time(),
+                cwd=os.getcwd(),
+            ),
+        )
 
         print("IMP AI is now running.")
         log.info("IMP AI is now running")
@@ -75,6 +101,16 @@ def main():
         for p in processes:
             if p.pid is not None:
                 p.join(timeout=5)
+        write_json(
+            START_STATE_FILE,
+            runtime_state(
+                "stopped",
+                modules=[name for name, _, _ in specs],
+                processes=[{"name": p.name, "pid": p.pid, "exitcode": p.exitcode} for p in processes],
+                finished_at=time.time(),
+                cwd=os.getcwd(),
+            ),
+        )
         log.info("IMP supervisor finished")
 
 
