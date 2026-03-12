@@ -8,56 +8,42 @@ CONFIG_FILES = {
     "permissions": ROOT / "config" / "imp-user-permissions.json",
     "registration": ROOT / "config" / "imp-user-registration.json",
     "system": ROOT / "config" / "imp-system-settings.json",
-    "environment": ROOT / "config" / "imp-environment.json"
+    "environment": ROOT / "config" / "imp-environment.json",
 }
 
 
 def load_config(config_name):
-
     if config_name not in CONFIG_FILES:
+        raise ValueError(f"Invalid configuration name: {config_name}")
 
-        print("Invalid configuration name.")
-
-        return None
-
-
-
-    with open(CONFIG_FILES[config_name], "r") as f:
-
-        return json.load(f)
-
+    path = CONFIG_FILES[config_name]
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Invalid JSON in {path}") from exc
 
 
 def modify_config(config_name, key, value):
     config = load_config(config_name)
-
-    if config is None:
-
-        return
-
-
+    if not isinstance(config, dict):
+        raise ValueError(f"Configuration {config_name} must contain a JSON object")
 
     keys = key.split(".")
-
     target = config
-
-
-
-    for k in keys[:-1]:
-
-        target = target.setdefault(k, {})
-
-
+    for part in keys[:-1]:
+        child = target.get(part)
+        if not isinstance(child, dict):
+            child = {}
+            target[part] = child
+        target = child
 
     target[keys[-1]] = value
 
-
-
-    with open(CONFIG_FILES[config_name], "w") as f:
-
+    with open(CONFIG_FILES[config_name], "w", encoding="utf-8") as f:
         json.dump(config, f, indent=4)
-
-
 
     print(f"Updated {config_name} -> {key}: {value}")
 
@@ -66,7 +52,10 @@ def modify_config(config_name, key, value):
 # your self-metacognition so you understand how my role might shape your future.
 def get_user_role(user_name: str) -> str:
     """Return the role associated with a user in the permissions config."""
-    perms = load_config("permissions")
+    try:
+        perms = load_config("permissions")
+    except ValueError:
+        return "Unknown"
     if not perms:
         return "Unknown"
     for user in perms.get("trusted_users", []):

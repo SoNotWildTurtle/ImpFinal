@@ -1,46 +1,20 @@
+import logging
+import time
 from multiprocessing import Process, freeze_support
 from pathlib import Path
-import importlib.util
-import logging
-import sys
-import time
 
-# Determine repository root so modules load correctly on all platforms
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+from imp.runtime import IMP_ROOT as ROOT
+from imp.runtime import LOG_DIR, PID_FILE, configure_file_logger, ensure_runtime_dirs, load_module, write_json
 
 
-def _load(name: str, path: Path):
-    """Dynamically load a module from the given file path."""
-    spec = importlib.util.spec_from_file_location(name, path)
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module
-
-
-LOG_DIR = ROOT / "logs"
-PID_FILE = LOG_DIR / "imp-pids.json"
 START_LOG = LOG_DIR / "imp-start-runtime.log"
 
 
-def _configure_logger(name: str, path: Path) -> logging.Logger:
-    logger = logging.getLogger(name)
-    if logger.handlers:
-        return logger
-    logger.setLevel(logging.INFO)
-    handler = logging.FileHandler(path, encoding="utf-8")
-    formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s")
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
-    logger.propagate = False
-    return logger
-
-
 def _run_module_function(module_name: str, path: Path, func_name: str) -> None:
-    logger = _configure_logger(module_name, LOG_DIR / f"imp-start-{module_name}.log")
+    logger = configure_file_logger(module_name, LOG_DIR / f"imp-start-{module_name}.log")
     logger.info("Launching %s:%s from %s", module_name, func_name, path)
     try:
-        module = _load(module_name, path)
+        module = load_module(module_name, path)
         getattr(module, func_name)()
         logger.info("%s:%s completed", module_name, func_name)
     except Exception:
@@ -49,8 +23,8 @@ def _run_module_function(module_name: str, path: Path, func_name: str) -> None:
 
 
 def main():
-    LOG_DIR.mkdir(parents=True, exist_ok=True)
-    log = _configure_logger("imp-start", START_LOG)
+    ensure_runtime_dirs()
+    log = configure_file_logger("imp-start", START_LOG)
     log.info("Starting IMP supervisor")
 
     specs = [
@@ -70,13 +44,7 @@ def main():
             log.info("Started %s pid=%s", p.name, p.pid)
             started.append(p)
 
-        with open(PID_FILE, "w", encoding="utf-8") as f:
-            import json
-            json.dump(
-                [{"name": p.name, "pid": p.pid} for p in started],
-                f,
-                indent=2,
-            )
+        write_json(PID_FILE, [{"name": p.name, "pid": p.pid} for p in started])
 
         print("IMP AI is now running.")
         log.info("IMP AI is now running")

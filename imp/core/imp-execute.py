@@ -91,13 +91,18 @@ def _build_groups():
         },
     }
 
+def build_manager(max_threads=None, max_cycles=None):
+    manager = ProcessingManager(max_threads=max_threads, max_cycles=max_cycles)
+    manager.register_groups(_build_groups())
+    return manager
+
+
 def main():
     print("IMP AI is initializing...")
     codelock.lock_repo()
     init_networks()
 
-    manager = ProcessingManager()
-    manager.register_groups(_build_groups())
+    manager = build_manager()
     manager.start()
 
     print("IMP is now running autonomously.")

@@ -17,10 +17,10 @@ The platform is organized into modular domains:
 ---
 
 ## Quick Start
-1. **Install dependencies:** `bash bin/imp-install.sh` (creates a virtual environment if needed and downloads a baseline StarCoder2 GGUF model).
-2. **Launch IMP:** `bash bin/imp-start.sh` on Unix-like systems or `imp-start-wrapper.ps1` (streamed logs) / `imp-start.ps1` / `python bin/imp-start.py` on Windows.
-3. **Open the operator dashboard:** `bash bin/imp-operator-dashboard.sh` to access chat, self-heal, security, network, and neural tools from a single menu.
-4. **Run the verification suite:** `bash tests/run-all-tests.sh` (also available through the operator dashboard).
+1. **Install dependencies:** `bash bin/imp-install.sh` or `bash imp/bin/imp-install.sh`. Both point to the same installer and create `.venv` if needed.
+2. **Launch IMP:** `bash bin/imp-start.sh` on Unix-like systems or `.\imp-start-wrapper.ps1` / `.\imp-start.ps1` on Windows. The shell launcher now delegates to the Python supervisor in `imp/bin/imp-start.py`.
+3. **Open the operator dashboard:** `bash bin/imp-operator-dashboard.sh` or `python -m imp.core.imp_operator_dashboard`.
+4. **Run the verification suite:** `bash tests/run-all-tests.sh` or `python tests/run-all-tests.py`.
 
 ---
 
@@ -30,15 +30,15 @@ The platform is organized into modular domains:
 1. **System packages:** `sudo apt update && sudo apt install -y python3 python3-venv python3-pip git build-essential` (Kali already ships most tools, but run the command to ensure parity).
 2. **Clone or update the repo:** `git clone` (or `git pull`) the IMP repository into a working directory you control.
 3. **Run the installer:** from the repository root execute `bash bin/imp-install.sh`. The script creates/refreshes `.venv`, installs Python dependencies, and stages the baseline `models/starcoder2-15b.Q4_K_M.gguf` file.
-4. **Start services:** launch `bash bin/imp-start.sh`. It resolves the project root dynamically, spawns the Python orchestrator, and keeps the chat interface alive. Use `bash bin/imp-operator-dashboard.sh` to access secondary tools.
+4. **Start services:** launch `bash bin/imp-start.sh`. It resolves the project root dynamically, selects Python from `IMP_PYTHON`, `.venv`, `python3`, or `python`, then starts the Python supervisor. Use `bash bin/imp-operator-dashboard.sh` to access secondary tools.
 5. **Kali-specific verification:** if you run inside a Kali WSL VM, keep the chat session persistent with `bash bin/imp-chat-keepalive.sh` (it falls back to `screen` when `tmux` is unavailable).
 
 ### Windows (PowerShell)
 1. **Open an elevated PowerShell terminal** and enable execution of local scripts: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.
 2. **Run the bootstrapper:** execute `./imp-start-wrapper.ps1` from the repository root to launch `imp-start.ps1` in a new terminal and stream logs back into the current session. The bootstrapper installs Python if missing, provisions dependencies via `bin/imp-install.sh` (through Git Bash or bundled MSYS tools), downloads the baseline GGUF model, prepares logs, ensures OpenSSH client/server services exist, and exports `IMP_REMOTE_DIR` for remote execution helpers.
-3. **Persistent launch:** `imp-start.ps1` keeps IMP running in a guarded loop. You can alternatively call `python bin/imp-start.py` once Python is installed; the script shares the same import-based launch flow as the Unix helper.
+3. **Persistent launch:** `imp-start.ps1` keeps IMP running in a guarded loop. You can alternatively call `python imp/bin/imp-start.py` or `python -m imp.bin.imp_start` once Python is installed; the script shares the same supervisor flow as the Unix helper.
 4. **Operator dashboard:** from PowerShell run `bash bin/imp-operator-dashboard.sh` (Git Bash) or `python -m imp.core.imp_operator_dashboard` to access chat, self-heal, readiness, and security utilities.
-5. **Post-install test:** invoke `bash bin/imp-verify-chat.sh` (Git Bash) or `python imp/tests/run-all-tests.sh` within the virtual environment to confirm the deployment is healthy. Logs are written under `logs/` in both environments for parity.
+5. **Post-install test:** invoke `bash bin/imp-verify-chat.sh` (Git Bash) or `python tests/run-all-tests.py` within the virtual environment to confirm the deployment is healthy. Logs are written under `imp/logs/` and root `logs/` wrapper outputs for parity.
 
 ---
 
@@ -80,7 +80,7 @@ The platform is organized into modular domains:
 ---
 
 ## Directory Reference
-- **bin/** – Operator scripts for startup, shutdown, login, chat keepalive, self-heal, security cycles, network tools, neural menus, speech/voice, readiness reviews, installation, backups, and GGUF bootstrap.
+- **bin/** – Root compatibility wrappers that delegate to `imp/bin/` so documented commands work from the repository root.
 - **communication/** – Secure alias transformer and design notes for the “diamond handshake” messaging protocol.
 - **config/** – JSON configuration and credentials (environment paths, system settings, poison targets, OAuth, voice signatures, nodes, aliases, permissions). Managed via `config/imp-config-manager.py`.
 - **core/** – Primary runtime modules: neural nets, planners, executors, dashboards, processing controllers, tone/mood/motivation, chat, voice, speech-to-text, status monitors, strategy generator, identity integration, learning memory, and network/defense engines.
@@ -91,14 +91,14 @@ The platform is organized into modular domains:
 - **notes/** – Research strategy, self-evolution plans, developer notes, cohesion issues, startup verification, blockchain self-healing notes, communication guides, and personal reflections.
 - **security/** – Automated defense stack: authenticators, firewall manager, code lock, vulnerability scanner, poison detector, threat monitor, identity verifier, hardware guard, network auditors, process auditor, cyber researcher, processing-node security assessor, etc.
 - **self-improvement/** – Update engine, code map, bug hunter, sandbox, trainers, metacognitive analysis, roadmap checker, blockchain ledger, self-healer, success director, neural testers, general intelligence review.
-- **tests/** – Comprehensive regression suite mirroring repository structure (module imports, neural nets, planners, security tools, installers, readiness checks, distributed queue, identity flows, etc.). Run via `tests/run-all-tests.sh`.
+- **tests/** – Root compatibility wrappers for the test harness. The implementation suite lives under `imp/tests/` and can be run via either `tests/run-all-tests.sh` or `imp/tests/run-all-tests.sh`.
 
 ---
 
 ## Key Workflows
 
 ### Startup & Operation
-1. **`bin/imp-start.sh` / `bin/imp-start.py` / `imp-start.ps1`** – compute repository root, launch `core/imp-execute.py`, persist PIDs, and keep chat terminals alive via keepalive scripts.
+1. **`bin/imp-start.sh` / `imp/bin/imp-start.py` / `imp-start.ps1`** – compute repository root, select a Python interpreter, launch the supervisor, persist PID metadata, and keep chat terminals alive via keepalive scripts.
 2. **`core/imp-execute.py`** – registers networks with the neural manager, initializes processing groups, starts mood/goal/strategy engines, and delegates recurring work to the processing manager.
 3. **`core/imp-processing-manager.py`** – spins up per-group processes, runs thread pools, gathers telemetry, consults the optimizer NN, dispatches remote tasks, and logs cycle metrics.
 4. **`core/imp-processing-optimizer-nn.py`** – learns optimal thread counts, pauses, and launch order using historical telemetry and writes back recommendations.
@@ -119,7 +119,7 @@ The platform is organized into modular domains:
 
 | Layer | Entrypoint(s) | Downstream Components | Outputs & Notes |
 | --- | --- | --- | --- |
-| Launch & orchestration | `bin/imp-start.sh`, `bin/imp-start.py`, `imp-start.ps1` | `core/imp-execute.py` → `core/imp-processing-manager.py` → `core/imp-processing-optimizer-nn.py` | Bootstraps neural registries, scheduling pools, and persists PIDs for keepalive scripts. |
+| Launch & orchestration | `bin/imp-start.sh`, `imp/bin/imp-start.py`, `imp-start.ps1` | `core/imp-execute.py` → `core/imp-processing-manager.py` → `core/imp-processing-optimizer-nn.py` | Bootstraps neural registries, scheduling pools, writes PID metadata, and emits startup logs under `imp/logs/`. |
 | Operator experience | `bin/imp-operator-dashboard.sh`, `core/imp-operator-dashboard.py` | `core/imp-goal-chat.py`, readiness & success-plan CLIs, voice/tone modules | Unified terminal control surface; dispatches autonomy cycles, readiness reviews, and voice interactions. |
 | Control hub | `bin/imp-control-hub.sh`, `core/imp-control-hub.py` | Goal manager, success director, policy registry, capability & agent catalogs | Conversational intent-to-plan bridge with policy evaluation, agent registration, queue approvals, and audit logging. |
 | Security stack | `bin/imp-defend.sh`, `security/imp-security-optimizer.py`, `security/imp-session-guard.py` | Firewall/poison/process/network auditors, processing security assessor | Aggregates log state, session analytics, node attestations, and threat intelligence before remote execution. |
@@ -140,7 +140,7 @@ The platform is organized into modular domains:
 ---
 
 ## Testing
-- Run the entire suite via `bash tests/run-all-tests.sh`.
+- Run the entire suite via `bash tests/run-all-tests.sh` or `python tests/run-all-tests.py`.
 - Safe mode is enabled by default (`IMP_SAFE_TESTS=1`) so self-modifying tests are skipped unless explicitly opted in.
 - To run self-modifying tests intentionally, use `python tests/run-all-tests.py --full --allow-self-modifying-tests` or set `IMP_SAFE_TESTS=0`.
 - Individual modules mirror directory layout (e.g., `tests/test-identity-integration.py`, `tests/test-processing-manager.py`, `tests/test-self-healer.py`).

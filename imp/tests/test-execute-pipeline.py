@@ -20,3 +20,7 @@ def test_build_manager_groups():
     assert "expansion" in groups
     for name, specs in groups.items():
         assert specs, f"Group {name} should have specs"
+
+
+if __name__ == "__main__":
+    test_build_manager_groups()
