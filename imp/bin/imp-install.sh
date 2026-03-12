@@ -1,8 +1,9 @@
 #!/bin/bash
+set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 . "$SCRIPT_DIR/imp-env.sh"
-# Install required Python packages and start IMP with venv fallback
+
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 REQUIREMENTS="$ROOT/requirements.txt"
 VENV="$ROOT/.venv"
@@ -12,7 +13,7 @@ LEGACY_GGUF="$MODELS_DIR/starcoder2-15b.Q4_K_M.gguf"
 DEFAULT_GGUF_URL=${IMP_GGUF_URL:-"https://huggingface.co/nold/starcoder2-15b-GGUF/resolve/main/starcoder2-15b_Q4_K_M.gguf?download=1"}
 
 install_requirements() {
-    pip3 install -r "$REQUIREMENTS" && return 0
+    "$PYTHON_BIN" -m pip install -r "$REQUIREMENTS" && return 0
     echo "Global install failed; attempting virtual environment..." >&2
     if command -v python3 >/dev/null 2>&1; then
         [ -d "$VENV" ] || python3 -m venv "$VENV" || return 1
@@ -24,7 +25,7 @@ install_requirements() {
     if [ -f "$VENV/bin/activate" ]; then
         . "$VENV/bin/activate" || return 1
     fi
-    pip install -r "$REQUIREMENTS"
+    "$PYTHON_BIN" -m pip install -r "$REQUIREMENTS"
 }
 
 ensure_offline_model() {
