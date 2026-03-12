@@ -35,7 +35,9 @@ Unless otherwise noted, module paths below are relative to `imp/`.
 - `imp/self-improvement/`: updater, self-healer, roadmap, readiness, and analysis tools
 - `imp/expansion/`: node, queue, scheduler, and cluster helpers
 - `imp/config/`: JSON configuration files
+- `config/`: compatibility documentation for repo-root configuration references
 - `imp/logs/`: runtime logs and persisted state used by many modules/tests
+- `models/`: compatibility documentation for repo-root model references
 - `imp/tests/`: implementation test suite
 - `tests/`: root wrapper around the test runner
 
@@ -46,6 +48,7 @@ Unless otherwise noted, module paths below are relative to `imp/`.
 - `imp/bin/imp-start.ps1` is now only a delegating compatibility launcher.
 - `imp/bin/imp-stop.py` is the canonical stop path. Shell and PowerShell stop scripts delegate to it.
 - `bin/imp-status.sh` delegates to `imp/bin/imp-status.py`, which reports the active repo root, Python interpreter, state file, and PID metadata.
+- Top-level `config/` and `models/` now exist as compatibility markers; runtime code still reads active assets from `imp/config/` and `imp/models/`.
 
 ## Important Commands
 

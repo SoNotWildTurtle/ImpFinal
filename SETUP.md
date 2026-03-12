@@ -18,7 +18,7 @@ Kali WSL terminals may close unexpectedly. Run `bash bin/imp-verify-chat.sh` to 
 - Logs are written to `imp/logs/imp-chat-keepalive.log`.
 
 ## 4. Configuration notes
-Configuration files live under `imp/config`, and default log files live under `imp/logs` so tests can run immediately. Shell and PowerShell environment helpers now create missing `logs`, `config`, and `models` directories on startup.
+Configuration files live under `imp/config`, and default log files live under `imp/logs` so tests can run immediately. Shell and PowerShell environment helpers now create missing `imp/logs`, `imp/config`, and `imp/models` directories on startup. The repo-root `config/` and `models/` directories are compatibility markers for documentation and audits.
 
 ## 5. Validation
 - Canonical smoke check: `python tests/smoke.py`

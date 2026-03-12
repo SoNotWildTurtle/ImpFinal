@@ -21,6 +21,9 @@ def main() -> int:
     for relative in [
         "README.md",
         "SETUP.md",
+        "AGENTS.md",
+        "config/README.md",
+        "models/README.md",
         "imp-start.ps1",
         "imp-start-wrapper.ps1",
         "bin/imp-install.sh",
