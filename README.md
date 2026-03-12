@@ -16,12 +16,13 @@ See [SETUP.md](SETUP.md) for bootstrap details.
 2. Start IMP:
    Linux/macOS/WSL: `bash bin/imp-start.sh`
    Windows PowerShell: `.\imp-start-wrapper.ps1` or `.\imp-start.ps1`
+   Direct Python fallback: `python -m imp.bin.imp_start`
 3. Open the dashboard:
    `bash bin/imp-operator-dashboard.sh`
    or `python -m imp.core.imp_operator_dashboard`
 4. Run baseline validation:
-   `bash tests/run-all-tests.sh`
-   or `python tests/run-all-tests.py`
+   `python tests/smoke.py`
+   or `python tests/run-all-tests.py --smoke`
 
 ## Repository Reality
 
@@ -44,6 +45,7 @@ Unless otherwise noted, module paths below are relative to `imp/`.
 - `imp-start.ps1` is the Windows bootstrapper. It resolves Python, prepares logs/config/models directories, validates OpenSSH support, and loops the same Python supervisor.
 - `imp/bin/imp-start.ps1` is now only a delegating compatibility launcher.
 - `imp/bin/imp-stop.py` is the canonical stop path. Shell and PowerShell stop scripts delegate to it.
+- `bin/imp-status.sh` delegates to `imp/bin/imp-status.py`, which reports the active repo root, Python interpreter, state file, and PID metadata.
 
 ## Important Commands
 
@@ -81,16 +83,28 @@ For less common utilities, use the implementation path under `imp/bin/`.
 
 ## Testing
 
+- Canonical smoke validation: `python tests/smoke.py`
 - Full wrapper: `bash tests/run-all-tests.sh`
 - Python wrapper: `python tests/run-all-tests.py`
+- Python smoke wrapper: `python tests/run-all-tests.py --smoke`
 - Startup/orchestration sanity checks live in:
   `imp/tests/test-start-script.py`,
   `imp/tests/test-stop-script.py`,
   `imp/tests/test-windows-support.py`,
   `imp/tests/test-execute-pipeline.py`,
-  `imp/tests/test-launcher-bootstrap.py`
+  `imp/tests/test-launcher-bootstrap.py`,
+  `imp/tests/test-status-script.py`,
+  `imp/tests/test-smoke-runner.py`
 
 `IMP_SAFE_TESTS=1` remains the default so self-modifying tests are skipped unless explicitly enabled.
+
+## Logs And Diagnostics
+
+- Application/runtime logs: `imp/logs/`
+- Wrapper bootstrap logs: `logs/imp-start-wrapper-*.log`
+- Startup state summary: `imp/logs/imp-start-state.json`
+- PID metadata: `imp/logs/imp-pids.json`
+- Quick status view: `bash bin/imp-status.sh`
 
 ## Current Status
 
@@ -101,3 +115,8 @@ This stabilization pass focused on reducing bootstrap and documentation chaos ra
 - package-friendly module wrappers exist for the documented `python -m imp...` flows
 - installer/bootstrap logic prefers the selected Python interpreter and local `.venv`
 - docs now describe the actual repo layout instead of implying a root-level implementation tree
+
+## Known Limitations
+
+- The broad full/fast suite is still much heavier than the smoke path and may expose older module-level issues outside the bootstrap layer.
+- The working tree may contain user-generated log changes under `imp/logs/`; those are not authoritative source files.
