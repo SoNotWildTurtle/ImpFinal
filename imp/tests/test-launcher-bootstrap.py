@@ -30,6 +30,7 @@ def test_root_command_wrappers_exist():
         "bin/imp-success-plan.sh",
         "bin/imp-voice-menu.sh",
         "bin/imp-zero-trust.sh",
+        "tests/smoke.py",
         "tests/run-all-tests.sh",
         "tests/run-all-tests.py",
     ]:
